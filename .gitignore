@@ -1,0 +1,18 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+__pycache__/
+
+# 忽略模型权重文件
+models/
+
+# 忽略本地向量数据库
+data/chroma/
+data/chunks/
