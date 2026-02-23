@@ -41,9 +41,9 @@ bge_model = BGEEmbedding(model_name="e:/rag-project/models/bge-m3")
 
 # 2. 向量库
 vector_store = Chroma(
-    collection_name="bge_collection",
+    collection_name="test",
     embedding_function=bge_model._embeddings,
-    persist_directory=str(PROJECT_ROOT / "data" / "chroma" / "bge_v2_db")
+    persist_directory=str(PROJECT_ROOT / "data" / "chroma" / "test")
 )
 
 # 3. 重排模型

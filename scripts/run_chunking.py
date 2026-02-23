@@ -60,7 +60,7 @@ def main() -> None:
         
         # 调用我们之前更新的、支持页码锚点识别的 chunk_markdown_file
         try:
-            file_chunks = chunk_markdown_file(md_file)
+            file_chunks = chunk_markdown_file(md_file,file_id=md_file.name)
             
             # 注入类别信息到元数据，支持后续的高级检索过滤 
             for c in file_chunks:
