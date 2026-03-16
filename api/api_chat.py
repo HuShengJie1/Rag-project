@@ -1,27 +1,54 @@
 import json
+import re
 from fastapi import APIRouter
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import List, Optional, Dict
-# 👇 新增导入 AIMessage 用于处理助手历史消息
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
 from core import vector_store, reranker, llm
+from pathlib import Path
 
 router = APIRouter(prefix="/api")
+
+def extract_complete_markdown(source_file: str) -> str:
+    try:
+        # 1. 拿到纯文件名，并暴力把 ".temp" 删掉
+        clean_name = Path(source_file).name.replace(".temp", "")
+        
+        # 2. 确保后缀一定是 .md (比如 xxx.pdf 会变成 xxx.md)
+        base_name = Path(clean_name).with_suffix(".md").name
+        
+        # 🟢 3. ⚠️ 务必在这里写上你电脑里【真正】的路径！
+        # 不要再原封不动复制我的占位符啦 😂
+        markdown_folder = Path(r"E:/rag-project/data/parsed/md") 
+        
+        # 4. 拼接出最终的文件路径
+        file_path = markdown_folder / base_name
+        
+        print(f"👉 [寻址定位] 准备读取文件: {file_path}")
+
+        if file_path.exists():
+            print("✅ [寻址定位] 完美！找到文件并成功读取。")
+            return file_path.read_text(encoding="utf-8")
+        else:
+            print("❌ [寻址定位] 糟糕！在这个路径下没有找到文件。")
+            return ""
+            
+    except Exception as e:
+        print(f"❌ [寻址定位] 读取文件时发生错误: {e}")
+        return ""
 
 class ChatRequest(BaseModel):
     prompt: str
     top_k: int = 5
     source_filter: Optional[List[str]] = None
-    # 👇 接收前端传来的历史记录 [{"role": "user", "content": "..."}, ...]
     history: List[Dict[str, str]] = []
 
 @router.post("/chat")
 async def chat_with_rag(request: ChatRequest):
     current_user = "admin"
     
-    # --- 1. 构造更严谨的过滤条件 (修复逻辑漏洞) ---
-    # 基础权限：只能看 admin 的或者 system 的
+    # --- 1. 构造更严谨的过滤条件 ---
     permission_filter = {
         "$or": [
             {"user_id": {"$eq": current_user}},
@@ -30,11 +57,8 @@ async def chat_with_rag(request: ChatRequest):
     }
 
     if not request.source_filter:
-        # 情况 A: 用户没勾选，在所有权限范围内搜
         filter_conditions = permission_filter
     else:
-        # 情况 B: 用户勾选了特定文件
-        # 逻辑：(文件ID 在勾选列表中) AND (拥有权限)
         filter_conditions = {
             "$and": [
                 {"file_id": {"$in": request.source_filter}},
@@ -43,7 +67,6 @@ async def chat_with_rag(request: ChatRequest):
         }
 
     # --- 2. 粗排 ---
-    # 注意：如果 source_filter 列表为空但字段存在，可能会导致 filter 报错，前端需确保传 null 或非空列表
     initial_docs = vector_store.similarity_search(
         request.prompt, 
         k=30, 
@@ -51,14 +74,12 @@ async def chat_with_rag(request: ChatRequest):
     )
     
     # --- 3. 重排 (Rerank) ---
-    # 如果粗排没拿到数据，直接跳过重排防止报错
     if not initial_docs:
         final_docs = []
     else:
         rerank_pairs = [[request.prompt, doc.page_content] for doc in initial_docs]
         scores = reranker.compute_score(rerank_pairs)
         
-        # 兼容处理：有些 reranker 返回的是 float，有些是 list
         if isinstance(scores, float): scores = [scores]
         
         for i, doc in enumerate(initial_docs):
@@ -66,53 +87,71 @@ async def chat_with_rag(request: ChatRequest):
         
         final_docs = sorted(initial_docs, key=lambda x: x.metadata["rerank_score"], reverse=True)[:request.top_k]
 
-    # --- 4. 构造证据包 ---
-    evidence_list = [{
-        "source": d.metadata.get("source", "未知来源"),
-        "pages": d.metadata.get("page_labels", "?"),
-        "content": d.page_content,
-        "score": round(d.metadata.get("rerank_score", 0), 4)
-    } for d in final_docs]
+    # 🟢 修改点 1：构造证据包时，强行加入从 1 开始的 index 序号
+    # 这个 evidence_list 将会传给前端，前端依据 index 来判断用户点击了哪个标号
+    evidence_list = []
+    
+    # 为了避免同一个完整文档被重复读取多次（因为可能匹配到同一个文件的多个切片），
+    # 我们可以加一个小缓存，提升一点性能。
+    md_cache = {} 
+    
+    for idx, d in enumerate(final_docs):
+        source_name = d.metadata.get("source", "未知来源")
+        page_label = str(d.metadata.get("page_labels", "1"))
+        
+        # 如果缓存里没有这个文件，就去读一次
+        if source_name not in md_cache:
+            md_cache[source_name] = extract_complete_markdown(source_name)
+            
+        full_document_text = md_cache[source_name]
+        
+        evidence_list.append({
+            "index": idx + 1,
+            "source": source_name,
+            "pages": page_label,
+            "content": d.page_content, # 原始切片内容，前端用来做精确匹配和高亮
+            "full_content": full_document_text or d.page_content, # 如果找到了完整文档就用完整文档，没找到就用切片兜底
+            "score": round(d.metadata.get("rerank_score", 0), 4)
+        })
 
-    # --- 5. 构造历史消息链 (核心记忆功能) ---
     messages = []
     
-    # A. 系统提示词
+    # 🟢 修改点 2：重写 System Prompt，加入强硬的引文规则
     system_prompt = """你是一个专业的知识库助手。请基于提供的【参考资料】回答用户问题。
-    1. 如果资料中有答案，请详细回答。
-    2. 如果资料中没有提到，请根据上下文推断，或者诚实地回答“资料中未提及”。
-    3. 请结合用户的历史提问进行连贯的对话。
-    """
+要求：
+1. 必须且只能使用提供的参考资料回答。如果资料中没有提到，请根据上下文推断，或者诚实地回答“资料中未提及”，绝对不能捏造。
+2. 请结合用户的历史提问进行连贯的对话。
+3. ⚠️ 重要规定：在回答的每一句话或每一个关键结论末尾，必须严格标注信息来源的编号！格式必须为如 [1] 或 [1][2]。如果没有提供参考资料，则无需标注。
+"""
     messages.append(SystemMessage(content=system_prompt))
 
-    # B. 注入历史记录 (保留最近 6 轮，防止 Token 溢出)
-    # 过滤掉空的或无效的历史
+    # B. 注入历史记录
     clean_history = request.history[-6:] 
     for msg in clean_history:
         if msg['role'] == 'user':
             messages.append(HumanMessage(content=msg['content']))
         elif msg['role'] == 'assistant':
-            # 过滤掉之前回复中的 "正在思考..." 等前端占位符（虽然前端过滤过了，后端再保险一次）
             if msg['content']: 
                 messages.append(AIMessage(content=msg['content']))
 
-    # C. 注入当前 RAG 上下文和问题
+    # 🟢 修改点 3：组装传给大模型的 Context 时，把 [1], [2] 标号拼接到段落开头
+    # 这样大模型在阅读上下文时，才知道每一段对应的“编号”是什么
     context_text = "\n\n".join([
-        f"--- 来源: {d.metadata.get('source')} (P{d.metadata.get('page_labels')}) ---\n{d.page_content}" 
-        for d in final_docs
+        # 注意这里使用了 d["index"] 对应的编号
+        f"[{d['index']}] 来源: {d['source']} (P{d['pages']})\n内容: {d['content']}" 
+        for d in evidence_list # 👈 遍历 evidence_list 而不是 final_docs，保证编号一致性
     ])
     
-    # 将“参考资料”和“当前问题”组合成最新的 User Message
     final_user_content = f"【参考资料】:\n{context_text}\n\n【用户当前问题】:\n{request.prompt}"
     messages.append(HumanMessage(content=final_user_content))
 
     # --- 6. 流式生成 ---
     async def stream_generator():
-        # 先发证据包
+        # 🟢 修改点 4（无实质改动，仅提醒）：
+        # 这里你原有的代码就非常棒！前端只需要按照 "---METADATA_SEPARATOR---" 来切分，
+        # 就能拿到包含 index 的 evidence_list 字典了。
         yield json.dumps({"evidence": evidence_list}, ensure_ascii=False) + "---METADATA_SEPARATOR---"
         
-        # 再发 AI 思考内容
-        # 注意：这里传入的是构建好的 messages 列表（包含历史）
         async for chunk in llm.astream(messages):
             if chunk.content: 
                 yield chunk.content
