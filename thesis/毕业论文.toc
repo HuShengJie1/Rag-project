@@ -1,0 +1,45 @@
+\contentsline {section}{\numberline {1}绪论}{4}{}%
+\contentsline {subsection}{\numberline {1.1}研究背景}{4}{}%
+\contentsline {subsection}{\numberline {1.2}研究意义}{4}{}%
+\contentsline {subsection}{\numberline {1.3}国内外研究现状}{5}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}国外研究现状}{5}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}国内研究现状}{5}{}%
+\contentsline {subsection}{\numberline {1.4}研究主要内容与预期目标}{6}{}%
+\contentsline {subsubsection}{\numberline {1.4.1}研究主要内容}{6}{}%
+\contentsline {subsubsection}{\numberline {1.4.2}预期目标}{7}{}%
+\contentsline {section}{\numberline {2}相关理论与核心技术基础}{7}{}%
+\contentsline {subsection}{\numberline {2.1}大规模语言模型与提示工程}{7}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}大语言模型(LLM)理论基础}{7}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}提示工程}{8}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}基于上下文的约束提示与幻觉抑制}{8}{}%
+\contentsline {subsection}{\numberline {2.2}检索增强生成（RAG）技术原理}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}RAG 的基本定义与核心价值}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}RAG 的标准执行范式}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}技术演进：从 Naive RAG 到 Advanced RAG}{9}{}%
+\contentsline {subsection}{\numberline {2.3}向量数据库与检索技术}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}文本向量化表示（Embedding）原理}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}相似度计算机制}{10}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}向量数据库与 ANN 算法}{10}{}%
+\contentsline {subsection}{\numberline {2.4}工程教育专业认证与 OBE 理念}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}工程教育专业认证的背景与目的}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}成果导向教育（OBE）的核心内涵}{11}{}%
+\contentsline {subsubsection}{\numberline {2.4.3}业务痛点关联：证据链管理与溯源挑战}{11}{}%
+\contentsline {section}{\numberline {3}知识助手系统需求分析与总体设计}{12}{}%
+\contentsline {subsection}{\numberline {3.1}系统需求分析}{12}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}功能性需求分析}{12}{}%
+\contentsline {subsubsection}{\numberline {3.1.2} 功能性需求分析}{13}{}%
+\contentsline {subsection}{\numberline {3.2}系统总体架构设计}{14}{}%
+\contentsline {subsection}{\numberline {3.3}核心业务流程设计}{15}{}%
+\contentsline {section}{\numberline {4}核心模块设计与对比实验分析}{15}{}%
+\contentsline {subsection}{\numberline {4.1}复杂结构文档解析与精细化切块策略}{15}{}%
+\contentsline {subsection}{\numberline {4.2}领域知识向量化与 Embedding 模型选型}{15}{}%
+\contentsline {subsection}{\numberline {4.3}混合检索与重排序（Re-ranking）机制}{16}{}%
+\contentsline {subsection}{\numberline {4.4}提示工程设计与生成约束}{16}{}%
+\contentsline {section}{\numberline {5}系统实现与整体性能评测}{16}{}%
+\contentsline {subsection}{\numberline {5.1}开发环境与系统部署}{16}{}%
+\contentsline {subsection}{\numberline {5.2}核心功能模块实现与界面展示}{16}{}%
+\contentsline {subsection}{\numberline {5.3}端到端系统整体性能评估}{16}{}%
+\contentsline {section}{\numberline {6}总结与展望}{16}{}%
+\contentsline {subsection}{\numberline {6.1}全文工作总结}{16}{}%
+\contentsline {subsection}{\numberline {6.2}系统局限性与未来展望}{16}{}%
+\contentsfinish 

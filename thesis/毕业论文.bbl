@@ -1,0 +1,99 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{#1}
+\expandafter\ifx\csname urlstyle\endcsname\relax\else
+  \urlstyle{same}\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \DeclareUrlCommand\doi{\urlstyle{rm}}
+  \def\eprint#1#2{#2}
+\else
+  \def\doi#1{\href{https://doi.org/#1}{\nolinkurl{#1}}}
+  \let\eprint\href
+\fi
+
+\bibitem[Gao et~al.(2024)Gao, Xiong, Gao, Jia, Pan, Bi, Dai, Sun, Wang, and Wang]{gao_retrieval-augmented_2024}
+GAO Y, XIONG Y, GAO X, et~al.
+\newblock Retrieval-{Augmented} {Generation} for {Large} {Language} {Models}: {A} {Survey}\allowbreak[M/OL].
+\newblock arXiv, 2024\allowbreak[2025-11-04].
+\newblock \url{http://arxiv.org/abs/2312.10997}.
+\newblock DOI: \doi{10.48550/arXiv.2312.10997}.
+
+\bibitem[Lewis et~al.(2021)Lewis, Perez, Piktus, Petroni, Karpukhin, Goyal, Küttler, Lewis, Yih, Rocktäschel, Riedel, and Kiela]{lewis_retrieval-augmented_2021}
+LEWIS P, PEREZ E, PIKTUS A, et~al.
+\newblock Retrieval-{Augmented} {Generation} for {Knowledge}-{Intensive} {NLP} {Tasks}\allowbreak[M/OL].
+\newblock arXiv, 2021\allowbreak[2025-11-10].
+\newblock \url{http://arxiv.org/abs/2005.11401}.
+\newblock DOI: \doi{10.48550/arXiv.2005.11401}.
+
+\bibitem[{李志义}(2014)]{lzy__2014}
+{李志义}.
+\newblock 解析工程教育专业认证的成果导向理念\allowbreak[J/OL].
+\newblock 中国高等教育, 2014\allowbreak (17): 7-10\allowbreak[2025-11-10].
+\newblock \url{https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFD2014&filename=ZGDJ201417005}.
+
+\bibitem[{林健}(2015)]{lj__2015}
+{林健}.
+\newblock 工程教育认证与工程教育改革和发展\allowbreak[J/OL].
+\newblock 高等工程教育研究, 2015\allowbreak (2): 10-19\allowbreak[2025-11-10].
+\newblock \url{https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2015&filename=GDGJ201502003}.
+
+\bibitem[Taipalus(2024)]{taipalus_vector_2024}
+TAIPALUS T.
+\newblock Vector database management systems: {Fundamental} concepts, use-cases, and current challenges\allowbreak[J/OL].
+\newblock Cognitive Systems Research, 2024, 85: 101216\allowbreak[2025-11-10].
+\newblock \url{http://arxiv.org/abs/2309.11322}.
+\newblock DOI: \doi{10.1016/j.cogsys.2024.101216}.
+
+\bibitem[Ma et~al.(2025)Ma, Zhang, Han, Yu, Wang, Ning, Zhang, Xu, Li, Ju, Chen, Wang, Liu, Wang, Wang, Fu, Liu, Zhou, and Lu]{ma_comprehensive_2025}
+MA L, ZHANG R, HAN Y, et~al.
+\newblock A {Comprehensive} {Survey} on {Vector} {Database}: {Storage} and {Retrieval} {Technique}, {Challenge}\allowbreak[M/OL].
+\newblock arXiv, 2025\allowbreak[2025-11-10].
+\newblock \url{http://arxiv.org/abs/2310.11703}.
+\newblock DOI: \doi{10.48550/arXiv.2310.11703}.
+
+\bibitem[{孙雨生}\ 等(2024){孙雨生} and {曾俊皓}]{sys_rag}
+{孙雨生}, {曾俊皓}.
+\newblock 向量数据库及其应用研究\allowbreak[J/OL].
+\newblock 科技情报研究, 2024, 6\allowbreak (4): 11-24\allowbreak[2025-11-10].
+\newblock \url{https://doi.org/10.19809/j.cnki.kjqbyj.2024.04.002}.
+
+\bibitem[Jégou et~al.(2011)Jégou, Douze, and Schmid]{jegou_product_2011}
+JéGOU H, DOUZE M, SCHMID C.
+\newblock Product {Quantization} for {Nearest} {Neighbor} {Search}\allowbreak[J/OL].
+\newblock IEEE Transactions on Pattern Analysis and Machine Intelligence, 2011, 33\allowbreak (1): 117-128\allowbreak[2025-11-10].
+\newblock \url{https://ieeexplore.ieee.org/document/5432202}.
+\newblock DOI: \doi{10.1109/TPAMI.2010.57}.
+
+\bibitem[Luo et~al.(2025)Luo, Liu, Zhang, Qian, Zhao, and Liu]{luo_does_2025}
+LUO K, LIU Z, ZHANG P, et~al.
+\newblock Does {RAG} {Really} {Perform} {Bad} {For} {Long}-{Context} {Processing}?\allowbreak[M/OL].
+\newblock arXiv, 2025\allowbreak[2025-11-10].
+\newblock \url{http://arxiv.org/abs/2502.11444}.
+\newblock DOI: \doi{10.48550/arXiv.2502.11444}.
+
+\bibitem[{张丽静}\ 等(2024){张丽静}, {杜冬梅}, {刘庆芳}, and {刘海云}]{zlj_llmrag_2024}
+{张丽静}, {杜冬梅}, {刘庆芳}, 等.
+\newblock {基于LLM和RAG的中邮网院智能客服系统研究}\allowbreak[J/OL].
+\newblock 邮政研究, 2024, 40\allowbreak (4): 66-72\allowbreak[2025-11-10].
+\newblock \url{https://doi.org/10.13955/j.yzyj.2024.04.11.07}.
+
+\bibitem[{冯腾发}\ 等(2025){冯腾发}, {蒋耀宇}, {陈浩杰}, {吴锦钊}, and {李秀萍}]{ftf_rag_2025}
+{冯腾发}, {蒋耀宇}, {陈浩杰}, 等.
+\newblock {RAG知识库在低资源领域知识问答中的应用}\allowbreak[J/OL].
+\newblock 通讯世界, 2025, 32\allowbreak (9): 21-23\allowbreak[2025-11-10].
+\newblock \url{https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDLAST2025&filename=TXSJ202509007}.
+
+\bibitem[{孙如玉}\ 等(2025){孙如玉}, {齐正}, {张云贵}, {徐昊天}, and {林秋吟}]{sry_hsr-ragrag_2025}
+{孙如玉}, {齐正}, {张云贵}, 等.
+\newblock {HSR}-{RAG}:面向钢铁材料国家标准的层级语义递归{RAG}\allowbreak[J/OL].
+\newblock 冶金自动化, 2025, 49\allowbreak (5): 87-96\allowbreak[2025-11-10].
+\newblock \url{https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFQ&dbname=CJFDAUTO&filename=YJZH202505009}.
+
+\bibitem[Zhao et~al.(2025)Zhao, Lin, Tang, Wu, and Wang]{zhao_merino_2025}
+ZHAO Y, LIN M, TANG H, et~al.
+\newblock Merino: {Entropy}-driven {Design} for {Generative} {Language} {Models} on {IoT} {Devices}\allowbreak[M/OL].
+\newblock arXiv, 2025\allowbreak[2025-11-10].
+\newblock \url{http://arxiv.org/abs/2403.07921}.
+\newblock DOI: \doi{10.48550/arXiv.2403.07921}.
+
+\end{thebibliography}

@@ -47,7 +47,7 @@ def load_pdf_with_llamaparse(path: str | Path):
         with open(pdf_path, "rb") as f:
             result = client.parsing.parse(
                 upload_file=f, 
-                tier="agentic",
+                tier="agentic_plus",
                 version="latest",
                 expand=['Markdown']
             )

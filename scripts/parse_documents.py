@@ -15,7 +15,7 @@ if str(SRC_ROOT) not in sys.path:
     sys.path.insert(0, str(SRC_ROOT))
 
 # 统一导入基于 Marker 的高精度加载器
-from loaders.pdf_loader import load_pdf  
+from loaders.llamaparse_loader import load_pdf_with_llamaparse
 
 def discover_pdfs(raw_root: Path) -> List[Path]:
     """递归发现 raw_root 下的全部 PDF 文件。"""
@@ -45,7 +45,7 @@ def process_single_file(pdf_path: Path, raw_root: Path, parsed_root: Path) -> No
     try:
         # 调用 Marker 引擎进行逐页解析
         # 这个函数内部已经处理了物理分页和锚点注入
-        records = load_pdf(pdf_path)
+        records = load_pdf_with_llamaparse(pdf_path)
         
         if records:
             save_unified_markdown(records, output_path)
@@ -57,7 +57,7 @@ def process_single_file(pdf_path: Path, raw_root: Path, parsed_root: Path) -> No
 
 def main() -> None:
     """主程序入口。"""
-    raw_root = PROJECT_ROOT / "data" / "raw"
+    raw_root = PROJECT_ROOT / "data" / "system_docs"
     parsed_root = PROJECT_ROOT / "data" / "parsed"
 
     # 1. 发现文件
@@ -67,7 +67,7 @@ def main() -> None:
         return
 
     print(f"📂 找到 {len(pdf_files)} 个待处理文档。")
-    print("🛠️ 采用统一 Marker-pdf 引擎进行高精度解析...")
+    # print("🛠️ 采用统一 Marker-pdf 引擎进行高精度解析...")
     print("-" * 50)
 
     # 2. 循环处理
