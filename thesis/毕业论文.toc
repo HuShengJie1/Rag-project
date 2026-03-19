@@ -27,7 +27,7 @@
 \contentsline {section}{\numberline {3}知识助手系统需求分析与总体设计}{12}{}%
 \contentsline {subsection}{\numberline {3.1}系统需求分析}{12}{}%
 \contentsline {subsubsection}{\numberline {3.1.1}功能性需求分析}{12}{}%
-\contentsline {subsubsection}{\numberline {3.1.2} 功能性需求分析}{13}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}非功能性需求分析}{13}{}%
 \contentsline {subsection}{\numberline {3.2}系统总体架构设计}{14}{}%
 \contentsline {subsection}{\numberline {3.3}核心业务流程设计}{15}{}%
 \contentsline {section}{\numberline {4}核心模块设计与对比实验分析}{15}{}%
