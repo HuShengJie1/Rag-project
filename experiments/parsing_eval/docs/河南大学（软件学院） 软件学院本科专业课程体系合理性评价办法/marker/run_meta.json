@@ -1,0 +1,11 @@
+{
+  "doc_id": "9",
+  "parser_name": "marker",
+  "actual_parser": "marker",
+  "success": true,
+  "elapsed_time": 10.8054,
+  "text_length": 3345,
+  "markdown_length": 3345,
+  "page_count": 8,
+  "error_message": ""
+}

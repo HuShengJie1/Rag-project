@@ -1,0 +1,11 @@
+{
+  "doc_id": "1",
+  "parser_name": "llamaparse",
+  "actual_parser": "llamaparse",
+  "success": true,
+  "elapsed_time": 52.7758,
+  "text_length": 94543,
+  "markdown_length": 107797,
+  "page_count": 17,
+  "error_message": ""
+}

@@ -1,18 +1,36 @@
 # Python-generated files
 __pycache__/
-*.py[oc]
+*.py[cod]
 build/
 dist/
 wheels/
 *.egg-info
 
 # Virtual environments
-.venv
-__pycache__/
+.venv/
 
-# 忽略模型权重文件
+# Model weights / local artifacts
 models/
 
-# 忽略本地向量数据库
+# Local vector stores / chunk caches
 data/chroma/
 data/chunks/
+data/kimi_uploads/
+
+# Jupyter / editor
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+
+# Experiment runtime outputs
+experiments/outputs/
+experiments/outputs/downloads/
+experiments/outputs/parsing/
+experiments/outputs/chunks/
+experiments/outputs/parsing_eval/
+experiments/outputs/logs/
+
+# Optional: temporary reports or local exports
+reports/tmp/
+tmp/
+outputs/

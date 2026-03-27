@@ -1,0 +1,1142 @@
+{
+  "doc_id": "17",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\17.pdf",
+  "parser_name": "llamaparse",
+  "pages": [
+    {
+      "page_no": 1,
+      "page_number": 1,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 2,
+      "page_number": 2,
+      "confidence": 0.5,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 3,
+      "page_number": 3,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 4,
+      "page_number": 4,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 5,
+      "page_number": 5,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 6,
+      "page_number": 6,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    }
+  ],
+  "blocks": [
+    {
+      "block_type": "heading",
+      "text": "华南师范大学计算机学院文件",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# 华南师范大学计算机学院文件",
+          "value": "华南师范大学计算机学院文件",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "计机〔2024〕5 号",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "计机〔2024〕5 号",
+          "value": "计机〔2024〕5 号",
+          "bbox": [
+            {
+              "h": 17.178808534203515,
+              "w": 120.12763004954266,
+              "x": 239.80766387195123,
+              "y": 265.72338444407393,
+              "confidence": 0.93,
+              "end_index": 10,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "关于印发《华南师范大学计算机学院本科专业毕业要求评价实施细则（修订版）》的通知",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 关于印发《华南师范大学计算机学院本科专业毕业要求评价实施细则（修订版）》的通知",
+          "value": "关于印发《华南师范大学计算机学院本科专业毕业要求评价实施细则（修订版）》的通知",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "各系、室、中心：",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "各系、室、中心：",
+          "value": "各系、室、中心：",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "《华南师范大学计算机学院本科专业毕业要求评价实施细则（修订版）》已经学院党政联席会议审议通过，现印发给你们，请遵照执行。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "《华南师范大学计算机学院本科专业毕业要求评价实施细则（修订版）》已经学院党政联席会议审议通过，现印发给你们，请遵照执行。",
+          "value": "《华南师范大学计算机学院本科专业毕业要求评价实施细则（修订版）》已经学院党政联席会议审议通过，现印发给你们，请遵照执行。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "image",
+      "text": "![华南师范大学计算机学院公章](page_1_image_1_v2.jpg)",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "caption": "华南师范大学计算机学院公章",
+          "md": "![华南师范大学计算机学院公章](page_1_image_1_v2.jpg)",
+          "url": "page_1_image_1_v2.jpg",
+          "bbox": [
+            {
+              "h": 123.06528725228658,
+              "w": 146.37936880716464,
+              "x": 372.81362257050307,
+              "y": 627.0614201838796,
+              "confidence": 0.98,
+              "end_index": 38,
+              "label": "image",
+              "start_index": 0
+            }
+          ],
+          "type": "image"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "二〇二四年七月一日",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "二〇二四年七月一日",
+          "value": "二〇二四年七月一日",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "1",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "1",
+              "value": "1",
+              "bbox": [
+                {
+                  "h": 11.044381073742443,
+                  "w": 7.426789729420744,
+                  "x": 294.652929925686,
+                  "y": 781.8393366520579,
+                  "confidence": 0.92,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "1",
+          "bbox": [
+            {
+              "h": 11.04,
+              "w": 7.43,
+              "x": 294.65,
+              "y": 781.84,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "华南师范大学计算机学院",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# 华南师范大学计算机学院",
+          "value": "华南师范大学计算机学院",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "本科专业毕业要求评价实施细则（修订版）",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 本科专业毕业要求评价实施细则（修订版）",
+          "value": "本科专业毕业要求评价实施细则（修订版）",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "毕业要求是学生毕业时应掌握的知识、技能和素养的具体描述，体现专业人才培养“产出”的质量要求，也是专业向学生发展做出的承诺，是完成专业人才培养目标的保证。为科学合理评价我院各本科专业人才培养质量，不断深化教学内涵，提升教学效果，形成持续改进的质量文化，同时秉承国家工程教育认证标准和师范类专业认证的宗旨，按照《华南师范大学师范类专业毕业要求评价实施办法（教学〔2023〕30 号）》的要求，对《华南师范大学计算机学院本科专业毕业要求达成情况评价实施办法（计机 [2018] 5-2 号）》进行修订，形成我院本科专业毕业要求评价的如下实施细则。该细则适用于我院的计算机科学与技术和网络工程两个非师范专业，以及计算机科学与技术师范专业。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "毕业要求是学生毕业时应掌握的知识、技能和素养的具体描述，体现专业人才培养“产出”的质量要求，也是专业向学生发展做出的承诺，是完成专业人才培养目标的保证。为科学合理评价我院各本科专业人才培养质量，不断深化教学内涵，提升教学效果，形成持续改进的质量文化，同时秉承国家工程教育认证标准和师范类专业认证的宗旨，按照《华南师范大学师范类专业毕业要求评价实施办法（教学〔2023〕30 号）》的要求，对《华南师范大学计算机学院本科专业毕业要求达成情况评价实施办法（计机 \\[2018] 5-2 号）》进行修订，形成我院本科专业毕业要求评价的如下实施细则。该细则适用于我院的计算机科学与技术和网络工程两个非师范专业，以及计算机科学与技术师范专业。",
+          "value": "毕业要求是学生毕业时应掌握的知识、技能和素养的具体描述，体现专业人才培养“产出”的质量要求，也是专业向学生发展做出的承诺，是完成专业人才培养目标的保证。为科学合理评价我院各本科专业人才培养质量，不断深化教学内涵，提升教学效果，形成持续改进的质量文化，同时秉承国家工程教育认证标准和师范类专业认证的宗旨，按照《华南师范大学师范类专业毕业要求评价实施办法（教学〔2023〕30 号）》的要求，对《华南师范大学计算机学院本科专业毕业要求达成情况评价实施办法（计机 [2018] 5-2 号）》进行修订，形成我院本科专业毕业要求评价的如下实施细则。该细则适用于我院的计算机科学与技术和网络工程两个非师范专业，以及计算机科学与技术师范专业。",
+          "bbox": [
+            {
+              "h": 352.25859375,
+              "w": 427.6388546827363,
+              "x": 85.58050864615092,
+              "y": 207.90174090129574,
+              "confidence": 0.98,
+              "end_index": 315,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "一、毕业要求合理性评价",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 一、毕业要求合理性评价",
+          "value": "一、毕业要求合理性评价",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "毕业要求的合理性是指毕业要求符合《普通高等学校本科专业类教学质量国家标准》、专业认证标准。我院计算机科学与技术师范专业的毕业要求还须符合中学信息技术教育教师的标准。毕业要求的制定须支撑专业人才培养目标，其指标点分",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "毕业要求的合理性是指毕业要求符合《普通高等学校本科专业类教学质量国家标准》、专业认证标准。我院计算机科学与技术师范专业的毕业要求还须符合中学信息技术教育教师的标准。毕业要求的制定须支撑专业人才培养目标，其指标点分",
+          "value": "毕业要求的合理性是指毕业要求符合《普通高等学校本科专业类教学质量国家标准》、专业认证标准。我院计算机科学与技术师范专业的毕业要求还须符合中学信息技术教育教师的标准。毕业要求的制定须支撑专业人才培养目标，其指标点分",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "A red circular official seal is partially visible at the bottom left of the text area.",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "A red circular official seal is partially visible at the bottom left of the text area.",
+          "value": "A red circular official seal is partially visible at the bottom left of the text area.",
+          "bbox": [
+            {
+              "h": 202.66,
+              "w": 428.02,
+              "x": 85.03,
+              "y": 358.78,
+              "confidence": 0.4,
+              "end_index": 85,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "2",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "2",
+              "value": "2",
+              "bbox": [
+                {
+                  "h": 10.831193669016795,
+                  "w": 7.427446289062548,
+                  "x": 296.31234005811734,
+                  "y": 776.1925778868141,
+                  "confidence": 0.93,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "2",
+          "bbox": [
+            {
+              "h": 10.83,
+              "w": 7.43,
+              "x": 296.31,
+              "y": 776.19,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "解合理，在广度上完全覆盖认证标准，在程度上不低于认证标准要求。各专业须根据专业认证标准和人才培养目标，制定明确、公开的毕业要求，体现专业人才的能力特征，具备可衡量性和导向性，并在人才培养全过程中分解落实。专业须对毕业要求的合理性进行评价，且有利益相关方参与。",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "解合理，在广度上完全覆盖认证标准，在程度上不低于认证标准要求。各专业须根据专业认证标准和人才培养目标，制定明确、公开的毕业要求，体现专业人才的能力特征，具备可衡量性和导向性，并在人才培养全过程中分解落实。专业须对毕业要求的合理性进行评价，且有利益相关方参与。",
+          "value": "解合理，在广度上完全覆盖认证标准，在程度上不低于认证标准要求。各专业须根据专业认证标准和人才培养目标，制定明确、公开的毕业要求，体现专业人才的能力特征，具备可衡量性和导向性，并在人才培养全过程中分解落实。专业须对毕业要求的合理性进行评价，且有利益相关方参与。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. 评价机构及责任人",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价机构及责任人",
+              "value": "评价机构及责任人",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. 评价机构及责任人",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "评价工作责任机构：计算机学院教学指导委员会",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "评价工作责任机构：计算机学院教学指导委员会",
+          "value": "评价工作责任机构：计算机学院教学指导委员会",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "评价责任人：专业负责人",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "评价责任人：专业负责人",
+          "value": "评价责任人：专业负责人",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "2. 评价时间和周期",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价时间和周期",
+              "value": "评价时间和周期",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "2. 评价时间和周期",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "依据培养方案修订的周期，每四年评价一次。",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "依据培养方案修订的周期，每四年评价一次。",
+          "value": "依据培养方案修订的周期，每四年评价一次。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "3. 评价依据",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价依据",
+              "value": "评价依据",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "3. 评价依据",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "《普通高等学校本科专业类教学质量国家标准》、专业认证标准、毕业要求对专业培养目标的支撑关系、专业特色及利益相关方的意见。我院的计算机科学与技术师范专业的毕业要求合理性还须依据中学信息技术教育教师的职业能力标准进行评价。",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "《普通高等学校本科专业类教学质量国家标准》、专业认证标准、毕业要求对专业培养目标的支撑关系、专业特色及利益相关方的意见。我院的计算机科学与技术师范专业的毕业要求合理性还须依据中学信息技术教育教师的职业能力标准进行评价。",
+          "value": "《普通高等学校本科专业类教学质量国家标准》、专业认证标准、毕业要求对专业培养目标的支撑关系、专业特色及利益相关方的意见。我院的计算机科学与技术师范专业的毕业要求合理性还须依据中学信息技术教育教师的职业能力标准进行评价。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "4. 评价方法",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价方法",
+              "value": "评价方法",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "4. 评价方法",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（1）组织专家对专业人才培养方案中毕业要求及其分解指标点的合理性进行论证，对每项分解的二级指标点的 H 支撑课程的合理性进行论证。",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "（1）组织专家对专业人才培养方案中毕业要求及其分解指标点的合理性进行论证，对每项分解的二级指标点的 H 支撑课程的合理性进行论证。",
+          "value": "（1）组织专家对专业人才培养方案中毕业要求及其分解指标点的合理性进行论证，对每项分解的二级指标点的 H 支撑课程的合理性进行论证。",
+          "bbox": [
+            {
+              "h": 78.12937333269818,
+              "w": 428.75319609851374,
+              "x": 86.19320300590701,
+              "y": 637.9851688738568,
+              "confidence": 0.97,
+              "end_index": 64,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "3",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "3",
+              "value": "3",
+              "bbox": [
+                {
+                  "h": 10.753579816120322,
+                  "w": 7.288415348704268,
+                  "x": 297.077764386433,
+                  "y": 780.3144851610137,
+                  "confidence": 0.94,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "3",
+          "bbox": [
+            {
+              "h": 10.75,
+              "w": 7.29,
+              "x": 297.08,
+              "y": 780.31,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（2）通过召开由多方代表参加的座谈会和研讨会、问卷调研、现场访谈等多种方式，广泛听取校内师生、校友、实践实习基地、相关用人单位的意见。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "（2）通过召开由多方代表参加的座谈会和研讨会、问卷调研、现场访谈等多种方式，广泛听取校内师生、校友、实践实习基地、相关用人单位的意见。",
+          "value": "（2）通过召开由多方代表参加的座谈会和研讨会、问卷调研、现场访谈等多种方式，广泛听取校内师生、校友、实践实习基地、相关用人单位的意见。",
+          "bbox": [
+            {
+              "h": 79.44024774318787,
+              "w": 428.191509324981,
+              "x": 81.78427192501907,
+              "y": 114.81528064262577,
+              "confidence": 0.97,
+              "end_index": 66,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "二、毕业要求的达成评价",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 二、毕业要求的达成评价",
+          "value": "二、毕业要求的达成评价",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "各专业须根据每项毕业要求的不同特点，采用适当的方法对全体毕业生开展评价。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "各专业须根据每项毕业要求的不同特点，采用适当的方法对全体毕业生开展评价。",
+          "value": "各专业须根据每项毕业要求的不同特点，采用适当的方法对全体毕业生开展评价。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. 评价对象",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价对象",
+              "value": "评价对象",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. 评价对象",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "本专业获得学位的应届毕业生。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "本专业获得学位的应届毕业生。",
+          "value": "本专业获得学位的应届毕业生。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "2. 评价机构及责任人",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价机构及责任人",
+              "value": "评价机构及责任人",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "2. 评价机构及责任人",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "评价工作责任机构：计算机学院教学指导委员会",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "**评价工作责任机构**：计算机学院教学指导委员会",
+          "value": "评价工作责任机构：计算机学院教学指导委员会",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "评价责任人：专业负责人",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "**评价责任人**：专业负责人",
+          "value": "评价责任人：专业负责人",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "3. 评价时间和周期",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价时间和周期",
+              "value": "评价时间和周期",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "3. 评价时间和周期",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "每 1—2 年评价一次。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "每 1—2 年评价一次。",
+          "value": "每 1—2 年评价一次。",
+          "bbox": [
+            {
+              "h": 18.326144840891793,
+              "w": 137.96687898961508,
+              "x": 115.19762129620808,
+              "y": 481.22975371570124,
+              "confidence": 0.9,
+              "end_index": 11,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "4. 评价环节",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价环节",
+              "value": "评价环节",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "4. 评价环节",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "确定毕业要求及其分解指标点、设置相关课程对毕业要求二级指标点进行支撑、围绕毕业要求制定课程教学大纲、依照课程目标实施教学活动、制定评价计划、确定评价方法、实施评价并收集相关数据、分析得出评价结果、将评价结果用于持续改进。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "确定毕业要求及其分解指标点、设置相关课程对毕业要求二级指标点进行支撑、围绕毕业要求制定课程教学大纲、依照课程目标实施教学活动、制定评价计划、确定评价方法、实施评价并收集相关数据、分析得出评价结果、将评价结果用于持续改进。",
+          "value": "确定毕业要求及其分解指标点、设置相关课程对毕业要求二级指标点进行支撑、围绕毕业要求制定课程教学大纲、依照课程目标实施教学活动、制定评价计划、确定评价方法、实施评价并收集相关数据、分析得出评价结果、将评价结果用于持续改进。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "5. 评价方法",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "评价方法",
+              "value": "评价方法",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "5. 评价方法",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "4",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "4",
+              "value": "4",
+              "bbox": [
+                {
+                  "h": 10.490906059451175,
+                  "w": 7.868867306593019,
+                  "x": 294.2089713938643,
+                  "y": 775.446221417683,
+                  "confidence": 0.93,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "4",
+          "bbox": [
+            {
+              "h": 10.49,
+              "w": 7.87,
+              "x": 294.21,
+              "y": 775.45,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "根据本专业的毕业要求的内涵不同，采取直接评价和间接评价相结合的方式进行评价，通常以直接评价为主。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "根据本专业的毕业要求的内涵不同，采取直接评价和间接评价相结合的方式进行评价，通常以直接评价为主。",
+          "value": "根据本专业的毕业要求的内涵不同，采取直接评价和间接评价相结合的方式进行评价，通常以直接评价为主。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（1）直接评价：主要运用对每项毕业要求的二级指标点的支撑度为 H 的各门课程的课程目标达成评价结果（或课程总评成绩），通过加权平均的方法计算达成值，重点体现通过课程目标达成对毕业要求达成的支撑。取每项毕业要求的各二级指标点达成度的最小值为该项毕业要求的达成情况直接评价结果。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "（1）直接评价：主要运用对每项毕业要求的二级指标点的支撑度为 H 的各门课程的课程目标达成评价结果（或课程总评成绩），通过加权平均的方法计算达成值，重点体现通过课程目标达成对毕业要求达成的支撑。取每项毕业要求的各二级指标点达成度的最小值为该项毕业要求的达成情况直接评价结果。",
+          "value": "（1）直接评价：主要运用对每项毕业要求的二级指标点的支撑度为 H 的各门课程的课程目标达成评价结果（或课程总评成绩），通过加权平均的方法计算达成值，重点体现通过课程目标达成对毕业要求达成的支撑。取每项毕业要求的各二级指标点达成度的最小值为该项毕业要求的达成情况直接评价结果。",
+          "bbox": [
+            {
+              "h": 169.5860053532298,
+              "w": 428.1945880573552,
+              "x": 90.79817037442835,
+              "y": 182.60181840105756,
+              "confidence": 0.99,
+              "end_index": 136,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（2）间接评价：通过访谈、问卷调查及其他佐证材料的收集（如课程专任教师对学生的表现性评价、学生在课外活动的表现）等，间接推测和评估学生毕业要求达成情况。包括外部评审、校友跟踪与问卷调查、用人单位对毕业生评价、毕业生成长自评问卷调查、在读学生学习体验问卷调查、专任教师访谈等。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "（2）间接评价：通过访谈、问卷调查及其他佐证材料的收集（如课程专任教师对学生的表现性评价、学生在课外活动的表现）等，间接推测和评估学生毕业要求达成情况。包括外部评审、校友跟踪与问卷调查、用人单位对毕业生评价、毕业生成长自评问卷调查、在读学生学习体验问卷调查、专任教师访谈等。",
+          "value": "（2）间接评价：通过访谈、问卷调查及其他佐证材料的收集（如课程专任教师对学生的表现性评价、学生在课外活动的表现）等，间接推测和评估学生毕业要求达成情况。包括外部评审、校友跟踪与问卷调查、用人单位对毕业生评价、毕业生成长自评问卷调查、在读学生学习体验问卷调查、专任教师访谈等。",
+          "bbox": [
+            {
+              "h": 170.51768495141002,
+              "w": 428.3775020245808,
+              "x": 90.67168504668446,
+              "y": 365.0042624571266,
+              "confidence": 0.98,
+              "end_index": 136,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "依据直接评价数据和间接评价结果，进行综合分析和研讨，并在有外部专家参与的情况下，确定本专业的毕业要求达成情况评价结论。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "依据直接评价数据和间接评价结果，进行综合分析和研讨，并在有外部专家参与的情况下，确定本专业的毕业要求达成情况评价结论。",
+          "value": "依据直接评价数据和间接评价结果，进行综合分析和研讨，并在有外部专家参与的情况下，确定本专业的毕业要求达成情况评价结论。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "三、毕业要求的持续改进",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 三、毕业要求的持续改进",
+          "value": "三、毕业要求的持续改进",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "毕业要求评价的结果可应用于专业课程的教学改革，以及课程体系的修订和完善，同时作为专业培养目标达成情况的支",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "毕业要求评价的结果可应用于专业课程的教学改革，以及课程体系的修订和完善，同时作为专业培养目标达成情况的支",
+          "value": "毕业要求评价的结果可应用于专业课程的教学改革，以及课程体系的修订和完善，同时作为专业培养目标达成情况的支",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "5",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "5",
+              "value": "5",
+              "bbox": [
+                {
+                  "h": 10.79133384146341,
+                  "w": 7.147237280868896,
+                  "x": 302.23605182926826,
+                  "y": 781.5907015767912,
+                  "confidence": 0.93,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "5",
+          "bbox": [
+            {
+              "h": 10.79,
+              "w": 7.15,
+              "x": 302.24,
+              "y": 781.59,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "撑和佐证。根据评价结果，专业须适当调整课程设置，优化师资及教学资源的配置，形成本专业毕业要求达成情况评价分析及持续改进报告。在专业内部落实改进措施，并向学校提交课程设置和课程教学等相关改进情况。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "撑和佐证。根据评价结果，专业须适当调整课程设置，优化师资及教学资源的配置，形成本专业毕业要求达成情况评价分析及持续改进报告。在专业内部落实改进措施，并向学校提交课程设置和课程教学等相关改进情况。",
+          "value": "撑和佐证。根据评价结果，专业须适当调整课程设置，优化师资及教学资源的配置，形成本专业毕业要求达成情况评价分析及持续改进报告。在专业内部落实改进措施，并向学校提交课程设置和课程教学等相关改进情况。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "四、附则",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 四、附则",
+          "value": "四、附则",
+          "bbox": null,
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "本细则自发布之日起实施，原《华南师范大学计算机学院本科专业毕业要求评价实施细则》废止，由计算机学院党政联席会负责解释。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "本细则自发布之日起实施，原《华南师范大学计算机学院本科专业毕业要求评价实施细则》废止，由计算机学院党政联席会负责解释。",
+          "value": "本细则自发布之日起实施，原《华南师范大学计算机学院本科专业毕业要求评价实施细则》废止，由计算机学院党政联席会负责解释。",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "计算机学院办公室",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "计算机学院办公室",
+          "value": "计算机学院办公室",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "2024年7月1日印发",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "2024年7月1日印发",
+          "value": "2024年7月1日印发",
+          "bbox": [
+            {
+              "h": 18.119274842797264,
+              "w": 139.54440548780485,
+              "x": 371.0587628620427,
+              "y": 465.5217226800686,
+              "confidence": 0.9,
+              "end_index": 10,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "责任校对: 王姗 吴双燕",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "**责任校对**: 王姗 吴双燕",
+          "value": "责任校对: 王姗 吴双燕",
+          "bbox": null,
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "6",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "6",
+              "value": "6",
+              "bbox": [
+                {
+                  "h": 11.332224180640235,
+                  "w": 7.6537109375,
+                  "x": 294.69125881288113,
+                  "y": 774.9631905011433,
+                  "confidence": 0.92,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "6",
+          "bbox": [
+            {
+              "h": 11.33,
+              "w": 7.65,
+              "x": 294.69,
+              "y": 774.96,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    }
+  ]
+}

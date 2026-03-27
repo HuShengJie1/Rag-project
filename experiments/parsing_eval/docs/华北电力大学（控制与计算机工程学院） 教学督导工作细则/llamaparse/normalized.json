@@ -1,0 +1,743 @@
+{
+  "doc_id": "27",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\27.pdf",
+  "parser_name": "llamaparse",
+  "pages": [
+    {
+      "page_no": 1,
+      "page_number": 1,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 2,
+      "page_number": 2,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 3,
+      "page_number": 3,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    }
+  ],
+  "blocks": [
+    {
+      "block_type": "header",
+      "text": "# 控制与计算机工程学院文件\n\n华电控计〔2019〕7 号",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "level": 1,
+              "md": "# 控制与计算机工程学院文件",
+              "value": "控制与计算机工程学院文件",
+              "bbox": [
+                {
+                  "h": 55.13,
+                  "w": 414.1,
+                  "x": 87.14,
+                  "y": 69.93,
+                  "confidence": 0.4,
+                  "end_index": 11,
+                  "label": "heading",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "md": "华电控计〔2019〕7 号",
+              "value": "华电控计〔2019〕7 号",
+              "bbox": [
+                {
+                  "h": 18.340471389100614,
+                  "w": 175.24227348632817,
+                  "x": 209.6164237792969,
+                  "y": 179.91714742282775,
+                  "confidence": 0.86,
+                  "end_index": 12,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "# 控制与计算机工程学院文件\n\n华电控计〔2019〕7 号",
+          "bbox": [
+            {
+              "h": 128.33,
+              "w": 414.1,
+              "x": 87.14,
+              "y": 69.93,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "header"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "控制与计算机工程学院教学督导工作细则",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 控制与计算机工程学院教学督导工作细则",
+          "value": "控制与计算机工程学院教学督导工作细则",
+          "bbox": [
+            {
+              "h": 21.96,
+              "w": 397.32,
+              "x": 98.59,
+              "y": 264.17,
+              "confidence": 0.4,
+              "end_index": 17,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "为保证控制与计算机工程学院本科教学质量，依据《华北电力大学教学委员会工作章程》、《控制与计算机工程学院教学分委会工作细则》，成立控制与计算机工程学院教学督导组。控制与计算机工程学院教学督导组在控制与计算机工程学院教学分委会和大学教务处共同指导下开展工作。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "为保证控制与计算机工程学院本科教学质量，依据《华北电力大学教学委员会工作章程》、《控制与计算机工程学院教学分委会工作细则》，成立控制与计算机工程学院教学督导组。控制与计算机工程学院教学督导组在控制与计算机工程学院教学分委会和大学教务处共同指导下开展工作。",
+          "value": "为保证控制与计算机工程学院本科教学质量，依据《华北电力大学教学委员会工作章程》、《控制与计算机工程学院教学分委会工作细则》，成立控制与计算机工程学院教学督导组。控制与计算机工程学院教学督导组在控制与计算机工程学院教学分委会和大学教务处共同指导下开展工作。",
+          "bbox": [
+            {
+              "h": 140.78,
+              "w": 451.4,
+              "x": 72.02,
+              "y": 340.85,
+              "confidence": 0.4,
+              "end_index": 126,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "1 督导组成员",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 1 督导组成员",
+          "value": "1 督导组成员",
+          "bbox": [
+            {
+              "h": 15.744038357469556,
+              "w": 92.87033298339844,
+              "x": 93.84213786621095,
+              "y": 498.9275894245427,
+              "confidence": 0.84,
+              "end_index": 6,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "控制与计算机工程学院教学督导组成员由控制与计算机工程学院教学分委会成员兼任，由包括 1 名组长，3～5 名成员。组长一般由教学副主任担任。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "控制与计算机工程学院教学督导组成员由控制与计算机工程学院教学分委会成员兼任，由包括 1 名组长，3～5 名成员。组长一般由教学副主任担任。",
+          "value": "控制与计算机工程学院教学督导组成员由控制与计算机工程学院教学分委会成员兼任，由包括 1 名组长，3～5 名成员。组长一般由教学副主任担任。",
+          "bbox": [
+            {
+              "h": 78.2609699885671,
+              "w": 449.6436333984376,
+              "x": 72.48822861328125,
+              "y": 530.0307921493903,
+              "confidence": 0.98,
+              "end_index": 68,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "2 工作职责",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 2 工作职责",
+          "value": "2 工作职责",
+          "bbox": [
+            {
+              "h": 15.414060423018267,
+              "w": 79.36087500000002,
+              "x": 92.26348666992187,
+              "y": 623.9135251714939,
+              "confidence": 0.84,
+              "end_index": 5,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "教学督导组负责对控制与计算机工程学院教学质量进行检查、监督和评估。具体工作职责包括：",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "教学督导组负责对控制与计算机工程学院教学质量进行检查、监督和评估。具体工作职责包括：",
+          "value": "教学督导组负责对控制与计算机工程学院教学质量进行检查、监督和评估。具体工作职责包括：",
+          "bbox": [
+            {
+              "h": 47.16,
+              "w": 459.3,
+              "x": 72.02,
+              "y": 652.9,
+              "confidence": 0.4,
+              "end_index": 41,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（1）完成大学教务处安排的控制与计算机工程学院教师申报的课堂质量评价工作，每人每学期不少于 4 次。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "（1）完成大学教务处安排的控制与计算机工程学院教师申报的课堂质量评价工作，每人每学期不少于 4 次。",
+          "value": "（1）完成大学教务处安排的控制与计算机工程学院教师申报的课堂质量评价工作，每人每学期不少于 4 次。",
+          "bbox": [
+            {
+              "h": 46.9510171875,
+              "w": 449.7141108764649,
+              "x": 72.83059273681643,
+              "y": 717.4090780678354,
+              "confidence": 0.97,
+              "end_index": 49,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（2）控制与计算机工程学院教师负责课程的讲义、教案、教学日历、教材规范性检查；",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "（2）控制与计算机工程学院教师负责课程的讲义、教案、教学日历、教材规范性检查；",
+          "value": "（2）控制与计算机工程学院教师负责课程的讲义、教案、教学日历、教材规范性检查；",
+          "bbox": [
+            {
+              "h": 47.002090572599094,
+              "w": 449.9960916870118,
+              "x": 72.31964542236328,
+              "y": 79.477782421875,
+              "confidence": 0.78,
+              "end_index": 38,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（3）控制与计算机工程学院教师课堂教学质量评价；",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "（3）控制与计算机工程学院教师课堂教学质量评价；",
+          "value": "（3）控制与计算机工程学院教师课堂教学质量评价；",
+          "bbox": [
+            {
+              "h": 15.890916639672279,
+              "w": 356.48704797363285,
+              "x": 101.1824303466797,
+              "y": 141.77906530106708,
+              "confidence": 0.98,
+              "end_index": 23,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（4）控制与计算机工程学院实验、综合实践教学质量评价；",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "（4）控制与计算机工程学院实验、综合实践教学质量评价；",
+          "value": "（4）控制与计算机工程学院实验、综合实践教学质量评价；",
+          "bbox": [
+            {
+              "h": 16.109209927591483,
+              "w": 404.6283100341798,
+              "x": 101.20478107910156,
+              "y": 172.86340534012956,
+              "confidence": 0.98,
+              "end_index": 26,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（5）控制与计算机工程学院认识、毕业、专业实习教学质量评价；",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "（5）控制与计算机工程学院认识、毕业、专业实习教学质量评价；",
+          "value": "（5）控制与计算机工程学院认识、毕业、专业实习教学质量评价；",
+          "bbox": [
+            {
+              "h": 47.12825123380337,
+              "w": 449.71345063476576,
+              "x": 72.01577915039063,
+              "y": 204.1991016339558,
+              "confidence": 0.99,
+              "end_index": 29,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（6）控制与计算机工程学院试卷、实验报告、结题报告、过程考核成绩评定环节规范性检查；",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "（6）控制与计算机工程学院试卷、实验报告、结题报告、过程考核成绩评定环节规范性检查；",
+          "value": "（6）控制与计算机工程学院试卷、实验报告、结题报告、过程考核成绩评定环节规范性检查；",
+          "bbox": [
+            {
+              "h": 47.3137322217988,
+              "w": 450.34520002441405,
+              "x": 71.84419606933595,
+              "y": 266.5975555449695,
+              "confidence": 0.79,
+              "end_index": 41,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（7）控制与计算机工程学院毕业设计过程检查、毕业论文规范性检查；",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "（7）控制与计算机工程学院毕业设计过程检查、毕业论文规范性检查；",
+          "value": "（7）控制与计算机工程学院毕业设计过程检查、毕业论文规范性检查；",
+          "bbox": [
+            {
+              "h": 47.46275370617377,
+              "w": 450.256266796875,
+              "x": 72.37939951171876,
+              "y": 328.8392548971037,
+              "confidence": 0.8,
+              "end_index": 31,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（8）每学期召开一次督导组工作会议，讨论总结控制与计算机工程学院教学质量方面存在的问题及改进措施。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "（8）每学期召开一次督导组工作会议，讨论总结控制与计算机工程学院教学质量方面存在的问题及改进措施。",
+          "value": "（8）每学期召开一次督导组工作会议，讨论总结控制与计算机工程学院教学质量方面存在的问题及改进措施。",
+          "bbox": [
+            {
+              "h": 47.176792883003046,
+              "w": 450.2603611816407,
+              "x": 71.70978149414063,
+              "y": 391.3202158250762,
+              "confidence": 0.79,
+              "end_index": 48,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "3 经费支持",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 3 经费支持",
+          "value": "3 经费支持",
+          "bbox": [
+            {
+              "h": 15.437572980182964,
+              "w": 79.35982924804689,
+              "x": 92.60037832031252,
+              "y": 454.03274285442075,
+              "confidence": 0.89,
+              "end_index": 5,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "教学督导经费由控制与计算机工程学院教学业务费列支。教学督导组成员按学期发放督导工作酬金，由控制与计算机工程学院调控酬金列支。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "教学督导经费由控制与计算机工程学院教学业务费列支。教学督导组成员按学期发放督导工作酬金，由控制与计算机工程学院调控酬金列支。",
+          "value": "教学督导经费由控制与计算机工程学院教学业务费列支。教学督导组成员按学期发放督导工作酬金，由控制与计算机工程学院调控酬金列支。",
+          "bbox": [
+            {
+              "h": 78.36,
+              "w": 451.27,
+              "x": 72.02,
+              "y": 483.07,
+              "confidence": 0.4,
+              "end_index": 61,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "控制与计算机工程学院",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "控制与计算机工程学院",
+          "value": "控制与计算机工程学院",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 150.0,
+              "x": 373.39,
+              "y": 577.3,
+              "confidence": 0.4,
+              "end_index": 9,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "2019年6月18日",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "2019年6月18日",
+          "value": "2019年6月18日",
+          "bbox": [
+            {
+              "h": 46.00374689405492,
+              "w": 148.67827734375004,
+              "x": 373.8693685546875,
+              "y": 578.8485258955793,
+              "confidence": 0.92,
+              "end_index": 9,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "华北电力大学控制与计算机工程学院\n2019年6月18日",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "华北电力大学控制与计算机工程学院\n2019年6月18日",
+              "value": "华北电力大学控制与计算机工程学院\n2019年6月18日",
+              "bbox": [
+                {
+                  "h": 46.0,
+                  "w": 148.0,
+                  "x": 373.0,
+                  "y": 578.0,
+                  "confidence": 0.92,
+                  "end_index": 26,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "华北电力大学控制与计算机工程学院\n2019年6月18日",
+          "bbox": [
+            {
+              "h": 46.0,
+              "w": 148.0,
+              "x": 373.0,
+              "y": 578.0,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "header",
+      "text": "附件",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "附件",
+              "value": "附件",
+              "bbox": [
+                {
+                  "h": 15.0,
+                  "w": 30.0,
+                  "x": 72.02,
+                  "y": 78.02,
+                  "confidence": 0.4,
+                  "end_index": 1,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "附件",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 30.0,
+              "x": 72.02,
+              "y": 78.02,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "header"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "控制与计算机工程学院 督导组成员名单",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# 控制与计算机工程学院 督导组成员名单",
+          "value": "控制与计算机工程学院 督导组成员名单",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 255.97,
+              "x": 169.7,
+              "y": 140.42,
+              "confidence": 0.4,
+              "end_index": 17,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "依据《控制与计算机工程学院教学督导组工作细则》决定控制与计算机工程学院本届教学督导组名单如下：",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "依据《控制与计算机工程学院教学督导组工作细则》决定控制与计算机工程学院本届教学督导组名单如下：",
+          "value": "依据《控制与计算机工程学院教学督导组工作细则》决定控制与计算机工程学院本届教学督导组名单如下：",
+          "bbox": [
+            {
+              "h": 47.19,
+              "w": 451.16,
+              "x": 72.02,
+              "y": 202.22,
+              "confidence": 0.4,
+              "end_index": 46,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "组 长：师瑞峰，田亮",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "**组 长**：师瑞峰，田亮",
+          "value": "组 长：师瑞峰，田亮",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 157.59,
+              "x": 72.02,
+              "y": 296.45,
+              "confidence": 0.4,
+              "end_index": 13,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "成 员：杨国田，林碧英，杨锡运，林永君，苏杰，焦嵩鸣，夏宏，苏林萍",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "**成 员**：杨国田，林碧英，杨锡运，林永君，苏杰，焦嵩鸣，夏宏，苏林萍",
+          "value": "成 员：杨国田，林碧英，杨锡运，林永君，苏杰，焦嵩鸣，夏宏，苏林萍",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 458.93,
+              "x": 72.02,
+              "y": 327.65,
+              "confidence": 0.4,
+              "end_index": 36,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "控制与计算机工程学院 2019 年 6 月 18 日",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "控制与计算机工程学院\\\n2019 年 6 月 18 日",
+          "value": "控制与计算机工程学院 2019 年 6 月 18 日",
+          "bbox": [
+            {
+              "h": 45.84136486280486,
+              "w": 148.34835146484374,
+              "x": 374.01446220703133,
+              "y": 454.124637347561,
+              "confidence": 0.77,
+              "end_index": 26,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    }
+  ]
+}

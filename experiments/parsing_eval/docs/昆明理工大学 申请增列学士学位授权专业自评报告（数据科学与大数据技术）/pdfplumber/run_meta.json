@@ -1,0 +1,11 @@
+{
+  "doc_id": "38",
+  "parser_name": "pdfplumber",
+  "actual_parser": "pdfplumber",
+  "success": true,
+  "elapsed_time": 0.2559,
+  "text_length": 4605,
+  "markdown_length": 0,
+  "page_count": 9,
+  "error_message": ""
+}

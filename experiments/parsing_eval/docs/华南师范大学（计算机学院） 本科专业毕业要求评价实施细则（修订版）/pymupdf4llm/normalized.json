@@ -1,0 +1,14 @@
+{
+  "doc_id": "17",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\17.pdf",
+  "parser_name": "pymupdf4llm",
+  "pages": [],
+  "blocks": [
+    {
+      "block_type": "markdown",
+      "text": "",
+      "page_no": null,
+      "metadata": {}
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+dataset:
+  metadata_path: "../experiments/工程认证_RAG_实验元数据表_40份.xlsx"
+  root_dir: "../data"
+  sheet: null
+  column_map:
+    doc_id: "文档ID"
+    file_path: "文件路径"
+    tags: "标签"
+    file_type: "格式"
+
+parsers:
+  pymupdf:
+    config: {}
+  pymupdf4llm:
+    config: {}
+  pdfplumber:
+    config: {}
+  unstructured:
+    config: {}
+  marker:
+    config:
+      disable_multiprocessing: true
+      disable_tqdm: true
+      use_llm: true
+      llm_service: "marker.services.openai.OpenAIService"
+      service_config:
+        openai_base_url: "https://api.moonshot.cn/v1"
+        openai_model: "kimi-k2.5"
+        openai_api_key: "${KIMI_API_KEY}"
+        openai_image_format: "png"
+  llamaparse:
+    config:
+      api_key: "${LLAMAPARSE_EXPERIMENT_API_KEY}"
+      tier: "agentic_plus"
+      version: "latest"
+      expand: ["text", "markdown", "items", "metadata"]
+      timeout: 1800
+      request_timeout: 120
+      request_max_retries: 3
+
+chunking:
+  strategy: "chars"
+  chunk_size: 800
+  overlap: 100

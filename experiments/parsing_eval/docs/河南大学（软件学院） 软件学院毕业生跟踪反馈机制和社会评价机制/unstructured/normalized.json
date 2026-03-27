@@ -1,0 +1,470 @@
+{
+  "doc_id": "11",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\11.pdf",
+  "parser_name": "unstructured",
+  "pages": [],
+  "blocks": [
+    {
+      "block_type": "Title",
+      "text": "河南大学",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "软件学院文件",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "院发〔2018〕22 号",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "河 南 大 学 软 件 学 院",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "关于印发《软件学院毕业生跟踪反馈机制",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "和社会评价机制》的通知",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "全院各单位：",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "《软件学院毕业生跟踪反馈机制和社会评价机制》已",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "经学院研究通过，现予印发，请认真贯彻执行。",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "二〇一八年九月一日",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "软件学院毕业生跟踪反馈机制和社会评价机制",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "为全面、准确地了解我院毕业生的工作现状和发展情况，了解",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "毕业生对我院就业工作的总体评价以及用人单位对我院毕业生的满",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "意程度，提高就业服务水平，促进我院人才培养与社会需求的紧密",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "结合。同时跟踪未就业应届毕业生状况，及时提供就业岗位信息，",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "帮助每一位未就业毕业生顺利就业，根据教育部和学校有关规定，",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "软件学院特制定本制度。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "一、组织机构",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学院结合学校就业创业指导中心相关要求，成立了由党委副书",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "记和教学副院长为组长，专业负责人、团学口、教务口工作人员为",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "成员的软件学院毕业生跟踪反馈与社会评价领导小组（附录 4.2-2），",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "制定了毕业生跟踪调查制度，确定调查时间、内容、方式等具体事",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "宜。团学口负责发放和回收调查问卷，负责制定毕业生调查问卷的",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "具体内容，并指定专人负责对毕业生跟踪调查分析报告进行汇总和",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "分析。同时，社会评价方面，由各专业系主任与副系主任负责组织",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "人员进行走访用人单位、走访校友、校企合作交流、组织访谈和调",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "查问卷的发放和回收等具体调查工作，并进行问卷汇总分析，形成",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "各专业调查分析报告。团学口和各专业系负责人将分析结果反馈至",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "教务口，由教务口进行统筹汇总，以便更好将结果反馈利用到新的",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "教学环节中，持续改进教学内容、方式和要求。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "二、毕业生跟踪反馈机制",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（1）周期与频度：毕业生调查每年 1 次，每年 11 月份启动。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（2）覆盖面：毕业 1-5 年的学生的调查覆盖率要达到当年毕业",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "人数的 25%以上；毕业 5 年以上的学生应选择有代表性的调查对象，",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "充分考虑地域分布、企业类型、岗位工种等差异，对优秀的毕业生、",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "创业学生和在单位做出特殊贡献的毕业生进行重点调查。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（3）调查内容：涵盖毕业生在校期间素质分析、择业情况、整",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "体就业情况，毕业生对目前工作及岗位的评价，对专业培养在工作",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "中影响程度的评估，以及对我院专业培养目标、课程设置评价建议",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "等方面的内容。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（4）运行方式和使用载体：采用访谈、网络、邮寄、电话等形",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "式完成调查问卷，或借由毕业生聚会、校友返校日活动和回校访问",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "等契机采取毕业生座谈会的形式完成。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "三、社会评价机制",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（1）周期与频度：用人单位调查每年 1 次。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（2）覆盖面：与我院建立实习合作关系的用人单位；来我院招",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "聘的代表性用人单位；毕业生较集中的代表性用人单位。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（3）调查内容：涵盖用人单位对毕业生综合素质的评价，用人",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "单位对毕业生的要求以及对我院就业服务工作的评价和建议。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（4）运行方式：对与我院建立实习合作关系的用人单位和毕业",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "生较集中的代表性用人单位，实行由负责教师进行走访并完成调查",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "问卷的形式，对来我院招聘的代表性用人单位实行由负责老师进行",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "座谈并完成调查问卷的形式。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "四、培养目标达成评价机制",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "通过对毕业生跟踪反馈和社会评价机制，本专业建立了较为合",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "理和有效的培养目标达成评价机制，具体运行细节包括：",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "表 4-1 培养目标达成评价机制",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "内容",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "毕业生座谈",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "毕业生网络和电 话访谈",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "形式",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "走访或邀请往届 毕业生进校座谈",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "通讯调查",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "参与者 往届毕业生（毕业 1-5 年）；校友（毕 业 5 年以上） 往届毕业生（毕业 1-5 年）；校友（毕 业 5 年以上）",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "工作方式 时间",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "走访用人单位或邀 请 毕 业 生 代 表 座 谈；利用网络交流 平台面向毕业生发 放调查问卷",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 次/年",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 次/年",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "用人单位座谈",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "用人单位网络和 电话访谈",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "走访或邀请毕业 生代表进校座谈",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "通讯调查",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "同人单位",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "用人单位",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "走访用人单位或邀 请 毕 业 生 代 表 座 谈；利用网络交流 平台面向毕业生发 放调查问卷，团学 口负责，专业教师 参与实施",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 次/年",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 次/年",
+      "page_no": 4,
+      "metadata": {}
+    }
+  ]
+}
