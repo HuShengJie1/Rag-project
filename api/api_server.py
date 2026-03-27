@@ -53,10 +53,10 @@ reranker = FlagReranker(RERANK_PATH, use_fp16=True) # 4070 使用半精度，速
 
 # --- 3. 加载 LLM ---
 llm = ChatOpenAI(
-    model="deepseek-chat",
-    temperature=0,
-    api_key=os.getenv("DEEPSEEK_API_KEY"),
-    base_url="https://api.deepseek.com",
+    model=os.getenv("KIMI_MODEL", "moonshot-v1-128k"),
+    temperature=0.2,
+    api_key=os.getenv("KIMI_API_KEY"),
+    base_url=os.getenv("KIMI_BASE_URL", "https://api.moonshot.cn/v1"),
     streaming=True
 )
 

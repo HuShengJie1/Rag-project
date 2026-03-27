@@ -51,9 +51,9 @@ reranker = FlagReranker("e:/rag-project/models/bge-reranker-v2-m3", use_fp16=Tru
 
 # 4. LLM
 llm = ChatOpenAI(
-    model="deepseek-chat",
+    model=os.getenv("KIMI_MODEL", "moonshot-v1-128k"),
     temperature=0,
-    api_key=os.getenv("DEEPSEEK_API_KEY"),
-    base_url="https://api.deepseek.com",
+    api_key=os.getenv("KIMI_API_KEY"),
+    base_url=os.getenv("KIMI_BASE_URL", "https://api.moonshot.cn/v1"),
     streaming=True
 )

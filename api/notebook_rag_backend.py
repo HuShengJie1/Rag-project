@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import api_manager
 import api_chat
+import kimi_direct
 
 app = FastAPI(title="NotebookLM-style RAG Backend")
 
@@ -15,6 +16,7 @@ app.add_middleware(
 # 挂载两个模块
 app.include_router(api_manager.router)
 app.include_router(api_chat.router)
+app.include_router(kimi_direct.router)
 
 if __name__ == "__main__":
     import uvicorn
