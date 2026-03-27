@@ -318,11 +318,61 @@
         本层是系统直接面向终端用户（如认证专家、高校教务管理人员）的前端展示与操作门户。系统前端基于渐进式 JavaScript 框架 Vue 构建 Web 交互界面，注重布局的直观性与非技术人员的易用性。应用层重点封装了两大核心业务模块：一是“多轮自然语言问答”模块，支持用户在维护历史对话上下文的情境下，以自然、流畅的口语化方式对 EAC 繁杂指标和课程目标等问题进行深度追问与探索交互；二是“证据链可视化溯源”模块（本系统的核心工程亮点），该模块承接底层向量元数据与文件存储映射，在渲染 DeepSeek 生成的最终答案时，同步输出带标号的引文参考标注。用户仅需点击对应的引文标签，Web 界面即可实现文档分屏联动，直接跳转并精准定位（包含引文高亮与具体页码跳转）到原始 PDF 文档的对应段落。此举赋予了模型回答高度的“可解释性”与“可溯源性”，完美契合工程认证业务中对材料严密互证与证据链闭环的极高监管要求。
         
     \end{enumerate}
-\subsection{核心业务流程设计}
 
 \section{核心模块设计与对比实验分析}
 \subsection{复杂结构文档解析与精细化切块策略}
+工程教育专业认证（EAC）文档具有高度非线性的排版特征，包含复杂的培养目标达成度矩阵、跨页表格以及多级标题。传统 RAG 系统中基于纯文本流的解析与固定长度切块，会破坏表格的行列关系与上下文逻辑，导致检索阶段出现“语义坍塌”。因此，本节重点探讨高保真文档解析技术的选型及基于文档结构的切块策略。
 
+\subsubsection{解析引擎选型与 Benchmark 验证}
+
+为了客观评估并选择最适合本系统的文档解析方案，本文引入了权威的多模态文档解析端到端评测基准 OmniDocBench (v1.5) 作为参考。该基准包含真实 PDF 文档的复杂版面，其总体评分（Overall）由文本编辑距离（Text Edit distance）、表格还原度（Table TEDS）和公式准确率（Formula CDM）三项核心指标计算得出。
+
+针对工程认证业务中占比极大的矩阵表格与公式指标，Table TEDS（Tree Edit Distance based Similarity）与 TEDS-S（纯表格结构还原度）是衡量解析器能力的决定性指标。表 4-1 截取了 2026 年第一季度 OmniDocBench 榜单中具有代表性的几类解析方案在全维度指标上的表现：
+
+\begin{table}[htbp]
+  \centering
+  \caption{代表性解析模型/工具在 OmniDocBench v1.5 的多维度端到端性能对比}
+  \label{tab:parser_comparison}
+
+  \resizebox{\textwidth}{!}{%
+  \begin{tabular}{llcccccc}
+    \toprule
+    \textbf{模型/工具名称} & \textbf{技术类别} & \textbf{总体评分} & \textbf{文本编辑距离} & \textbf{公式准确率} & \textbf{表格还原度} & \textbf{结构还原度} & \textbf{阅读顺序错误率} \\
+    & & (Overall $\uparrow$) & (TextEdit $\downarrow$) & (FormulaCDM $\uparrow$) & (TableTEDS $\uparrow$) & (TEDS-S $\uparrow$) & (ReadOrderEdit $\downarrow$) \\
+    \midrule
+    \textbf{PaddleOCR-VL} & 专用解析 VLM (0.9B) & 92.86 & 0.035 & 91.22 & 90.89 & 94.76 & 0.043 \\
+    \textbf{MinerU2.5} & 专用解析 VLM (1.2B) & 90.67 & 0.047 & 88.46 & 88.22 & 92.38 & 0.044 \\
+    \textbf{Gemini-2.5 Pro} & 通用 VLM & 88.03 & 0.075 & 85.82 & 85.71 & 90.29 & 0.097 \\
+    \textbf{PP-StructureV3} & Pipeline 工具 & 86.73 & 0.073 & 85.79 & 81.68 & 89.48 & 0.073 \\
+    \textbf{GPT-4o} & 通用 VLM & 75.02 & 0.217 & 79.70 & 67.07 & 76.09 & 0.148 \\
+    \textbf{Marker-1.8.2} & 传统 Pipeline 工具 & 71.30 & 0.206 & 76.66 & 57.88 & 71.17 & 0.250 \\
+    \bottomrule
+  \end{tabular}
+  }
+
+  \vspace{1ex}
+  \par\raggedright\small\textit{注：$\uparrow$ 表示数值越高越好，$\downarrow$ 表示数值越低越好。数据提取自 OmniDocBench (v1.5) 官方榜单（2026-03-26 快照）。}
+\end{table}
+
+\noindent\textbf{数据分析与选型依据：}
+
+通过表 \ref{tab:parser_comparison} 的多维度数据对比可以发现，传统解析工具与通用大模型在“文本提取（TextEdit）”和“阅读顺序（ReadOrderEdit）”上表现尚可，但在处理复杂结构时暴露出明显瓶颈。例如，GPT-4o 虽然是通用的视觉语言模型，但其文本编辑距离高达 0.217，且表格还原度（TableTEDS）仅为 67.07。传统的开源 Pipeline 工具（如 Marker-1.8.2）在面对复杂排版时，阅读顺序错误率攀升至 0.250，且表格结构还原度（TEDS-S）仅为 71.17。这表明此类通用或传统工具无法胜任工程认证文档中跨页表格与嵌套公式的解析任务。
+
+相反，参数量在 1.2B 及以下的专用解析模型（如 PaddleOCR-VL、MinerU2.5）不仅总体评分（Overall）突破了 90 分大关，其表格还原度（TableTEDS）和公式准确率（FormulaCDM）均保持在 88 以上。这证实了引入具备深度版面分析（Layout Analysis）能力的专用模型是解决结构化数据提取的必要途径。
+
+基于上述详实的实证数据，本系统明确了摒弃基础 OCR 与简单文本提取框架的技术路线。系统最终采用 LlamaParse（或同级别具备高级视觉解析能力的引擎）作为核心解析组件，正是因为其底层技术逻辑与上述榜单头部的专用视觉解析模型一致，能够在保证“阅读顺序”不乱的前提下，高保真地重建 Markdown 表格结构，从而彻底消除 RAG 流程在数据摄入阶段的“语义坍塌”隐患。
+
+\subsubsection{语义感知与精细化切块策略}
+
+在获取高保真 Markdown 文本后，系统摒弃了传统的固定字符长度（Fixed-size Chunking）切分方式，转而采用了基于文档树结构的“语义感知切块（Semantic Structure-aware Chunking）”策略，具体实现如下：
+
+\begin{enumerate}
+  \item \textbf{基于层级标签的物理切分：} 解析器会识别 Markdown 中的标题标记（如 \texttt{\#}、\texttt{\#\#}）。系统将此类标记作为硬切分边界（Hard Boundary），确保属于同一章节的“课程目标”或“毕业要求”不会被机械性地从中间截断。
+  \item \textbf{元数据联级绑定（Metadata Injection）：} 本系统的核心亮点在于证据链的可视化溯源。在切块过程中，系统提取当前区块的上下文属性，将对应的物理页码（Page Number）、所属章节树（Section Title）以及文件本地路径（Source Path）作为元数据（Metadata）与当前文本块强绑定。
+  \item \textbf{约束性回退机制：} 仅当单一逻辑块的长度超过大模型上下文检索的最佳视窗（设定为 800 字符）时，系统才会触发次级的递归字符切分（Recursive Character Split），以确保向量库的检索粒度均衡。
+\end{enumerate}
+
+该策略通过“结构还原+语义绑定”的双重保障，为后续的混合检索和高亮溯源奠定了坚实的数据基础。
 \subsection{领域知识向量化与 Embedding 模型选型}
 为了验证不同 Embedding 模型在工程认证领域的表现，本文构建了包含50个问答对的测试集，并进行了对比实验。实验结果如表 \ref{tab:embedding_eval} 所示：
 
