@@ -1,0 +1,2311 @@
+{
+  "doc_id": "5",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\5.pdf",
+  "parser_name": "llamaparse",
+  "pages": [
+    {
+      "page_no": 1,
+      "page_number": 1,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 2,
+      "page_number": 2,
+      "confidence": 0.966,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 3,
+      "page_number": 3,
+      "confidence": 0.966,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 4,
+      "page_number": 4,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 5,
+      "page_number": 5,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    }
+  ],
+  "blocks": [
+    {
+      "block_type": "heading",
+      "text": "《大数据概论》",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# 《大数据概论》",
+          "value": "《大数据概论》",
+          "bbox": [
+            {
+              "h": 18.0,
+              "w": 126.0,
+              "x": 234.6,
+              "y": 85.8,
+              "confidence": 0.4,
+              "end_index": 6,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "课程教学大纲",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# 课程教学大纲",
+          "value": "课程教学大纲",
+          "bbox": [
+            {
+              "h": 18.0,
+              "w": 108.0,
+              "x": 243.6,
+              "y": 123.6,
+              "confidence": 0.4,
+              "end_index": 5,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "一、 课程基本信息",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 一、 课程基本信息",
+          "value": "一、 课程基本信息",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 126.37,
+              "x": 90.0,
+              "y": 162.0,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "table",
+      "text": "| 课程类型<br/>课程类型 | 总学时为学时数<br/>总学时为周数                        | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 |\n| ------------- | ----------------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- |\n| 课程编码          | 7294421                                   | 总学时                                | 16 学时                              | 学分                                 | 1                                  |\n| 课程名称          | 大数据概论                                     |                                    |                                    |                                    |                                    |\n| 课程英文名称        | Data Science Essentials                   |                                    |                                    |                                    |                                    |\n| 适用专业          | 数据科学与大数据技术                                |                                    |                                    |                                    |                                    |\n| 先修课程          | （7030701）高等数学Ⅰ (1) 、 （ 7030702 ）高等数学Ⅰ (2) |                                    |                                    |                                    |                                    |\n| 开课部门          | 信息学院人工智能系                                 |                                    |                                    |                                    |                                    |",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "csv": "\"课程类型<br/>课程类型\",\"总学时为学时数<br/>总学时为周数\",\"☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计\",\"☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计\",\"☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计\",\"☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计\"\n\"课程编码\",\"7294421\",\"总学时\",\"16 学时\",\"学分\",\"1\"\n\"课程名称\",\"大数据概论\",,,,\n\"课程英文名称\",\"Data Science Essentials\",,,,\n\"适用专业\",\"数据科学与大数据技术\",,,,\n\"先修课程\",\"（7030701）高等数学Ⅰ (1) 、 （ 7030702 ）高等数学Ⅰ (2)\",,,,\n\"开课部门\",\"信息学院人工智能系\",,,,",
+          "html": "<table>\n  <thead>\n    <tr>\n        <th>课程类型</th>\n        <th>总学时为学时数</th>\n        <th colspan=\"4\">☑理论课（含上机、实验学时）</th>\n    </tr>\n    <tr>\n        <th>课程类型</th>\n        <th>总学时为周数</th>\n        <th colspan=\"4\">☐实习    ☐课程设计    ☐毕业设计</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>课程编码</td>\n        <td>7294421</td>\n        <td>总学时</td>\n        <td>16 学时</td>\n        <td>学分</td>\n        <td>1</td>\n    </tr>\n    <tr>\n        <td>课程名称</td>\n        <td colspan=\"5\">大数据概论</td>\n    </tr>\n    <tr>\n        <td>课程英文名称</td>\n        <td colspan=\"5\">Data Science Essentials</td>\n    </tr>\n    <tr>\n        <td>适用专业</td>\n        <td colspan=\"5\">数据科学与大数据技术</td>\n    </tr>\n    <tr>\n        <td>先修课程</td>\n        <td colspan=\"5\">（7030701）高等数学Ⅰ (1) 、 （ 7030702 ）高等数学Ⅰ (2)</td>\n    </tr>\n    <tr>\n        <td>开课部门</td>\n        <td colspan=\"5\">信息学院人工智能系</td>\n    </tr>\n  </tbody>\n</table>",
+          "md": "| 课程类型<br/>课程类型 | 总学时为学时数<br/>总学时为周数                        | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 | ☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计 |\n| ------------- | ----------------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- |\n| 课程编码          | 7294421                                   | 总学时                                | 16 学时                              | 学分                                 | 1                                  |\n| 课程名称          | 大数据概论                                     |                                    |                                    |                                    |                                    |\n| 课程英文名称        | Data Science Essentials                   |                                    |                                    |                                    |                                    |\n| 适用专业          | 数据科学与大数据技术                                |                                    |                                    |                                    |                                    |\n| 先修课程          | （7030701）高等数学Ⅰ (1) 、 （ 7030702 ）高等数学Ⅰ (2) |                                    |                                    |                                    |                                    |\n| 开课部门          | 信息学院人工智能系                                 |                                    |                                    |                                    |                                    |",
+          "rows": [
+            [
+              "课程类型<br/>课程类型",
+              "总学时为学时数<br/>总学时为周数",
+              "☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计",
+              "☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计",
+              "☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计",
+              "☑理论课（含上机、实验学时）<br/>☐实习 ☐课程设计 ☐毕业设计"
+            ],
+            [
+              "课程编码",
+              "7294421",
+              "总学时",
+              "16 学时",
+              "学分",
+              "1"
+            ],
+            [
+              "课程名称",
+              "大数据概论",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "课程英文名称",
+              "Data Science Essentials",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "适用专业",
+              "数据科学与大数据技术",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "先修课程",
+              "（7030701）高等数学Ⅰ (1) 、 （ 7030702 ）高等数学Ⅰ (2)",
+              "",
+              "",
+              "",
+              ""
+            ],
+            [
+              "开课部门",
+              "信息学院人工智能系",
+              "",
+              "",
+              "",
+              ""
+            ]
+          ],
+          "bbox": [
+            {
+              "h": 166.5783960365854,
+              "w": 423.4515084228516,
+              "x": 85.61869899902345,
+              "y": 192.2433297827744,
+              "confidence": 1.0,
+              "end_index": 1678,
+              "label": "table",
+              "start_index": 0
+            }
+          ],
+          "merged_from_pages": null,
+          "merged_into_page": null,
+          "type": "table"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "二、 课程性质与目标",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 二、 课程性质与目标",
+          "value": "二、 课程性质与目标",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 140.41,
+              "x": 90.0,
+              "y": 371.4,
+              "confidence": 0.4,
+              "end_index": 9,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "本课程的授课对象为数据科学与大数据技术专业本科生，课程性质为专业选修课，本课程介绍了进行数据科学分析和开发的所有关键要点，提供了高级数据探索和操作技术，带学生学习常用的机器学习算法以及一些实用又有效的数据处理技术，最终利用图形化表示完善数据科学概述。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "本课程的授课对象为数据科学与大数据技术专业本科生，课程性质为专业选修课，本课程介绍了进行数据科学分析和开发的所有关键要点，提供了高级数据探索和操作技术，带学生学习常用的机器学习算法以及一些实用又有效的数据处理技术，最终利用图形化表示完善数据科学概述。",
+          "value": "本课程的授课对象为数据科学与大数据技术专业本科生，课程性质为专业选修课，本课程介绍了进行数据科学分析和开发的所有关键要点，提供了高级数据探索和操作技术，带学生学习常用的机器学习算法以及一些实用又有效的数据处理技术，最终利用图形化表示完善数据科学概述。",
+          "bbox": [
+            {
+              "h": 72.0,
+              "w": 415.32,
+              "x": 90.0,
+              "y": 405.96,
+              "confidence": 0.4,
+              "end_index": 124,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "课程目标 1：使学生深入了解数据科学概念，轻松进行理论扩展课程目标；\n课程目标 2：培养学生大数据平台运营、大数据分析和数据可视化基本思想和基本技能。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "课程目标 1：使学生深入了解数据科学概念，轻松进行理论扩展课程目标；\n课程目标 2：培养学生大数据平台运营、大数据分析和数据可视化基本思想和基本技能。",
+          "value": "课程目标 1：使学生深入了解数据科学概念，轻松进行理论扩展课程目标；\n课程目标 2：培养学生大数据平台运营、大数据分析和数据可视化基本思想和基本技能。",
+          "bbox": [
+            {
+              "h": 52.43711341463419,
+              "w": 393.99781604003914,
+              "x": 110.56105290527346,
+              "y": 487.1723135099086,
+              "confidence": 0.87,
+              "end_index": 74,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "课程思政目标：提高学生数据分析和数据展现的能力，为后续的应用性开发课程的学习打好编程基础，做到学以致用。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "课程思政目标：提高学生数据分析和数据展现的能力，为后续的应用性开发课程的学习打好编程基础，做到学以致用。",
+          "value": "课程思政目标：提高学生数据分析和数据展现的能力，为后续的应用性开发课程的学习打好编程基础，做到学以致用。",
+          "bbox": [
+            {
+              "h": 32.04,
+              "w": 415.2,
+              "x": 90.0,
+              "y": 546.0,
+              "confidence": 0.4,
+              "end_index": 51,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "三、 课程教学基本内容与要求",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 三、 课程教学基本内容与要求",
+          "value": "三、 课程教学基本内容与要求",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 196.56,
+              "x": 90.0,
+              "y": 594.6,
+              "confidence": 0.4,
+              "end_index": 13,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "第一单元 数据科学介绍及编程语言",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 第一单元 数据科学介绍及编程语言",
+          "value": "第一单元 数据科学介绍及编程语言",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 186.72,
+              "x": 204.24,
+              "y": 629.16,
+              "confidence": 0.4,
+              "end_index": 15,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（一）教学基本内容",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 4,
+          "md": "#### （一）教学基本内容",
+          "value": "（一）教学基本内容",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 649.2,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "1.1 数据科学简介",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "1.1 数据科学简介",
+          "value": "1.1 数据科学简介",
+          "bbox": [
+            {
+              "h": 12.63055466844508,
+              "w": 91.7582466796875,
+              "x": 111.53965517578126,
+              "y": 669.3958347370427,
+              "confidence": 0.96,
+              "end_index": 9,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "1.2 Python 介绍",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "1.2 Python 介绍",
+          "value": "1.2 Python 介绍",
+          "bbox": [
+            {
+              "h": 13.142266120426815,
+              "w": 77.27031936035156,
+              "x": 111.73768337402346,
+              "y": 690.9644699314025,
+              "confidence": 0.96,
+              "end_index": 12,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（二）教学基本要求",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 4,
+          "md": "#### （二）教学基本要求",
+          "value": "（二）教学基本要求",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 710.76,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "1、掌握： Python 语言基本认识\n2、理解： 数据科学的基本理论和研究方法",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "1、掌握： Python 语言基本认识\n2、理解： 数据科学的基本理论和研究方法",
+          "value": "1、掌握： Python 语言基本认识\n2、理解： 数据科学的基本理论和研究方法",
+          "bbox": [
+            {
+              "h": 33.5346718559452,
+              "w": 228.02204809570318,
+              "x": 110.40437622070314,
+              "y": 733.3524467606708,
+              "confidence": 0.9,
+              "end_index": 39,
+              "label": "key-value-region",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "1",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "1",
+              "value": "1",
+              "bbox": [
+                {
+                  "h": 7.162907526676815,
+                  "w": 4.151174414062446,
+                  "x": 500.59667431640634,
+                  "y": 779.0511821455793,
+                  "confidence": 0.92,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "1",
+          "bbox": [
+            {
+              "h": 7.16,
+              "w": 4.15,
+              "x": 500.6,
+              "y": 779.05,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "3、了解： 数据科学的技术应用",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "3、了解： 数据科学的技术应用",
+          "value": "3、了解： 数据科学的技术应用",
+          "bbox": [
+            {
+              "h": 12.250938417016012,
+              "w": 167.2783672119141,
+              "x": 110.43605895996096,
+              "y": 73.09889208984374,
+              "confidence": 0.84,
+              "end_index": 14,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "第二单元 分类器认识",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 第二单元 分类器认识",
+          "value": "第二单元 分类器认识",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 114.48,
+              "x": 240.36,
+              "y": 116.16,
+              "confidence": 0.4,
+              "end_index": 9,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（一）教学基本内容",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （一）教学基本内容",
+          "value": "（一）教学基本内容",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 136.08,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "2.1 使用最近邻方法进行图像分类",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "2.1 使用最近邻方法进行图像分类",
+          "value": "2.1 使用最近邻方法进行图像分类",
+          "bbox": [
+            {
+              "h": 12.479214515053338,
+              "w": 177.48581022949224,
+              "x": 110.09776706542971,
+              "y": 156.3807142339939,
+              "confidence": 0.95,
+              "end_index": 16,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "2.2 空间距离度量",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "2.2 空间距离度量",
+          "value": "2.2 空间距离度量",
+          "bbox": [
+            {
+              "h": 12.283330849847571,
+              "w": 93.88885107421876,
+              "x": 109.84411904296877,
+              "y": 177.91261419112044,
+              "confidence": 0.76,
+              "end_index": 9,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（二）教学基本要求",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （二）教学基本要求",
+          "value": "（二）教学基本要求",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 201.72,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. **掌握**： 最近邻分类\n2. **理解**： 图像数据结构与分类\n3. **了解**： Python 数据运算的编程方法",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "**掌握**： 最近邻分类",
+              "value": "掌握： 最近邻分类",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**理解**： 图像数据结构与分类",
+              "value": "理解： 图像数据结构与分类",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**了解**： Python 数据运算的编程方法",
+              "value": "了解： Python 数据运算的编程方法",
+              "bbox": [
+                {
+                  "h": 55.06066860708838,
+                  "w": 205.29667946777346,
+                  "x": 110.40190363769533,
+                  "y": 222.27202368521344,
+                  "confidence": 0.8,
+                  "end_index": 23,
+                  "label": "key-value-region",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "1. **掌握**： 最近邻分类\n2. **理解**： 图像数据结构与分类\n3. **了解**： Python 数据运算的编程方法",
+          "ordered": true,
+          "bbox": [
+            {
+              "h": 55.06,
+              "w": 205.3,
+              "x": 110.4,
+              "y": 222.27,
+              "confidence": 0.8,
+              "end_index": 64,
+              "label": "list",
+              "start_index": 0
+            }
+          ],
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "第三单元 爬山问题--梯度下降原理",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 第三单元 爬山问题--梯度下降原理",
+          "value": "第三单元 爬山问题--梯度下降原理",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 182.64,
+              "x": 206.28,
+              "y": 307.44,
+              "confidence": 0.4,
+              "end_index": 16,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（一）教学基本内容",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （一）教学基本内容",
+          "value": "（一）教学基本内容",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 136.08,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "3.1 损失函数",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "3.1 损失函数",
+          "value": "3.1 损失函数",
+          "bbox": [
+            {
+              "h": 12.148446979801815,
+              "w": 69.26148120117188,
+              "x": 110.52828896484377,
+              "y": 348.1813411680641,
+              "confidence": 0.96,
+              "end_index": 7,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "3.2 随机梯度下降",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "3.2 随机梯度下降",
+          "value": "3.2 随机梯度下降",
+          "bbox": [
+            {
+              "h": 12.14584004382623,
+              "w": 92.79565920410155,
+              "x": 110.50662062988283,
+              "y": 369.1867528582317,
+              "confidence": 0.96,
+              "end_index": 9,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "3.3 学习率",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "3.3 学习率",
+          "value": "3.3 学习率",
+          "bbox": [
+            {
+              "h": 12.179153677591453,
+              "w": 57.40955778808594,
+              "x": 110.41438176269533,
+              "y": 390.17258746189026,
+              "confidence": 0.97,
+              "end_index": 6,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（二）教学基本要求",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （二）教学基本要求",
+          "value": "（二）教学基本要求",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 201.72,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. **掌握**： 梯度的概念\n2. **理解**： 梯度下降\n3. **了解**： 优化理论",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "**掌握**： 梯度的概念",
+              "value": "掌握： 梯度的概念",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**理解**： 梯度下降",
+              "value": "理解： 梯度下降",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**了解**： 优化理论",
+              "value": "了解： 优化理论",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. **掌握**： 梯度的概念\n2. **理解**： 梯度下降\n3. **了解**： 优化理论",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "第四单元 高级的分类器",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 第四单元 高级的分类器",
+          "value": "第四单元 高级的分类器",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 126.48,
+              "x": 234.36,
+              "y": 519.96,
+              "confidence": 0.4,
+              "end_index": 10,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（一）教学基本内容",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （一）教学基本内容",
+          "value": "（一）教学基本内容",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 136.08,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "4.1 线性和逻辑回归",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "4.1 线性和逻辑回归",
+          "value": "4.1 线性和逻辑回归",
+          "bbox": [
+            {
+              "h": 12.200610766006088,
+              "w": 105.28533178710939,
+              "x": 110.11704257812502,
+              "y": 560.4135781440549,
+              "confidence": 0.94,
+              "end_index": 10,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "4.2 线性分类方法",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "4.2 线性分类方法",
+          "value": "4.2 线性分类方法",
+          "bbox": [
+            {
+              "h": 12.415883517530444,
+              "w": 93.66556530761719,
+              "x": 109.91380334472657,
+              "y": 581.3134841272866,
+              "confidence": 0.96,
+              "end_index": 9,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（二）教学基本要求",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （二）教学基本要求",
+          "value": "（二）教学基本要求",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 201.72,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. **掌握**： 线性分类\n2. **理解**： 线性分类几何意义\n3. **了解**： 支持向量机方法",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "**掌握**： 线性分类",
+              "value": "掌握： 线性分类",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**理解**： 线性分类几何意义",
+              "value": "理解： 线性分类几何意义",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**了解**： 支持向量机方法",
+              "value": "了解： 支持向量机方法",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. **掌握**： 线性分类\n2. **理解**： 线性分类几何意义\n3. **了解**： 支持向量机方法",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "第五单元 感知机原理",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 第五单元 感知机原理",
+          "value": "第五单元 感知机原理",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 114.48,
+              "x": 240.36,
+              "y": 709.32,
+              "confidence": 0.4,
+              "end_index": 9,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（一）教学基本内容",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （一）教学基本内容",
+          "value": "（一）教学基本内容",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 136.08,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "5.1 激活函数",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "5.1 激活函数",
+          "value": "5.1 激活函数",
+          "bbox": [
+            {
+              "h": 11.958366253811008,
+              "w": 69.2424626953125,
+              "x": 110.41556044921877,
+              "y": 750.1586611280488,
+              "confidence": 0.91,
+              "end_index": 7,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "2",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "2",
+              "value": "2",
+              "bbox": [
+                {
+                  "h": 6.935903563262178,
+                  "w": 4.6839850341796945,
+                  "x": 89.7349470703125,
+                  "y": 779.0914392530489,
+                  "confidence": 0.8,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "2",
+          "bbox": [
+            {
+              "h": 6.94,
+              "w": 4.68,
+              "x": 89.73,
+              "y": 779.09,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "5.2 权重",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "5.2 权重",
+          "value": "5.2 权重",
+          "bbox": [
+            {
+              "h": 11.926713288395579,
+              "w": 44.87403164062503,
+              "x": 110.45859580078125,
+              "y": 73.33785913205031,
+              "confidence": 0.87,
+              "end_index": 5,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "5.3 感知机",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "5.3 感知机",
+          "value": "5.3 感知机",
+          "bbox": [
+            {
+              "h": 12.082515312976376,
+              "w": 57.37941708984376,
+              "x": 110.45595483398438,
+              "y": 94.72811347894437,
+              "confidence": 0.95,
+              "end_index": 6,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（二）教学基本要求",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "（二）教学基本要求",
+          "value": "（二）教学基本要求",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 118.44,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. **掌握**：神经元模型\n2. **理解**：激活函数\n3. **了解**：感知机分类器",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "**掌握**：神经元模型",
+              "value": "掌握：神经元模型",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**理解**：激活函数",
+              "value": "理解：激活函数",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**了解**：感知机分类器",
+              "value": "了解：感知机分类器",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. **掌握**：神经元模型\n2. **理解**：激活函数\n3. **了解**：感知机分类器",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "第六单元 后向传播原理",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 第六单元 后向传播原理",
+          "value": "第六单元 后向传播原理",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 126.48,
+              "x": 234.36,
+              "y": 224.16,
+              "confidence": 0.4,
+              "end_index": 10,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（一）教学基本内容",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "（一）教学基本内容",
+          "value": "（一）教学基本内容",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 244.2,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6.1 前向传播",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "6.1 前向传播",
+          "value": "6.1 前向传播",
+          "bbox": [
+            {
+              "h": 12.167723266006119,
+              "w": 68.17015041503906,
+              "x": 110.64301149902346,
+              "y": 264.72514884717987,
+              "confidence": 0.96,
+              "end_index": 7,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6.2 后向传播",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "6.2 后向传播",
+          "value": "6.2 后向传播",
+          "bbox": [
+            {
+              "h": 12.092147189405445,
+              "w": 68.43735776367188,
+              "x": 110.64470419921876,
+              "y": 286.09603290777443,
+              "confidence": 0.97,
+              "end_index": 7,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6.3 全连接网络",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "6.3 全连接网络",
+          "value": "6.3 全连接网络",
+          "bbox": [
+            {
+              "h": 12.138821370045726,
+              "w": 80.50481242675782,
+              "x": 110.57727092285158,
+              "y": 307.1220995522104,
+              "confidence": 0.97,
+              "end_index": 8,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（二）教学基本要求",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "（二）教学基本要求",
+          "value": "（二）教学基本要求",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 118.44,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. **掌握**：随机梯度下降\n2. **理解**：前向与后向传播\n3. **了解**：全连接网络",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "**掌握**：随机梯度下降",
+              "value": "掌握：随机梯度下降",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**理解**：前向与后向传播",
+              "value": "理解：前向与后向传播",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**了解**：全连接网络",
+              "value": "了解：全连接网络",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. **掌握**：随机梯度下降\n2. **理解**：前向与后向传播\n3. **了解**：全连接网络",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "第七单元 卷积神经网络认识",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 第七单元 卷积神经网络认识",
+          "value": "第七单元 卷积神经网络认识",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 150.6,
+              "x": 222.36,
+              "y": 436.68,
+              "confidence": 0.4,
+              "end_index": 12,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（一）教学基本内容",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "（一）教学基本内容",
+          "value": "（一）教学基本内容",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 244.2,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6.1 卷积神经网络基本原理",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "6.1 卷积神经网络基本原理",
+          "value": "6.1 卷积神经网络基本原理",
+          "bbox": [
+            {
+              "h": 12.222318521341512,
+              "w": 140.87523962402344,
+              "x": 110.57624289550783,
+              "y": 476.9893709222561,
+              "confidence": 0.97,
+              "end_index": 13,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6.2 卷积层",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "6.2 卷积层",
+          "value": "6.2 卷积层",
+          "bbox": [
+            {
+              "h": 12.057329554115867,
+              "w": 56.4404736328125,
+              "x": 110.63644453125002,
+              "y": 498.50802313262193,
+              "confidence": 0.97,
+              "end_index": 6,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6.3 池化层",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "6.3 池化层",
+          "value": "6.3 池化层",
+          "bbox": [
+            {
+              "h": 12.065050095274415,
+              "w": 56.44400969238281,
+              "x": 110.61045139160157,
+              "y": 519.6700264481707,
+              "confidence": 0.97,
+              "end_index": 6,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6.4 典型的网络结构",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "6.4 典型的网络结构",
+          "value": "6.4 典型的网络结构",
+          "bbox": [
+            {
+              "h": 12.388811490091452,
+              "w": 104.77126494140626,
+              "x": 110.57977895507814,
+              "y": 540.5355910632621,
+              "confidence": 0.98,
+              "end_index": 10,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（二）教学基本要求",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "（二）教学基本要求",
+          "value": "（二）教学基本要求",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 108.0,
+              "x": 90.0,
+              "y": 118.44,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. **掌握**：卷积概念\n2. **理解**：特征提取\n3. **了解**：卷积神经网络",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "**掌握**：卷积概念",
+              "value": "掌握：卷积概念",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**理解**：特征提取",
+              "value": "理解：特征提取",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**了解**：卷积神经网络",
+              "value": "了解：卷积神经网络",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. **掌握**：卷积概念\n2. **理解**：特征提取\n3. **了解**：卷积神经网络",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "四、 课程学时分配",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 四、 课程学时分配",
+          "value": "四、 课程学时分配",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 126.37,
+              "x": 90.0,
+              "y": 678.12,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "table",
+      "text": "| 教学内容 | 讲授 | 实验 | 上机 | 课内学时小计 | 课外学时 |\n| ---- | -- | -- | -- | ------ | ---- |\n|      |    |    |    |        |      |",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "csv": "\"教学内容\",\"讲授\",\"实验\",\"上机\",\"课内学时小计\",\"课外学时\"",
+          "html": "<table>\n  <thead>\n    <tr>\n        <th>教学内容</th>\n        <th>讲授</th>\n        <th>实验</th>\n        <th>上机</th>\n        <th>课内学时小计</th>\n        <th>课外学时</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>    </td>\n        <td>    </td>\n        <td>    </td>\n        <td>    </td>\n        <td>    </td>\n        <td>    </td>\n    </tr>\n  </tbody>\n</table>",
+          "md": "| 教学内容 | 讲授 | 实验 | 上机 | 课内学时小计 | 课外学时 |\n| ---- | -- | -- | -- | ------ | ---- |\n|      |    |    |    |        |      |",
+          "rows": [
+            [
+              "教学内容",
+              "讲授",
+              "实验",
+              "上机",
+              "课内学时小计",
+              "课外学时"
+            ]
+          ],
+          "bbox": [
+            {
+              "h": 41.0,
+              "w": 417.0,
+              "x": 88.0,
+              "y": 707.0,
+              "confidence": 0.89,
+              "end_index": 118,
+              "label": "table",
+              "start_index": 0
+            }
+          ],
+          "merged_from_pages": null,
+          "merged_into_page": null,
+          "type": "table"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "3",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "3",
+              "value": "3",
+              "bbox": [
+                {
+                  "h": 7.69376993140234,
+                  "w": 4.39187460937502,
+                  "x": 500.50535712890627,
+                  "y": 778.9924258193598,
+                  "confidence": 0.92,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "3",
+          "bbox": [
+            {
+              "h": 7.69,
+              "w": 4.39,
+              "x": 500.51,
+              "y": 778.99,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "table",
+      "text": "| 1. 数据科学介绍及编程语言  | 2  |   | 2  |   |\n| --------------- | -- | - | -- | - |\n| 2. 分类器认识        | 2  |   | 2  |   |\n| 3. 爬山问题--梯度下降原理 | 2  |   | 2  |   |\n| 4. 高级的分类器       | 2  |   | 2  |   |\n| 5. 感知机原理        | 2  |   | 2  |   |\n| 6. 后向传播原理       | 2  |   | 2  |   |\n| 7. 卷积神经网络认识     | 2  |   | 2  |   |\n| 8. 测试           | 2  |   | 2  |   |\n| 合 计             | 16 |   | 16 |   |",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "csv": "\"1. 数据科学介绍及编程语言\",\"2\",,\"2\",\n\"2. 分类器认识\",\"2\",,\"2\",\n\"3. 爬山问题--梯度下降原理\",\"2\",,\"2\",\n\"4. 高级的分类器\",\"2\",,\"2\",\n\"5. 感知机原理\",\"2\",,\"2\",\n\"6. 后向传播原理\",\"2\",,\"2\",\n\"7. 卷积神经网络认识\",\"2\",,\"2\",\n\"8. 测试\",\"2\",,\"2\",\n\"合 计\",\"16\",,\"16\",",
+          "html": "<table>\n    <tr>\n        <td>1. 数据科学介绍及编程语言</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>2. 分类器认识</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>3. 爬山问题--梯度下降原理</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>4. 高级的分类器</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>5. 感知机原理</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>6. 后向传播原理</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>7. 卷积神经网络认识</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>8. 测试</td>\n        <td>2</td>\n        <td>    </td>\n        <td>2</td>\n        <td>    </td>\n    </tr>\n    <tr>\n        <td>合 计</td>\n        <td>16</td>\n        <td>    </td>\n        <td>16</td>\n        <td>    </td>\n    </tr>\n</table>",
+          "md": "| 1. 数据科学介绍及编程语言  | 2  |   | 2  |   |\n| --------------- | -- | - | -- | - |\n| 2. 分类器认识        | 2  |   | 2  |   |\n| 3. 爬山问题--梯度下降原理 | 2  |   | 2  |   |\n| 4. 高级的分类器       | 2  |   | 2  |   |\n| 5. 感知机原理        | 2  |   | 2  |   |\n| 6. 后向传播原理       | 2  |   | 2  |   |\n| 7. 卷积神经网络认识     | 2  |   | 2  |   |\n| 8. 测试           | 2  |   | 2  |   |\n| 合 计             | 16 |   | 16 |   |",
+          "rows": [
+            [
+              "1. 数据科学介绍及编程语言",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "2. 分类器认识",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "3. 爬山问题--梯度下降原理",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "4. 高级的分类器",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "5. 感知机原理",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "6. 后向传播原理",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "7. 卷积神经网络认识",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "8. 测试",
+              "2",
+              "",
+              "2",
+              ""
+            ],
+            [
+              "合 计",
+              "16",
+              "",
+              "16",
+              ""
+            ]
+          ],
+          "bbox": [
+            {
+              "h": 217.9163036704459,
+              "w": 417.8316551513672,
+              "x": 88.39570217285157,
+              "y": 71.36934047017911,
+              "confidence": 1.0,
+              "end_index": 378,
+              "label": "table",
+              "start_index": 0
+            }
+          ],
+          "merged_from_pages": null,
+          "merged_into_page": null,
+          "type": "table"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "五、 教学设计与教学组织",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 五、 教学设计与教学组织",
+          "value": "五、 教学设计与教学组织",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 168.49,
+              "x": 90.0,
+              "y": 302.16,
+              "confidence": 0.4,
+              "end_index": 11,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. 本课程采用课堂讲授、课下辅导的方式，以课堂讲授为主。\n\n2. 使用幻灯片和网页作为主要教学辅助工具。\n\n3. 完成课后思考题，以加强学生理解。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "本课程采用课堂讲授、课下辅导的方式，以课堂讲授为主。",
+              "value": "本课程采用课堂讲授、课下辅导的方式，以课堂讲授为主。",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "使用幻灯片和网页作为主要教学辅助工具。",
+              "value": "使用幻灯片和网页作为主要教学辅助工具。",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "完成课后思考题，以加强学生理解。",
+              "value": "完成课后思考题，以加强学生理解。",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. 本课程采用课堂讲授、课下辅导的方式，以课堂讲授为主。\n\n2. 使用幻灯片和网页作为主要教学辅助工具。\n\n3. 完成课后思考题，以加强学生理解。",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "六、 教材与参考资料",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 六、 教材与参考资料",
+          "value": "六、 教材与参考资料",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 140.4,
+              "x": 90.0,
+              "y": 412.44,
+              "confidence": 0.4,
+              "end_index": 9,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "1. 教材",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 1. 教材",
+          "value": "1. 教材",
+          "bbox": [
+            {
+              "h": 12.036223399390282,
+              "w": 35.27135229492189,
+              "x": 114.18953745117189,
+              "y": 448.1182568597561,
+              "confidence": 0.89,
+              "end_index": 4,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "《大数据与人工智能导论》，姚海鹏，人民邮电出版社，2017年8月，ISBN号：9787115466020",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "《大数据与人工智能导论》，姚海鹏，人民邮电出版社，2017年8月，ISBN号：9787115466020",
+          "value": "《大数据与人工智能导论》，姚海鹏，人民邮电出版社，2017年8月，ISBN号：9787115466020",
+          "bbox": [
+            {
+              "h": 32.196260899390225,
+              "w": 404.7350830810547,
+              "x": 100.65928850097657,
+              "y": 468.05850960365854,
+              "confidence": 0.98,
+              "end_index": 51,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "2. 参考资料",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 2. 参考资料",
+          "value": "2. 参考资料",
+          "bbox": [
+            {
+              "h": 12.412374180640223,
+              "w": 60.162349145507825,
+              "x": 113.2845100341797,
+              "y": 507.84476432926834,
+              "confidence": 0.9,
+              "end_index": 6,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "《Python 3 数据分析与机器学习实战》，龙马高新教育，北京大学出版社，2018年8月，ISBN号：9787301295663",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "《Python 3 数据分析与机器学习实战》，龙马高新教育，北京大学出版社，2018年8月，ISBN号：9787301295663",
+          "value": "《Python 3 数据分析与机器学习实战》，龙马高新教育，北京大学出版社，2018年8月，ISBN号：9787301295663",
+          "bbox": [
+            {
+              "h": 31.986603086890224,
+              "w": 409.4251919677735,
+              "x": 89.30259953613282,
+              "y": 528.2005726943598,
+              "confidence": 0.98,
+              "end_index": 64,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "七、 课程考核方式与成绩评定标准",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 七、 课程考核方式与成绩评定标准",
+          "value": "七、 课程考核方式与成绩评定标准",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 224.76,
+              "x": 90.0,
+              "y": 575.52,
+              "confidence": 0.4,
+              "end_index": 15,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "总评成绩以百分制计算，由平时成绩和期末大作业成绩两部分组成。平时成绩占总评成绩的 20%（以上课提问或测试为主），期末大作业成绩占总评成绩的 80%。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "总评成绩以百分制计算，由平时成绩和期末大作业成绩两部分组成。平时成绩占总评成绩的 20%（以上课提问或测试为主），期末大作业成绩占总评成绩的 80%。",
+          "value": "总评成绩以百分制计算，由平时成绩和期末大作业成绩两部分组成。平时成绩占总评成绩的 20%（以上课提问或测试为主），期末大作业成绩占总评成绩的 80%。",
+          "bbox": [
+            {
+              "h": 52.32671970274391,
+              "w": 415.6650609375001,
+              "x": 89.15155927734376,
+              "y": 607.1599508574695,
+              "confidence": 0.99,
+              "end_index": 74,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "八、 大纲制 (修) 订说明",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 八、 大纲制 (修) 订说明",
+          "value": "八、 大纲制 (修) 订说明",
+          "bbox": [
+            {
+              "h": 14.04,
+              "w": 154.57,
+              "x": 90.0,
+              "y": 679.44,
+              "confidence": 0.4,
+              "end_index": 13,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "无。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "无。",
+          "value": "无。",
+          "bbox": [
+            {
+              "h": 12.0,
+              "w": 24.0,
+              "x": 114.0,
+              "y": 714.0,
+              "confidence": 0.4,
+              "end_index": 1,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "4",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "4",
+              "value": "4",
+              "bbox": [
+                {
+                  "h": 6.682880373475645,
+                  "w": 5.191183593749999,
+                  "x": 89.2168301513672,
+                  "y": 779.2565786204268,
+                  "confidence": 0.92,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "4",
+          "bbox": [
+            {
+              "h": 6.68,
+              "w": 5.19,
+              "x": 89.22,
+              "y": 779.26,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "* **大纲执笔人**: 张 远\n* **大纲审核人**: 王彦平\n* **开课系主任**: 王彦平\n* **开课学院教学副院长**: 宋威\n* **制（修）订日期**: 2020 年 8 月",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "**大纲执笔人**: 张 远",
+              "value": "大纲执笔人: 张 远",
+              "bbox": [
+                {
+                  "h": 12.0,
+                  "w": 12.0,
+                  "x": 438.0,
+                  "y": 75.96,
+                  "confidence": 0.4,
+                  "end_index": 13,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**大纲审核人**: 王彦平",
+              "value": "大纲审核人: 王彦平",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**开课系主任**: 王彦平",
+              "value": "开课系主任: 王彦平",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**开课学院教学副院长**: 宋威",
+              "value": "开课学院教学副院长: 宋威",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "**制（修）订日期**: 2020 年 8 月",
+              "value": "制（修）订日期: 2020 年 8 月",
+              "bbox": [
+                {
+                  "h": 92.8585079839939,
+                  "w": 157.64916298828132,
+                  "x": 341.5982786132813,
+                  "y": 76.37440060975611,
+                  "confidence": 0.83,
+                  "end_index": 22,
+                  "label": "form",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "* **大纲执笔人**: 张 远\n* **大纲审核人**: 王彦平\n* **开课系主任**: 王彦平\n* **开课学院教学副院长**: 宋威\n* **制（修）订日期**: 2020 年 8 月",
+          "ordered": false,
+          "bbox": [
+            {
+              "h": 93.27,
+              "w": 157.65,
+              "x": 341.6,
+              "y": 75.96,
+              "confidence": 0.62,
+              "end_index": 95,
+              "label": "list",
+              "start_index": 0
+            }
+          ],
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "footer",
+      "text": "5",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "5",
+              "value": "5",
+              "bbox": [
+                {
+                  "h": 8.072126581554919,
+                  "w": 4.505666601562477,
+                  "x": 500.42003085937506,
+                  "y": 778.4416103277439,
+                  "confidence": 0.86,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "5",
+          "bbox": [
+            {
+              "h": 8.07,
+              "w": 4.51,
+              "x": 500.42,
+              "y": 778.44,
+              "confidence": null,
+              "end_index": null,
+              "label": null,
+              "start_index": null
+            }
+          ],
+          "type": "footer"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2119 @@
+{
+  "doc_id": "9",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\9.pdf",
+  "parser_name": "llamaparse",
+  "pages": [
+    {
+      "page_no": 1,
+      "page_number": 1,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 2,
+      "page_number": 2,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 3,
+      "page_number": 3,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 4,
+      "page_number": 4,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 5,
+      "page_number": 5,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 6,
+      "page_number": 6,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 7,
+      "page_number": 7,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    },
+    {
+      "page_no": 8,
+      "page_number": 8,
+      "confidence": 1.0,
+      "cost_optimized": false,
+      "original_orientation_angle": 0,
+      "printed_page_number": null,
+      "slide_section_name": null,
+      "speaker_notes": null,
+      "triggered_auto_mode": false
+    }
+  ],
+  "blocks": [
+    {
+      "block_type": "heading",
+      "text": "<font color=\"red\">河南大学</font>",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# <font color=\"red\">河南大学</font>",
+          "value": "<font color=\"red\">河南大学</font>",
+          "bbox": [
+            {
+              "h": 77.56,
+              "w": 168.26,
+              "x": 190.56,
+              "y": 104.89,
+              "confidence": 0.4,
+              "end_index": 28,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "<font color=\"red\">软件学院文件</font>",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# <font color=\"red\">软件学院文件</font>",
+          "value": "<font color=\"red\">软件学院文件</font>",
+          "bbox": [
+            {
+              "h": 77.56,
+              "w": 253.98,
+              "x": 137.04,
+              "y": 214.09,
+              "confidence": 0.4,
+              "end_index": 30,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "院发〔2018〕21 号",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "院发〔2018〕21 号",
+          "value": "院发〔2018〕21 号",
+          "bbox": [
+            {
+              "h": 15.292800474585581,
+              "w": 129.66727288074028,
+              "x": 248.73882893780964,
+              "y": 365.7881691686119,
+              "confidence": 0.95,
+              "end_index": 11,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "河南大学软件学院",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 河南大学软件学院",
+          "value": "河南大学软件学院",
+          "bbox": [
+            {
+              "h": 21.95,
+              "w": 266.99,
+              "x": 164.16,
+              "y": 438.9,
+              "confidence": 0.4,
+              "end_index": 7,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "关于印发《软件学院本科专业课程体系合理性评价办法》的通知",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 关于印发《软件学院本科专业课程体系合理性评价办法》的通知",
+          "value": "关于印发《软件学院本科专业课程体系合理性评价办法》的通知",
+          "bbox": [
+            {
+              "h": 61.91,
+              "w": 395.98,
+              "x": 99.6,
+              "y": 478.86,
+              "confidence": 0.4,
+              "end_index": 27,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "全院各单位：",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "全院各单位：",
+          "value": "全院各单位：",
+          "bbox": [
+            {
+              "h": 15.95,
+              "w": 95.99,
+              "x": 90.0,
+              "y": 586.86,
+              "confidence": 0.4,
+              "end_index": 5,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "《河南大学软件学院本科专业课程体系合理性评价办法》已经学院研究通过，现予印发，请认真贯彻执行。",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "《河南大学软件学院本科专业课程体系合理性评价办法》已经学院研究通过，现予印发，请认真贯彻执行。",
+          "value": "《河南大学软件学院本科专业课程体系合理性评价办法》已经学院研究通过，现予印发，请认真贯彻执行。",
+          "bbox": [
+            {
+              "h": 45.95,
+              "w": 415.3,
+              "x": 90.0,
+              "y": 616.86,
+              "confidence": 0.4,
+              "end_index": 46,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "二〇一八年九月一日",
+      "page_no": 1,
+      "metadata": {
+        "metadata": {
+          "md": "二〇一八年九月一日",
+          "value": "二〇一八年九月一日",
+          "bbox": [
+            {
+              "h": 15.95,
+              "w": 143.99,
+              "x": 297.96,
+              "y": 706.86,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "软件学院本科专业课程体系合理性评价办法",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# 软件学院本科专业课程体系合理性评价办法",
+          "value": "软件学院本科专业课程体系合理性评价办法",
+          "bbox": [
+            {
+              "h": 20.05,
+              "w": 380.05,
+              "x": 107.64,
+              "y": 74.68,
+              "confidence": 0.4,
+              "end_index": 18,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "为建立面向产出的课程体系合理性评价机制，确保课程体系能够覆盖全部毕业要求，每门课程能够实现其在课程体系中的作用，课程设置有效支持毕业要求的达成，特制订本办法。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "为建立面向产出的课程体系合理性评价机制，确保课程体系能够覆盖全部毕业要求，每门课程能够实现其在课程体系中的作用，课程设置有效支持毕业要求的达成，特制订本办法。",
+          "value": "为建立面向产出的课程体系合理性评价机制，确保课程体系能够覆盖全部毕业要求，每门课程能够实现其在课程体系中的作用，课程设置有效支持毕业要求的达成，特制订本办法。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 123.17,
+              "confidence": 0.4,
+              "end_index": 78,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "一、评价目的",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 一、评价目的",
+          "value": "一、评价目的",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 90.0,
+              "x": 120.0,
+              "y": 216.77,
+              "confidence": 0.4,
+              "end_index": 5,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "保证课程设置和教学能够有效支持毕业要求达成。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "保证课程设置和教学能够有效支持毕业要求达成。",
+          "value": "保证课程设置和教学能够有效支持毕业要求达成。",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 330.0,
+              "x": 120.0,
+              "y": 247.97,
+              "confidence": 0.4,
+              "end_index": 21,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "二、评价对象和周期",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 二、评价对象和周期",
+          "value": "二、评价对象和周期",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 135.0,
+              "x": 120.0,
+              "y": 279.17,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（一）评价对象",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （一）评价对象",
+          "value": "（一）评价对象",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 105.0,
+              "x": 120.0,
+              "y": 310.37,
+              "confidence": 0.4,
+              "end_index": 6,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "专业培养方案（课程体系）、教学大纲。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "专业培养方案（课程体系）、教学大纲。",
+          "value": "专业培养方案（课程体系）、教学大纲。",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 270.0,
+              "x": 120.0,
+              "y": 341.57,
+              "confidence": 0.4,
+              "end_index": 17,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（二）评价周期",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （二）评价周期",
+          "value": "（二）评价周期",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 105.0,
+              "x": 120.0,
+              "y": 372.77,
+              "confidence": 0.4,
+              "end_index": 6,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "课程体系合理性评价周期与专业培养方案修订周期相同，每 4 年进行一次系统性评价、2 年进行一次微调。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "课程体系合理性评价周期与专业培养方案修订周期相同，每 4 年进行一次系统性评价、2 年进行一次微调。",
+          "value": "课程体系合理性评价周期与专业培养方案修订周期相同，每 4 年进行一次系统性评价、2 年进行一次微调。",
+          "bbox": [
+            {
+              "h": 46.34756355397291,
+              "w": 404.7068724037729,
+              "x": 90.67407007431403,
+              "y": 405.65707419493145,
+              "confidence": 0.98,
+              "end_index": 49,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "三、评价机构",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 三、评价机构",
+          "value": "三、评价机构",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 90.0,
+              "x": 120.0,
+              "y": 466.37,
+              "confidence": 0.4,
+              "end_index": 5,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "本科专业课程体系合理性评价以学院为主体，由学院教授委员会指导并审定，相关成员包括：评价小组、专业负责人、课程负责人、学院教务处，企业行业专家代表、学生代表等。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "本科专业课程体系合理性评价以学院为主体，由学院教授委员会指导并审定，相关成员包括：评价小组、专业负责人、课程负责人、学院教务处，企业行业专家代表、学生代表等。",
+          "value": "本科专业课程体系合理性评价以学院为主体，由学院教授委员会指导并审定，相关成员包括：评价小组、专业负责人、课程负责人、学院教务处，企业行业专家代表、学生代表等。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 497.57,
+              "confidence": 0.4,
+              "end_index": 78,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "四、评价依据",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 四、评价依据",
+          "value": "四、评价依据",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 90.0,
+              "x": 120.0,
+              "y": 591.17,
+              "confidence": 0.4,
+              "end_index": 5,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "以专业毕业要求指标点、计算机类专业教学质量国家标准、工程认证通用标准和专业补充标准为依据。结合学院的专业定位、培养目标、毕业要求和近 3 年的毕业达成评价结果。",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "md": "以专业毕业要求指标点、计算机类专业教学质量国家标准、工程认证通用标准和专业补充标准为依据。结合学院的专业定位、培养目标、毕业要求和近 3 年的毕业达成评价结果。",
+          "value": "以专业毕业要求指标点、计算机类专业教学质量国家标准、工程认证通用标准和专业补充标准为依据。结合学院的专业定位、培养目标、毕业要求和近 3 年的毕业达成评价结果。",
+          "bbox": [
+            {
+              "h": 77.39638596846424,
+              "w": 414.01228101479137,
+              "x": 89.91167161597276,
+              "y": 624.1733281190453,
+              "confidence": 0.96,
+              "end_index": 79,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "五、数据来源",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 五、数据来源",
+          "value": "五、数据来源",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 90.0,
+              "x": 120.0,
+              "y": 715.97,
+              "confidence": 0.4,
+              "end_index": 5,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. 近 3 年毕业要求达成情况评价结果分析报告；",
+      "page_no": 2,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "近 3 年毕业要求达成情况评价结果分析报告；",
+              "value": "近 3 年毕业要求达成情况评价结果分析报告；",
+              "bbox": [
+                {
+                  "h": 15.143531869283509,
+                  "w": 303.8638531747213,
+                  "x": 120.62206165592846,
+                  "y": 748.8198075159585,
+                  "confidence": 0.69,
+                  "end_index": 21,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "md": "1. 近 3 年毕业要求达成情况评价结果分析报告；",
+          "ordered": true,
+          "bbox": [
+            {
+              "h": 15.14,
+              "w": 303.86,
+              "x": 120.62,
+              "y": 748.82,
+              "confidence": 0.69,
+              "end_index": 24,
+              "label": "list",
+              "start_index": 0
+            }
+          ],
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "2. 近 3 年所有课程目标达成情况分析报告；\n3. 专业老师问卷调查；\n4. 在校生问卷调查；\n5. 行业企业专家及用人单位反馈意见（包括第三方评价报告）；\n6. 毕业生跟踪调查。",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "近 3 年所有课程目标达成情况分析报告；",
+              "value": "近 3 年所有课程目标达成情况分析报告；",
+              "bbox": [
+                {
+                  "h": 15.154065896383148,
+                  "w": 275.3480593991164,
+                  "x": 119.46221990966798,
+                  "y": 79.62280680140054,
+                  "confidence": 0.79,
+                  "end_index": 19,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "专业老师问卷调查；",
+              "value": "专业老师问卷调查；",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "在校生问卷调查；",
+              "value": "在校生问卷调查；",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "行业企业专家及用人单位反馈意见（包括第三方评价报告）；",
+              "value": "行业企业专家及用人单位反馈意见（包括第三方评价报告）；",
+              "bbox": [
+                {
+                  "h": 15.0,
+                  "w": 45.0,
+                  "x": 90.0,
+                  "y": 202.85,
+                  "confidence": 0.4,
+                  "end_index": 26,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "毕业生跟踪调查。",
+              "value": "毕业生跟踪调查。",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "2. 近 3 年所有课程目标达成情况分析报告；\n3. 专业老师问卷调查；\n4. 在校生问卷调查；\n5. 行业企业专家及用人单位反馈意见（包括第三方评价报告）；\n6. 毕业生跟踪调查。",
+          "ordered": true,
+          "bbox": [
+            {
+              "h": 138.23,
+              "w": 304.81,
+              "x": 90.0,
+              "y": 79.62,
+              "confidence": 0.6,
+              "end_index": 90,
+              "label": "list",
+              "start_index": 0
+            }
+          ],
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "六、评价内容、方法、流程",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 1,
+          "md": "# 六、评价内容、方法、流程",
+          "value": "六、评价内容、方法、流程",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 180.0,
+              "x": 120.0,
+              "y": 265.25,
+              "confidence": 0.4,
+              "end_index": 11,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（一）评价内容",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## （一）评价内容",
+          "value": "（一）评价内容",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 105.0,
+              "x": 120.0,
+              "y": 296.45,
+              "confidence": 0.4,
+              "end_index": 6,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "课程体系合理性评价主要针对培养方案中的课程设置以及所设置课程的教学大纲，评价内容包括评价课程体系能否合理支撑所有的毕业要求，课程教学能否落实相关毕业要求的支撑任务，课程考核能否证明相关毕业要求的达成情况。",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "课程体系合理性评价主要针对培养方案中的课程设置以及所设置课程的教学大纲，评价内容包括评价课程体系能否合理支撑所有的毕业要求，课程教学能否落实相关毕业要求的支撑任务，课程考核能否证明相关毕业要求的达成情况。",
+          "value": "课程体系合理性评价主要针对培养方案中的课程设置以及所设置课程的教学大纲，评价内容包括评价课程体系能否合理支撑所有的毕业要求，课程教学能否落实相关毕业要求的支撑任务，课程考核能否证明相关毕业要求的达成情况。",
+          "bbox": [
+            {
+              "h": 108.6,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 327.65,
+              "confidence": 0.4,
+              "end_index": 101,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（二）评价方法",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## （二）评价方法",
+          "value": "（二）评价方法",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 105.0,
+              "x": 120.0,
+              "y": 452.45,
+              "confidence": 0.4,
+              "end_index": 6,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "课程体系的合理性评价有以下两种方式：一种是培养方案修订过程中，为检验修订质量而进行的审核式评价；另一种是基于毕业要求达成情况开展的诊断式评价。",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "课程体系的合理性评价有以下两种方式：一种是培养方案修订过程中，为检验修订质量而进行的审核式评价；另一种是基于毕业要求达成情况开展的诊断式评价。",
+          "value": "课程体系的合理性评价有以下两种方式：一种是培养方案修订过程中，为检验修订质量而进行的审核式评价；另一种是基于毕业要求达成情况开展的诊断式评价。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 483.65,
+              "confidence": 0.4,
+              "end_index": 70,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "1. 课程体系合理性审核式评价",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 1. 课程体系合理性审核式评价",
+          "value": "1. 课程体系合理性审核式评价",
+          "bbox": [
+            {
+              "h": 15.04582422470467,
+              "w": 193.06460840588082,
+              "x": 120.60368185350373,
+              "y": 578.9836176995998,
+              "confidence": 0.88,
+              "end_index": 14,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（1）课程设置的评价",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "level": 4,
+          "md": "#### （1）课程设置的评价",
+          "value": "（1）课程设置的评价",
+          "bbox": [
+            {
+              "h": 15.326013052591493,
+              "w": 134.76578044612233,
+              "x": 127.29760766899297,
+              "y": 609.9276638302688,
+              "confidence": 0.89,
+              "end_index": 9,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "1）课程体系设计的系统性\n课程体系设计符合学生的认知规律和教学规律，各类课程的学分比例恰当，必修课先行后续关系合理，具有系统性。\n2）课程设置与《工程教育认证标准》或《普通高等学校本",
+      "page_no": 3,
+      "metadata": {
+        "metadata": {
+          "md": "1）课程体系设计的系统性\n课程体系设计符合学生的认知规律和教学规律，各类课程的学分比例恰当，必修课先行后续关系合理，具有系统性。\n2）课程设置与《工程教育认证标准》或《普通高等学校本",
+          "value": "1）课程体系设计的系统性\n课程体系设计符合学生的认知规律和教学规律，各类课程的学分比例恰当，必修课先行后续关系合理，具有系统性。\n2）课程设置与《工程教育认证标准》或《普通高等学校本",
+          "bbox": [
+            {
+              "h": 14.947164068454551,
+              "w": 193.14958619057262,
+              "x": 120.50300059248764,
+              "y": 579.0266311213796,
+              "confidence": 0.68,
+              "end_index": 90,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "科专业类教学质量国家标准》要求的符合度。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "科专业类教学质量国家标准》要求的符合度。",
+          "value": "科专业类教学质量国家标准》要求的符合度。",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 300.0,
+              "x": 90.0,
+              "y": 78.05,
+              "confidence": 0.4,
+              "end_index": 19,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "课程需包含工程教育专业认证标准或教学质量国家标准要求的数学与自然科学类课程、工程基础类课程、专业基础类课程与专业类课程、工程实践与毕业设计（论文）、人文社会科学类通识教育课程，且各类课程所占学分比例符合标准要求。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "课程需包含工程教育专业认证标准或教学质量国家标准要求的数学与自然科学类课程、工程基础类课程、专业基础类课程与专业类课程、工程实践与毕业设计（论文）、人文社会科学类通识教育课程，且各类课程所占学分比例符合标准要求。",
+          "value": "课程需包含工程教育专业认证标准或教学质量国家标准要求的数学与自然科学类课程、工程基础类课程、专业基础类课程与专业类课程、工程实践与毕业设计（论文）、人文社会科学类通识教育课程，且各类课程所占学分比例符合标准要求。",
+          "bbox": [
+            {
+              "h": 108.6,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 109.25,
+              "confidence": 0.4,
+              "end_index": 105,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "3）课程体系对毕业要求支撑关系的合理性",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "3）课程体系对毕业要求支撑关系的合理性",
+          "value": "3）课程体系对毕业要求支撑关系的合理性",
+          "bbox": [
+            {
+              "h": 15.155964653201226,
+              "w": 276.82173139767536,
+              "x": 119.5555279808975,
+              "y": 235.66316849871382,
+              "confidence": 0.97,
+              "end_index": 18,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "① 课程支撑矩阵布局合理。每项毕业要求都有合适的课程支撑，没有明显的薄弱环节。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "① 课程支撑矩阵布局合理。每项毕业要求都有合适的课程支撑，没有明显的薄弱环节。",
+          "value": "① 课程支撑矩阵布局合理。每项毕业要求都有合适的课程支撑，没有明显的薄弱环节。",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 415.19,
+              "x": 90.0,
+              "y": 265.25,
+              "confidence": 0.4,
+              "end_index": 38,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "② 重点支撑课程明确。每项毕业要求都应有重点支撑的课程（H），该课程应当对该毕业要求项下的指标点形成系统支持（技术类）或高度关联（非技术类），可用于毕业要求评价。重点支撑课程应体现专业核心课程与重要实践性环节的作用。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "② 重点支撑课程明确。每项毕业要求都应有重点支撑的课程（H），该课程应当对该毕业要求项下的指标点形成系统支持（技术类）或高度关联（非技术类），可用于毕业要求评价。重点支撑课程应体现专业核心课程与重要实践性环节的作用。",
+          "value": "② 重点支撑课程明确。每项毕业要求都应有重点支撑的课程（H），该课程应当对该毕业要求项下的指标点形成系统支持（技术类）或高度关联（非技术类），可用于毕业要求评价。重点支撑课程应体现专业核心课程与重要实践性环节的作用。",
+          "bbox": [
+            {
+              "h": 108.78450306664443,
+              "w": 414.3389700391817,
+              "x": 89.90497193871475,
+              "y": 329.2371129537443,
+              "confidence": 0.98,
+              "end_index": 107,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "③ 课程的支撑任务明确。有详细的课程支撑任务矩阵，将每门课程的支撑任务细化到指标点，任务分配与课程内容合理匹配。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "③ 课程的支撑任务明确。有详细的课程支撑任务矩阵，将每门课程的支撑任务细化到指标点，任务分配与课程内容合理匹配。",
+          "value": "③ 课程的支撑任务明确。有详细的课程支撑任务矩阵，将每门课程的支撑任务细化到指标点，任务分配与课程内容合理匹配。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 452.45,
+              "confidence": 0.4,
+              "end_index": 55,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "4）企业行业专家在课程体系设计中的参与度",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "4）企业行业专家在课程体系设计中的参与度",
+          "value": "4）企业行业专家在课程体系设计中的参与度",
+          "bbox": [
+            {
+              "h": 139.75602163919584,
+              "w": 414.48873795672165,
+              "x": 89.92539000273915,
+              "y": 547.2070763683786,
+              "confidence": 0.54,
+              "end_index": 19,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "课程体系设计与修订中企业行业专家有实质性参与，参与人数所占比例≥20%；专家有明确的参与形式和任务分工，有详实的参与过程和专家意见记录；有专家意见汇总分析及采用结果报告。",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "课程体系设计与修订中企业行业专家有实质性参与，参与人数所占比例≥20%；专家有明确的参与形式和任务分工，有详实的参与过程和专家意见记录；有专家意见汇总分析及采用结果报告。",
+          "value": "课程体系设计与修订中企业行业专家有实质性参与，参与人数所占比例≥20%；专家有明确的参与形式和任务分工，有详实的参与过程和专家意见记录；有专家意见汇总分析及采用结果报告。",
+          "bbox": [
+            {
+              "h": 139.75602163919584,
+              "w": 414.48873795672165,
+              "x": 89.92539000273915,
+              "y": 547.2070763683786,
+              "confidence": 0.66,
+              "end_index": 84,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "5）合理性评价改进措施",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "5）合理性评价改进措施",
+          "value": "5）合理性评价改进措施",
+          "bbox": [
+            {
+              "h": 46.39358490734571,
+              "w": 384.66259010873193,
+              "x": 119.41261925674068,
+              "y": 703.7418417551925,
+              "confidence": 0.77,
+              "end_index": 10,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "将近4年本专业学生毕业要求达成情况作为课程体系设计",
+      "page_no": 4,
+      "metadata": {
+        "metadata": {
+          "md": "将近4年本专业学生毕业要求达成情况作为课程体系设计",
+          "value": "将近4年本专业学生毕业要求达成情况作为课程体系设计",
+          "bbox": [
+            {
+              "h": 15.374791676591077,
+              "w": 384.1501002465226,
+              "x": 120.19366337771532,
+              "y": 734.6069798137387,
+              "confidence": 0.91,
+              "end_index": 24,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "与修订的依据，针对影响毕业达成的每个问题有合理有效的改进措施。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "与修订的依据，针对影响毕业达成的每个问题有合理有效的改进措施。",
+          "value": "与修订的依据，针对影响毕业达成的每个问题有合理有效的改进措施。",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 45.0,
+              "x": 90.0,
+              "y": 109.25,
+              "confidence": 0.4,
+              "end_index": 30,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（2）课程教学大纲的评价",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## （2）课程教学大纲的评价",
+          "value": "（2）课程教学大纲的评价",
+          "bbox": [
+            {
+              "h": 15.20750054782777,
+              "w": 165.08957429467182,
+              "x": 127.34469151194504,
+              "y": 141.93749896091367,
+              "confidence": 0.78,
+              "end_index": 11,
+              "label": "paragraph_title",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "1）课程目标设计的合理性",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 1）课程目标设计的合理性",
+          "value": "1）课程目标设计的合理性",
+          "bbox": [
+            {
+              "h": 14.85663786055402,
+              "w": 170.8264388070456,
+              "x": 120.53883854861377,
+              "y": 173.2986574721918,
+              "confidence": 0.78,
+              "end_index": 11,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "① 教学大纲中有明确的课程目标，课程目标的表述能够体现学生通过课程学习所获得的知识、能力或素质，体现课程对学生解决问题的能力培养的要求。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "① 教学大纲中有明确的课程目标，课程目标的表述能够体现学生通过课程学习所获得的知识、能力或素质，体现课程对学生解决问题的能力培养的要求。",
+          "value": "① 教学大纲中有明确的课程目标，课程目标的表述能够体现学生通过课程学习所获得的知识、能力或素质，体现课程对学生解决问题的能力培养的要求。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 202.85,
+              "confidence": 0.4,
+              "end_index": 67,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "② 课程目标与该课程所支撑的毕业要求指标点有清晰合理的对应关系。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "② 课程目标与该课程所支撑的毕业要求指标点有清晰合理的对应关系。",
+          "value": "② 课程目标与该课程所支撑的毕业要求指标点有清晰合理的对应关系。",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 415.19,
+              "x": 90.0,
+              "y": 296.45,
+              "confidence": 0.4,
+              "end_index": 31,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "2）课程教学对课程目标的支撑性",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 2）课程教学对课程目标的支撑性",
+          "value": "2）课程教学对课程目标的支撑性",
+          "bbox": [
+            {
+              "h": 14.967191879644636,
+              "w": 216.91417445336322,
+              "x": 119.53688231826412,
+              "y": 360.6296667510242,
+              "confidence": 0.77,
+              "end_index": 14,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "① 课程教学内容与课程目标合理衔接，教学内容的深度与广度与课程目标要求相匹配。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "① 课程教学内容与课程目标合理衔接，教学内容的深度与广度与课程目标要求相匹配。",
+          "value": "① 课程教学内容与课程目标合理衔接，教学内容的深度与广度与课程目标要求相匹配。",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 415.19,
+              "x": 90.0,
+              "y": 390.05,
+              "confidence": 0.4,
+              "end_index": 38,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "② 课程的教学组织和教学方式符合课程特点，有助于课程目标的实现。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "② 课程的教学组织和教学方式符合课程特点，有助于课程目标的实现。",
+          "value": "② 课程的教学组织和教学方式符合课程特点，有助于课程目标的实现。",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 415.19,
+              "x": 90.0,
+              "y": 452.45,
+              "confidence": 0.4,
+              "end_index": 31,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "3）课程考核对课程目标达成的检验性",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### 3）课程考核对课程目标达成的检验性",
+          "value": "3）课程考核对课程目标达成的检验性",
+          "bbox": [
+            {
+              "h": 14.862992116044202,
+              "w": 246.97302974198507,
+              "x": 119.44001172023867,
+              "y": 516.654512534537,
+              "confidence": 0.97,
+              "end_index": 16,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "①课程考核的内容围绕课程目标设计，能体现学生相关知识、能力或素质的达成情况。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "①课程考核的内容围绕课程目标设计，能体现学生相关知识、能力或素质的达成情况。",
+          "value": "①课程考核的内容围绕课程目标设计，能体现学生相关知识、能力或素质的达成情况。",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 415.19,
+              "x": 90.0,
+              "y": 546.05,
+              "confidence": 0.4,
+              "end_index": 37,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "②课程考核方式符合考核内容，有助于验证课程目标的达成情况。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "②课程考核方式符合考核内容，有助于验证课程目标的达成情况。",
+          "value": "②课程考核方式符合考核内容，有助于验证课程目标的达成情况。",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 415.19,
+              "x": 90.0,
+              "y": 608.45,
+              "confidence": 0.4,
+              "end_index": 28,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "③课程考核的评分标准明确。各种考核方式都有针对课程目标的评分标准，及格标准体现课程目标达成的“底线”，评分结果能够客观反映课程目标的达成情况。",
+      "page_no": 5,
+      "metadata": {
+        "metadata": {
+          "md": "③课程考核的评分标准明确。各种考核方式都有针对课程目标的评分标准，及格标准体现课程目标达成的“底线”，评分结果能够客观反映课程目标的达成情况。",
+          "value": "③课程考核的评分标准明确。各种考核方式都有针对课程目标的评分标准，及格标准体现课程目标达成的“底线”，评分结果能够客观反映课程目标的达成情况。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.2,
+              "x": 90.0,
+              "y": 670.85,
+              "confidence": 0.4,
+              "end_index": 70,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "4）课程大纲修订合理性评价",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "4）课程大纲修订合理性评价",
+          "value": "4）课程大纲修订合理性评价",
+          "bbox": [
+            {
+              "h": 14.737968692686499,
+              "w": 187.0483957102706,
+              "x": 119.36620006431022,
+              "y": 79.84681624026415,
+              "confidence": 0.89,
+              "end_index": 12,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "①以专业培养方案中的课程任务分配为修订的依据，同时参考近 4 年学生成绩分析与课程目标达成情况。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "①以专业培养方案中的课程任务分配为修订的依据，同时参考近 4 年学生成绩分析与课程目标达成情况。",
+          "value": "①以专业培养方案中的课程任务分配为修订的依据，同时参考近 4 年学生成绩分析与课程目标达成情况。",
+          "bbox": [
+            {
+              "h": 46.59540458418685,
+              "w": 414.4515795615592,
+              "x": 89.9144808721775,
+              "y": 110.78541676144485,
+              "confidence": 0.98,
+              "end_index": 47,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "②修订内容对促进课程目标达成关系有合理的描述。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "②修订内容对促进课程目标达成关系有合理的描述。",
+          "value": "②修订内容对促进课程目标达成关系有合理的描述。",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 345.0,
+              "x": 120.0,
+              "y": 171.65,
+              "confidence": 0.4,
+              "end_index": 22,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "③课程大纲的修订有不少于 2 名同行专家和 2 名企业专家的反馈意见，有不少于 50%上课学生的反馈意见，有专家反馈意见表、学生反馈意见表，以及各方意见汇总分析及采用结果的报告。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "③课程大纲的修订有不少于 2 名同行专家和 2 名企业专家的反馈意见，有不少于 50%上课学生的反馈意见，有专家反馈意见表、学生反馈意见表，以及各方意见汇总分析及采用结果的报告。",
+          "value": "③课程大纲的修订有不少于 2 名同行专家和 2 名企业专家的反馈意见，有不少于 50%上课学生的反馈意见，有专家反馈意见表、学生反馈意见表，以及各方意见汇总分析及采用结果的报告。",
+          "bbox": [
+            {
+              "h": 108.2965288309237,
+              "w": 414.3642001729826,
+              "x": 90.22532462813216,
+              "y": 204.49837778826458,
+              "confidence": 0.98,
+              "end_index": 88,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "2. 课程体系合理性诊断式评价",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "课程体系合理性诊断式评价",
+              "value": "课程体系合理性诊断式评价",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "2. 课程体系合理性诊断式评价",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "本评价主要依据专业毕业要求达成情况对现行专业培养方案中课程体系进行评价，以分析查找课程设置和课程教学中影响毕业要求达成的主要因素，为课程体系修订提供依据。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "本评价主要依据专业毕业要求达成情况对现行专业培养方案中课程体系进行评价，以分析查找课程设置和课程教学中影响毕业要求达成的主要因素，为课程体系修订提供依据。",
+          "value": "本评价主要依据专业毕业要求达成情况对现行专业培养方案中课程体系进行评价，以分析查找课程设置和课程教学中影响毕业要求达成的主要因素，为课程体系修订提供依据。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 358.85,
+              "confidence": 0.4,
+              "end_index": 76,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（1）指标点分解的合理性评价。选取达成度低的毕业要求项，对该毕业要求所对应的指标点分解的合理性和分解依据的准确性进行分析评价，对现行专业培养中毕业要求达成度低的项进行诊断性评价。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "（1）指标点分解的合理性评价。选取达成度低的毕业要求项，对该毕业要求所对应的指标点分解的合理性和分解依据的准确性进行分析评价，对现行专业培养中毕业要求达成度低的项进行诊断性评价。",
+          "value": "（1）指标点分解的合理性评价。选取达成度低的毕业要求项，对该毕业要求所对应的指标点分解的合理性和分解依据的准确性进行分析评价，对现行专业培养中毕业要求达成度低的项进行诊断性评价。",
+          "bbox": [
+            {
+              "h": 108.44515825076225,
+              "w": 414.94331460347996,
+              "x": 89.73426309874,
+              "y": 454.0751474609375,
+              "confidence": 0.99,
+              "end_index": 88,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（2）核心课程对毕业要求达成的支持性评价。针对达成度最低的指标点，对支持该指标点的核心课程支撑度进行评价。",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "（2）核心课程对毕业要求达成的支持性评价。针对达成度最低的指标点，对支持该指标点的核心课程支撑度进行评价。",
+          "value": "（2）核心课程对毕业要求达成的支持性评价。针对达成度最低的指标点，对支持该指标点的核心课程支撑度进行评价。",
+          "bbox": [
+            {
+              "h": 46.629507008622326,
+              "w": 413.33890141631343,
+              "x": 90.55382150194123,
+              "y": 578.8886171934547,
+              "confidence": 0.77,
+              "end_index": 52,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "（3）课程教学大纲对毕业要求达成的影响性评价。针对影响毕业达成的核心课程，对课程教学大纲的以下内容进行评价：",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "（3）课程教学大纲对毕业要求达成的影响性评价。针对影响毕业达成的核心课程，对课程教学大纲的以下内容进行评价：",
+          "value": "（3）课程教学大纲对毕业要求达成的影响性评价。针对影响毕业达成的核心课程，对课程教学大纲的以下内容进行评价：",
+          "bbox": [
+            {
+              "h": 46.88698595298212,
+              "w": 414.3254466165683,
+              "x": 90.27630775414444,
+              "y": 641.0463203899105,
+              "confidence": 0.77,
+              "end_index": 53,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "1）课程教学大纲中课程目标的明确性，课程目标对该课程所支撑的毕业要求指标点的对应程度；",
+      "page_no": 6,
+      "metadata": {
+        "metadata": {
+          "md": "1）课程教学大纲中课程目标的明确性，课程目标对该课程所支撑的毕业要求指标点的对应程度；",
+          "value": "1）课程教学大纲中课程目标的明确性，课程目标对该课程所支撑的毕业要求指标点的对应程度；",
+          "bbox": [
+            {
+              "h": 46.43995718607094,
+              "w": 414.3692337929331,
+              "x": 89.95187854152773,
+              "y": 703.8375441120427,
+              "confidence": 0.99,
+              "end_index": 42,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "2）课程教学内容与课程目标对接的紧密性，其深度与广度与课程目标要求匹配性；",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "2）课程教学内容与课程目标对接的紧密性，其深度与广度与课程目标要求匹配性；",
+          "value": "2）课程教学内容与课程目标对接的紧密性，其深度与广度与课程目标要求匹配性；",
+          "bbox": [
+            {
+              "h": 46.35690694148367,
+              "w": 413.232761159013,
+              "x": 90.58147982564788,
+              "y": 79.7565030941847,
+              "confidence": 0.99,
+              "end_index": 36,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "3）教学组织和教学方式与课程特点的符合性，对课程目标的实现保障性；",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "3）教学组织和教学方式与课程特点的符合性，对课程目标的实现保障性；",
+          "value": "3）教学组织和教学方式与课程特点的符合性，对课程目标的实现保障性；",
+          "bbox": [
+            {
+              "h": 46.40348601550591,
+              "w": 413.72728773312457,
+              "x": 90.53760402921353,
+              "y": 142.20053004567217,
+              "confidence": 0.98,
+              "end_index": 32,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "4）考核内容对课程目标的覆盖度、考核方式与考核内容特点的符合性、评分标准的准确性、考核结果的有效性等。",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "4）考核内容对课程目标的覆盖度、考核方式与考核内容特点的符合性、评分标准的准确性、考核结果的有效性等。",
+          "value": "4）考核内容对课程目标的覆盖度、考核方式与考核内容特点的符合性、评分标准的准确性、考核结果的有效性等。",
+          "bbox": [
+            {
+              "h": 46.34842833430595,
+              "w": 413.67533864835417,
+              "x": 90.43088774146105,
+              "y": 204.59212498957936,
+              "confidence": 0.98,
+              "end_index": 50,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "（三）评价流程",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "level": 3,
+          "md": "### （三）评价流程",
+          "value": "（三）评价流程",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 105.0,
+              "x": 120.0,
+              "y": 265.25,
+              "confidence": 0.4,
+              "end_index": 6,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "1）专业负责人组织认证小组依照认证通用标准和专业补充标准课程设置、课程结构及所占比例进行初步合理性分析；",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "1）专业负责人组织认证小组依照认证通用标准和专业补充标准课程设置、课程结构及所占比例进行初步合理性分析；",
+          "value": "1）专业负责人组织认证小组依照认证通用标准和专业补充标准课程设置、课程结构及所占比例进行初步合理性分析；",
+          "bbox": [
+            {
+              "h": 46.59494086139957,
+              "w": 414.2181897463915,
+              "x": 90.20604090099802,
+              "y": 297.8985013963653,
+              "confidence": 0.98,
+              "end_index": 51,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "2）根据认证标准要求、毕业要求，在对毕业要求评价结果、专业教师问卷调查结果、在校生问卷调查结果、用人单位调研反馈结果、毕业生跟踪调查结果等的基础上，专业负责人组织课程负责人对课程体系支撑专业毕业要求的任务矩阵进行论证与修订；",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "2）根据认证标准要求、毕业要求，在对毕业要求评价结果、专业教师问卷调查结果、在校生问卷调查结果、用人单位调研反馈结果、毕业生跟踪调查结果等的基础上，专业负责人组织课程负责人对课程体系支撑专业毕业要求的任务矩阵进行论证与修订；",
+          "value": "2）根据认证标准要求、毕业要求，在对毕业要求评价结果、专业教师问卷调查结果、在校生问卷调查结果、用人单位调研反馈结果、毕业生跟踪调查结果等的基础上，专业负责人组织课程负责人对课程体系支撑专业毕业要求的任务矩阵进行论证与修订；",
+          "bbox": [
+            {
+              "h": 139.79412210604042,
+              "w": 417.0698063443812,
+              "x": 89.89565796940502,
+              "y": 360.30458454411206,
+              "confidence": 0.97,
+              "end_index": 111,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "3）学院人才培养方案制定工作领导小组根据学校指导性意见，依据专业培养目标与毕业要求的调整情况以及课程体系的各项评价材料，拟订本专业课程体系初稿。",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "3）学院人才培养方案制定工作领导小组根据学校指导性意见，依据专业培养目标与毕业要求的调整情况以及课程体系的各项评价材料，拟订本专业课程体系初稿。",
+          "value": "3）学院人才培养方案制定工作领导小组根据学校指导性意见，依据专业培养目标与毕业要求的调整情况以及课程体系的各项评价材料，拟订本专业课程体系初稿。",
+          "bbox": [
+            {
+              "h": 77.48221228325072,
+              "w": 414.65144440441605,
+              "x": 89.73152473859089,
+              "y": 516.3138141494379,
+              "confidence": 0.98,
+              "end_index": 71,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "4）组织校内外专家、企业代表对含课程体系初稿进行讨论，在此基础上形成培养方案修订版。",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "4）组织校内外专家、企业代表对含课程体系初稿进行讨论，在此基础上形成培养方案修订版。",
+          "value": "4）组织校内外专家、企业代表对含课程体系初稿进行讨论，在此基础上形成培养方案修订版。",
+          "bbox": [
+            {
+              "h": 46.6616417444741,
+              "w": 416.90077242372104,
+              "x": 90.40864410400393,
+              "y": 609.7514993033061,
+              "confidence": 0.98,
+              "end_index": 41,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "5）组织专业教学指导委员会、校外同行专家、企业专家对课程体系合理性进行论证，形成合理性评价意见。",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "5）组织专业教学指导委员会、校外同行专家、企业专家对课程体系合理性进行论证，形成合理性评价意见。",
+          "value": "5）组织专业教学指导委员会、校外同行专家、企业专家对课程体系合理性进行论证，形成合理性评价意见。",
+          "bbox": [
+            {
+              "h": 46.42060615948943,
+              "w": 413.35088284971664,
+              "x": 90.7382221426615,
+              "y": 672.3946325266769,
+              "confidence": 0.98,
+              "end_index": 47,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "6）学院本科教学工作委员会对课程体系进行审议，培养方",
+      "page_no": 7,
+      "metadata": {
+        "metadata": {
+          "md": "6）学院本科教学工作委员会对课程体系进行审议，培养方",
+          "value": "6）学院本科教学工作委员会对课程体系进行审议，培养方",
+          "bbox": [
+            {
+              "h": 15.198276224275904,
+              "w": 384.72057422023875,
+              "x": 119.49635636045876,
+              "y": 734.6700461128049,
+              "confidence": 0.94,
+              "end_index": 25,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "案由专业负责人完成修改后签字确认，由学院教学副院长审定签字并加盖公章后报教务处。",
+      "page_no": 8,
+      "metadata": {
+        "metadata": {
+          "md": "案由专业负责人完成修改后签字确认，由学院教学副院长审定签字并加盖公章后报教务处。",
+          "value": "案由专业负责人完成修改后签字确认，由学院教学副院长审定签字并加盖公章后报教务处。",
+          "bbox": [
+            {
+              "h": 46.2,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 78.05,
+              "confidence": 0.4,
+              "end_index": 39,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "heading",
+      "text": "七、评价结果及应用",
+      "page_no": 8,
+      "metadata": {
+        "metadata": {
+          "level": 2,
+          "md": "## 七、评价结果及应用",
+          "value": "七、评价结果及应用",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 135.0,
+              "x": 120.0,
+              "y": 140.45,
+              "confidence": 0.4,
+              "end_index": 8,
+              "label": "heading",
+              "start_index": 0
+            }
+          ],
+          "type": "heading"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "专业负责人汇总评价小组的意见，形成课程体系合理性评价报告，经学院教学工作委员会审议后，为课程体系和课程教学大纲修订提供依据的制定提供依据。",
+      "page_no": 8,
+      "metadata": {
+        "metadata": {
+          "md": "专业负责人汇总评价小组的意见，形成课程体系合理性评价报告，经学院教学工作委员会审议后，为课程体系和课程教学大纲修订提供依据的制定提供依据。",
+          "value": "专业负责人汇总评价小组的意见，形成课程体系合理性评价报告，经学院教学工作委员会审议后，为课程体系和课程教学大纲修订提供依据的制定提供依据。",
+          "bbox": [
+            {
+              "h": 77.4,
+              "w": 415.31,
+              "x": 90.0,
+              "y": 171.65,
+              "confidence": 0.4,
+              "end_index": 68,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "本办法自发文之日起施行，由学院教学科负责解释。",
+      "page_no": 8,
+      "metadata": {
+        "metadata": {
+          "md": "本办法自发文之日起施行，由学院教学科负责解释。",
+          "value": "本办法自发文之日起施行，由学院教学科负责解释。",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 345.0,
+              "x": 120.0,
+              "y": 265.25,
+              "confidence": 0.4,
+              "end_index": 22,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "text",
+      "text": "附件：",
+      "page_no": 8,
+      "metadata": {
+        "metadata": {
+          "md": "附件：",
+          "value": "附件：",
+          "bbox": [
+            {
+              "h": 15.0,
+              "w": 45.0,
+              "x": 120.0,
+              "y": 296.45,
+              "confidence": 0.4,
+              "end_index": 2,
+              "label": "text",
+              "start_index": 0
+            }
+          ],
+          "type": "text"
+        }
+      }
+    },
+    {
+      "block_type": "list",
+      "text": "1. 软件学院 课程设置评价表\n\n2. 软件学院 课程教学大纲评价表\n\n3. 软件学院 基于达成的课程体系评价表",
+      "page_no": 8,
+      "metadata": {
+        "metadata": {
+          "items": [
+            {
+              "md": "软件学院 课程设置评价表",
+              "value": "软件学院 课程设置评价表",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "软件学院 课程教学大纲评价表",
+              "value": "软件学院 课程教学大纲评价表",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "软件学院 基于达成的课程体系评价表",
+              "value": "软件学院 基于达成的课程体系评价表",
+              "bbox": null,
+              "type": "text"
+            }
+          ],
+          "md": "1. 软件学院 课程设置评价表\n\n2. 软件学院 课程教学大纲评价表\n\n3. 软件学院 基于达成的课程体系评价表",
+          "ordered": true,
+          "bbox": null,
+          "type": "list"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "15",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\15.pdf",
+  "parser_name": "pdfplumber",
+  "pages": [
+    {
+      "page_no": 1,
+      "text_length": 0
+    },
+    {
+      "page_no": 2,
+      "text_length": 0
+    },
+    {
+      "page_no": 3,
+      "text_length": 0
+    },
+    {
+      "page_no": 4,
+      "text_length": 0
+    },
+    {
+      "page_no": 5,
+      "text_length": 0
+    },
+    {
+      "page_no": 6,
+      "text_length": 0
+    }
+  ],
+  "blocks": [
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 6,
+      "metadata": {}
+    }
+  ]
+}

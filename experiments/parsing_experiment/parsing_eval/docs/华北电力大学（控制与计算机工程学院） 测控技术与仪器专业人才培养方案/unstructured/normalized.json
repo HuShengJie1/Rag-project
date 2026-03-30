@@ -1,0 +1,5552 @@
+{
+  "doc_id": "30",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\30.pdf",
+  "parser_name": "unstructured",
+  "pages": [],
+  "blocks": [
+    {
+      "block_type": "Title",
+      "text": "测控技术与仪器专业人才培养方案",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Undergraduate Program for Measurement-Control Technology and",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Instrument Major",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学科门类：工学",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "国标代码：08",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Discipline Type: Engineering",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "专业类：仪器类",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Code: 08 国标代码：0803",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Type: Instrument",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "专业名称：测控技术与仪器",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "Code: 0803 国标代码：080301",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "校内代码： 16",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Title of the Major: Measurement-Control",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "Code: 080301",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Technology and Instrument",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "一、学制与学位 Length of Schooling and Degree",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学制：四年 Duration: Four years",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "授予学位：工学学士 Degree: Bachelor of Engineering",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "二、培养目标 Educational Objectives",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "适应社会经济发展和能源电力相关行业技术进步需求，以培养社会主义建设者和接班人",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "为根本任务，培养系统掌握测量、控制和计算机应用的基本理论及技术，电力特色鲜明，能",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "够在能源、环保及流程工业等领域从事与仪器仪表及过程控制相关的研究、设计、制造、计",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "量测试及项目管理等工作，德智体美劳全面发展的卓越工程科技人才。",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "This major is set to adapt the needs of socio-economic development and technological progress",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "in energy and power related industries and the fundamental task is training socialist builders and",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "successors. The graduates have distinctive electric power characteristics are aimed to be cultivated",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "to be excellent engineering and technological talents, who systematically master the basic theory",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "and technology of measurement, control and computer application, can engage in research, design,",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "manufacturing, metrology and measurement and project management related to process control",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "and instrumentation in the fields of energy, environmental protection and process industry. They",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "are also required to have the comprehensive development of moral, physical and mental skills.",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "学生毕业 5 年左右能够达到的职业和专业成就： （1）具备良好的理工基础与人文素养，具有健全的人格和正确的价值观，能够正确认",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "识工程实践对环境、社会可持续发展的影响；",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（2）能够系统运用测控技术与仪器仪表，综合考虑社会、健康、安全、法律、文化以 及环境等因素，针对能源电力相关行业测量与控制领域复杂工程问题，设计开发相应的解决",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "方案；",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（3）具有良好的团队合作精神与项目管理能力，遵守法律法规，具有工程职业道德，",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "遵守职业规范，有社会责任感；",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（4）能够跟踪测控技术及仪器仪表领域的前沿技术和能源电力相关行业国内外发展趋",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "势，具备良好的主动发展意识、创新精神与自主终身学习能力；",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "（5）具备良好的表达与沟通能力，能够承担国际交流与对外合作工作。 Graduates are expected to have the following professional achievements after 5 years of work",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "practice:",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(1) They will have a good scientific and technological foundation and humanistic literacy,",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "and have a sound personality and correct values;",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(2) They can systematically apply measurement and control theory and technology to",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "provide solutions to complex engineering problems in the measurement and automation field of",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "energy and power related industries, and has the ability to undertake measurement and automation",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "engineering projects;",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(3) They will have a good teamwork spirit and management coordination ability, have a",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "sense of social responsibility and engineering ethics, and abide by professional standards;",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(4) They are able to track cutting-edge technologies in the field of measurement",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "&automation and development trends at home and abroad in energy and power-related industries,",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "and have a good sense of active development, innovative spirit and independent lifelong learning",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "ability;",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(5) They will have good expression and communication skills, and be able to undertake",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "international exchanges and foreign cooperation.",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "三、专业培养基本要求 Skills Profile",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "本专业学生毕业时应达到以下要求： （1）工程知识：掌握数学、自然科学、工程基础和专业知识，能够用于解决能源电力",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "相关行业测控技术与仪器领域的复杂工程问题。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（2）问题分析：能够应用数学、自然科学和工程科学的基本原理，识别、表达并通过 文献研究分析能源电力相关行业测控技术与仪器领域的复杂工程问题，能够给出合理的解决",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "方案。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（3）设计/开发解决方案：能够设计针对能源电力相关行业测控技术与仪器领域复杂工 程问题的解决方案，设计满足生产需求的测控系统或仪器仪表，并能够在设计环节中体现创",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "新意识，考虑社会、健康、安全、法律、文化以及环境等因素。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（4）研究：能够基于科学原理并采用科学方法对测控技术与仪器领域，尤其是能源电 力相关行业测控技术与仪器领域复杂工程问题进行研究，包括设计实验、分析与解释数据、",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "并通过信息综合得到合理有效的结论。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（5）使用现代工具：能够针对能源电力相关行业测控技术与仪器领域的复杂工程问题， 开发、选择与使用恰当的技术、资源、现代工程工具和信息技术工具，包括对复杂工程问题",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "的预测与模拟，并能够理解其局限性。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（6）工程与社会：能够基于能源电力相关行业的工程背景知识进行合理分析，评价测 控技术与仪器专业工程实践和复杂工程问题解决方案对社会、健康、安全、法律以及文化的",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "影响，并理解应承担的责任。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（7）环境和可持续发展：能够理解和评价针对能源电力相关行业测控技术与仪器领域",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "复杂工程问题的工程实践对环境、社会可持续发展的影响。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（8）职业规范：具有人文社会科学素养、社会责任感，能够在能源电力相关行业测控",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "技术与仪器领域的工程实践中理解并遵守工程职业道德和规范，履行责任。",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（9）个人和团队：能够在多学科背景下的团队中承担个体、团队成员以及负责人的角",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "色。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（10）沟通：能够就能源电力相关行业测控技术与仪器领域的复杂工程问题与业界同行 及社会公众进行有效沟通和交流，包括撰写报告和设计文稿、陈述发言、清晰表达或回应指",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "令。并具备一定的国际视野，能够在跨文化背景下进行沟通和交流。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（11）项目管理：理解并掌握测控技术与仪器领域的工程管理原理与经济决策方法，并",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "能在多学科环境中应用。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "（12）终身学习：具有自主学习和终身学习的意识，有不断学习和适应发展的能力。",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "The graduates should meet the following requirements:",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(1) Engineering knowledge: they should possess mathematics, natural science, engineering foundation and professional knowledge to analyze and solve the complicated engineering problems in measurement-control technology and instrument field of energy and power related industries.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "they should have the ability to identify, express and analyze complicated engineering problems in measurement-control technology and instrument field of energy and power related industries through literature research by using the basic principles of mathematics, natural science, and engineering science, and design solutions.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "(2) Problem analysis:",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(3) Solutions design/development: they should have the ability to design the solution for measurement-control in measurement-control technology and instrument field of energy and power related industries systematically, and have the ability to design the technological process and system for some purpose, taking multi-factors, such as innovativeness in the design phase, society, healthy, safety, law, culture, and environment in account.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "system and instrument",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "in the complex engineering problems",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "investigations of complex measurement and control engineering problems technology and instrument field of energy and power related industries using research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of information to provide valid conclusions.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "(4) Research:",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "they should have the ability to conduct",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "in measurement-control",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "they should be able to develop, select and use appropriate technologies, resources, modern engineering tools and information technology tools for complex engineering problems in measurement-control technology and instrument field of energy and power related industries, including the prediction and simulation of complex engineering problems, and be able to understand their limitations.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "(5) Modern tool usage:",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(6) Engineer and society relations: they should be able to conduct reasonable analysis based on energy and power engineering-related background knowledge, and evaluate the impact of measurement-control technology and instrument professional engineering practices and complex engineering problem solutions on society, health, safety, law, and culture, and understand their responsibilities.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(7) Environment and sustainable development: they should be able to understand and in practices evaluate measurement-control technology and instrument field of energy and power related industries on environmental and social sustainable development.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "the",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "impact",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "of",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "engineering",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "on",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "complex",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "engineering",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "issues",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(8) Professional standard accomplishment: they should have humanities and social sciences literacy and social responsibility, be able to understand and abide by engineering professional ethics in practice measurement-control technology and instrument field of energy and power related industries.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "and",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "norms,",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "and",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "perform their",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "responsibilities",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "in",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "engineering",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "(9)",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "Individual and team competence: they should be able to assume the roles of individuals,",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "team members, and leaders in teams with multidisciplinary backgrounds.",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(10) Communication: they should be able to effectively communicate and communicate with",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "industry peers and the public on complex engineering issues in measurement-control technology and instrument field of energy and power related industries, including writing reports and design manuscripts, making statements, expressing or responding to explanations, and has a certain international vision, able to communicate and communicate in a cross-cultural background.",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "they should be able to understand and master engineering management of economic measurement-control technology and instrument, and be able to apply them in a multidisciplinary environment.",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "(11) Project management: and",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "principles",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "decision-making methods",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "in",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "the",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "field",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "(12) Lifelong learning: they should have the consciousness of independent learning and",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "lifelong learning, and have the ability to learn and adapt to development. 四、学时与学分 Hours and Credits",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "类别",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学时",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学分",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "比例",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "必修课 Required courses",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "公共基础 Public infrastructure 学科门类基础 Basis of discipline 专业类基础 Basis of major 专业核心 Required courses of major",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "644",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "560",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "300",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "472",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "33",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "35",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "18.5",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "29.5",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "19.41%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20.59%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10.88%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "17.35%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "集中实践 Intensive practice",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "必修课小计 Subtotal of Required courses",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "208 学时+17 周 208 class hours + 17 weeks 2184 学时+17 周 2184 class hours + 17 weeks",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "29",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "145",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "17.06%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "85.30%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "选修课 Electives 课外实践学分 Practice credits of extra-curricular",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "总计 Total",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "320",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "5 周 5 weeks 2504 学时+22 周 2504 class hours + 22 weeks",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "170",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "11.76%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2.94%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "100%",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "说明：",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "必修实践环节学分包括：集中实践课程 29 学分，课外实践课程 5 学分，学科门类基础、",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "专业基础课程中的实验课程 6.5 学分，学科门类基础、专业基础、专业必修课程中的实验、",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "上机学时折算 4.5 学分，共计 45 学分，占总学分 26.47%。",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Note:",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "Total of 44 credits for required practice training, accounting for 26.47% of the total credits,",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "including: 29 credits for Intensive practice, 5 credits for practice credits of extra-curricular, 6.5",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "credits for basis of discipline and basis of major, 4.5 credits for experiment and computer practice",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "in basis of discipline, basis of major, and required courses of major.",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "五、专业主干课程 Main Course",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "传感器原理与应用、微机原理与嵌入式系统、数字信号处理基础、过程参数检测技术、",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "自动控制理论、过程控制系统、控制装置与系统、智能仪器设计、顺序控制、清洁能源发电",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "设备及测控技术。",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "Principle and application of sensors, microcomputer principle and embedded system,",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "fundamentals of digital signal processing, process parameter detection and Instrument, automatic",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "control theory, process control system, control device and system, intelligent instrument, switch",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "control, clean energy power generation equipment and measurement and control technology.",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "六、总周数分配 Arrangement of the Total Weeks",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学期 Semester",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "教学环节 Teaching Program",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "一",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "二",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "三",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "四",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "五",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "六",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "七",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "八",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "理论教学 Theory Teaching",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "18",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "17",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "17",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "17",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "17",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "复习考试 Review and Exam",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "0",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "集中实践环节 Intensive Practice",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "0",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "0",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "小计 Subtotal",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "22",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "21",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "21",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "18",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "寒假 Winter Vacation",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "暑假 Summer Vacation",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "合计 Total",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "27",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "27",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "25",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "26",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "26",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "26",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "25",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "18",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "合计",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "121",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "13",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "28",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "162",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "18",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "200",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "类别 Type",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "公共基 础类课 程 Public basic courses",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学科门 类基础 课程 Basis of discipline",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "测控技术与仪器专业必修课程体系及教学计划",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Table of Teaching Schedule for Required Course and Teaching Plan",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程编 号 Course ID",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程名称 Course name",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学分 Credits",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "总 学时 Hours",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课内 学时 In class hours",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "实验 学时 Lab hours",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00700975",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "中国近现代史纲要 Outline of Modern Chinese History",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00701353",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "思想道德与法治 Ideology and Moral Cultivation & Law Basis",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00700983",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "毛泽东思想和中国特色社会主义理论体系概论 Mao Zedong Thought and the Theory of Building Socialism with Chinese Characteristics",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00700971",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "马克思主义基本原理 Marxist Theory",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "习近平新时代中国特色社会主义思想概论",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00700988",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Outline of Xi Jinping's New China's Socialist",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Ideology",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00701661 -00701668",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "形势与政策 Current Affair and Policy",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "01390011",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "军事理论 Military Theory",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "36",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "24",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "J100010",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "现代电力工程师 Modern Power Engineer",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "00801410 通用英语 General English",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "00801400 学术英语 Academic English",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "01000011 体育(1)Physical Education (1)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "36",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "30",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "01000021 体育(2)Physical Education (2)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "36",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "30",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "01000031 体育(3)Physical Education (3)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "36",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "30",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "01000041 体育(4)Physical Education (4)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "36",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "30",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "公共基础课程小计 Subtotal of public basic courses",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "33",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "644",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "528",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900130",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "高等数学(1) Advanced Mathematics (1)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5.5",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "88",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "88",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900140",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "高等数学(2) Advanced Mathematics (2)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "96",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "96",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900462",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "线性代数 Linear Algebra",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900111",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "概率论与数理统计 Probability and Mathematical Statistics",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3.5",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900090",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "复变函数与积分变换 Complex Function and Integral Transformation",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900053",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "大学物理(1) College Physics (1)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3.5",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900440",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "物理实验(1) Experiment of Physics (1)",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "课外 学时 Off class hours",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "12",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "116",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "开课 学期 Semester",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1-8",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "类别 Type",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "专业基 础类课 程 The major basic courses",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "专业核 心课程 Required courses of major",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程编 号 Course ID",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程名称 Course name",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900064",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "大学物理(2) College Physics (2)",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00900450",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "物理实验(2) Experiment of Physics (2)",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00600204",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "C/C++程序设计 C/C++ Language Programming",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "工程基础类课程小计 Subtotal of Engineering foundation",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00600233",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "工程制图基础 Engineering Graphics",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10310610",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "自动化概论 Introduction to Automation",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00200491",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "电路分析基础 Circuit Analysis Fundamentals",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00200522",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "电 路 实 验 Experiment of Circuit Analysis Fundamentals",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00500351",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模拟电子技术基础 Fundamentals of Analogue Electronics Technology",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00500172",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模拟电子技术基础实验 Experiment Electronics Technology",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "of",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Fundamentals",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "of Analogue",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00500410",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "数字电子技术基础 Fundamentals of Digital Electronics Technology",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00500180",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "数字电子技术基础实验 A Experiment of Fundamentals of Digital Electronics Technology A",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00200611",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "发电厂动力部分 Power Part of Power Plant",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400340",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "误差理论与数据处理 Error Theory and Data Processing",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "专业基础类课程小计 Subtotal of The major basic courses",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400700",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "自动控制理论 A Automatic Control Theory A",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141180",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "微机原理与嵌入式系统 Microcomputer Principle and Embedded System",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400041",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "传感器原理与应用 Principle and Application of Sensors",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141170",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "数字信号处理基础 A Fundamentals of Digital Signal Processing A",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141280",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "过程参数检测技术 A Process Parameter Detection Technology A",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141261",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "清洁能源发电设备及测控技术 Clean Energy Power Generation Equipment and Measurement and Control Technology",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141190",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "过程控制系统 B Process Control System B",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400730",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "顺序控制 Sequence Control",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学分 Credits",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3.5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "35",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "0.5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3.5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "0.5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "18.5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3.5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2.5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "总 学时 Hours",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "560",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "300",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课内 学时 In class hours",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "36",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "476",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "256",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "58",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "46",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "44",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "42",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "28",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "26",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "实验 学时 Lab hours",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "84",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "20",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "44",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "课外 学时 Off class hours",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "开课 学期 Semester",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "类别 Type",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程编 号 Course ID",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程名称 Course name",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400690",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "智能仪器设计 Design of Intelligent Instrument",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400181",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "计量测试技术 Metrology and Measurement Technique",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400621",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "控制装置与系统 Control Device and System",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "专业核心课程小计 Subtotal of Required courses of major",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "必修课学分合计 Subtotal of Required courses",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学分 Credits",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2.5",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "29.5",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "总 学时 Hours",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "472",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课内 学时 In class hours",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "28",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "28",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "36",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "416",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "实验 学时 Lab hours",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "116",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "课外 学时 Off class hours",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "开课 学期 Semester",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "类别 Type",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "必修 Required",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "测控技术与仪器专业部分集中实践环节设置 Table of Teaching Schedule for Main Practical Training",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课序号 ID",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "环节名称 Name",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学分 Credits",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "周数 Weeks",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "01390012",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "军事技能 Military Training",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "2 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "J100060",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "劳动教育 Labor Education",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "2 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00490170",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00490321",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "认识实习 Acquaintanceship Practice 火电厂运行仿真实践 B Simulation-based Operation and Practice Training for of Thermal Power Plant B",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00390200",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "金工实习 Metalworking Practice",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "2 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00490060",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00690820",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00690830",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "传感器综合实践 Comprehensive Practice of Sensors 数字信号处理基础 A 课程设计 Course Design for Fundamentals of Digital Signal Processing A 微机原理与嵌入式系统课程设计 Course Design for Microcomputer Principle and Embedded System",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00690840",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00490110",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00690860",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "智能仪器设计综合实践 Comprehensive Practice of Intelligent Instrument 过程参数检测技术 A 课程设计 Course Design for Process Parameter Detection Technology A 过程控制系统 B 课程设计 Course Design for Process Control System B",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00690021",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "毕业设计 Graduation Project",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "13",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00490300",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "仪器仪表实训 Instrumentation Practice",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00490043",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "毕业实习 Major Practice",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00490010",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "毕业教育 Graduation Education",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "0",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "集中实践小计 Subtotal of major practical training",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "29",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "17 周",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学时数 Hours",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "208",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "208",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "开课 学期 Semester",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7-8",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "测控技术与仪器专业选修课教学进程",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Table of Teaching Schedule for Electives",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "选修课程分为专业领域课程、其它专业课程、通识教育课程 3 个部分，总学分不低于",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "20 学分。其中，专业领域课程和其它专业课程学分不低于 12 学分。学生可根据自身情况、",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "兴趣爱好等进行选课。",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "Elective courses are divided into 3 parts: major courses, general education courses, other",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "major courses. The total elective credits are not less than 20 credits total credits, and the total",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "courses including major courses and other major courses are not less than 12 credits total credits.",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "Students can choose courses according to their own situation and interests.",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1．专业领域课程 Major field courses",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "专业领域课程旨在培养学生在该专业某领域内具备综合分析、处理（研究、设计）问题",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "的技能及专业前沿知识。本专业领域的选修课程如下表所示。",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Major",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "field courses aim to develop students'",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "skills and advanced knowledge of",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "comprehensive analysis, processing (research, design) problems in a certain field of the major.",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "Elective courses in this field are shown in the following table.",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "2．其他专业课程 Other major courses",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "为了培养复合型人才，鼓励学生跨专业选修课程。学生可以选修我校开设的任何专业的",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程。",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "In order to cultivate compound talents, students should be encouraged to cross major elective",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "courses. Students can take any courses offered by our university.",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "3．通识教育课程 General education curriculum",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "通识教育课程包括人文社科、语言交流、文化艺术、科学技术、经济管理、创新创业等",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模块，学生从学校给定的通识教育课程中选择。",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "General",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "education curriculum includes humanities",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "and social",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "sciences,",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "language",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "communication, culture and art, science and technology, economic management, innovation and",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "entrepreneurship modules. Students choose from general education courses offered by the",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "university. The courses “Introduction to environmental protection and sustainable society” and",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "“Engineering Project Management” are suggested to be selected.",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "组 别",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程编号",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课 程 名 称",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学 分",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "总 学时",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课内 学时",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "实验 学时",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课外 学时",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "开课 学期",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模块 1",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模块 2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模块 3",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400100",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400710",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141220",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400450",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400420",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10410240",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "11111494",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141200",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141210",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400670",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400600",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10411070",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400610",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00200080",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "工程光学 Engineering Optics 现代控制理论 Theory of Modern Control 发电过程建模与辨识 Modeling generation 专业英语阅读(测控) Professional English Reading (Measurement and Control) 仪表可靠性基础 Fundamentals of Instrument Reliability 人工智能导论 Principles Intelligence 无线传感器网络 Wireless sensor network 测控软件技术 Measurement Technology 测控总线技术 Measurement and Control Bus Technology 虚拟仪器技术(研讨型) Virtual type) 检测新技术(研讨型) New Detection Technology (seminar type) 热工及流体基础 Thermal and Fluid Machinery Fundamentals 控制系统数字仿真与参数优化 Control System Digital Simulation and Parameter Optimization 电磁测量技术 Electromagnetic Measurement Technology 电力电子技术 B Power Electronics Technology B 跨专业选修其他专业的专业课程 Interdisciplinary Electives",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "and",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "identification",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "of",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "power",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "and Methods",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "of Artificial",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "and",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Software",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Control",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Instrument Technology (seminar",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "28",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "16",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00200192",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模块 4",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2-8",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "通识教育选修课程 General Education Electives",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2-8",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "选修课总学分不低于 20 学分。其中，组别 1 中的专业领域课程和其它专业课程学分不低于 12 学分。",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "选修课选课建议：Recommendations for electives",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "1.第二、第三学期：建议每学期选修通识教育选修课程模块中的课程 1-2 门。",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "2.第四、五、六、七、八学期：建议每学期从专业选修课各模块中选修 1-3 门课程；也可根",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "据个人兴趣，跨专业选修其他专业的专业课程。",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "1.",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "Second and third semesters: It is recommended to select 1-2 courses in General Education Electives every semester.",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2.",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "Fourth, fifth, sixth, seventh, and eighth semesters: It is recommended to choose 1-3 courses from each part of electives each semester; you can also select Interdisciplinary Electives based on personal interests.",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "模块",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "总学分 不少于 12 学分 Electives, not less than 12 credits",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "NarrativeText",
+      "text": "公共艺 术类课 程至少 选修 2 学 分；其它 可用组 别 1 中课 程学分 替代",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "组别",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "A",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "B",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "辅修测控技术与仪器专业人才培养方案",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "Undergraduate Program for the Measurement-Control Technology and Instrument Minor",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程编号",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课程名称",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学分",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "总学 时",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "课内 学时",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400700",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "自动控制理论 A Automatic Control Theory A",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "64",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "60",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141180",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "微机原理与嵌入式系统 Microcomputer Principle and Embedded System",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3.5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "56",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "46",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400041",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "传感器原理与应用 Principle and Application of Sensors",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "44",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141170",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "数字信号处理基础 A Fundamentals of Digital Signal Processing A",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2.5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141280",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "过程参数检测技术 A Process Parameter Detection Technology A",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "42",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400621",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "控制装置与系统 Control Device and System",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2.5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141190",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "过程控制系统 B Process Control System B",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "3",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "48",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "40",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400730",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "顺序控制 B Sequence Control B",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "24",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400690",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "智能仪器设计 Design of Intelligent Instrument",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "24",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10141261",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "清洁能源发电设备及测控技术 Clean Energy Power Generation Equipment and Measurement and Control Technology",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "28",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00400181",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "计量测试技术 Metrology and Measurement Technique",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "2",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "32",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "28",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "00690021",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "毕业设计 Graduation Project",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "13",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "学分合计 Subtotal of courses",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "42.5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "说明：1.辅修专业需修读 A 组课程，计 29.5 学分； 2.辅修专业学士学位需修读 A、B 两组课程，计 42 学分。",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "实验 学时",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "10",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "8",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "4",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "开课 学期",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "5",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "6",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "UncategorizedText",
+      "text": "7-8",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "Title",
+      "text": "备注",
+      "page_no": 12,
+      "metadata": {}
+    }
+  ]
+}

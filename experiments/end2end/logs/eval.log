@@ -1,0 +1,1948 @@
+2026-03-29 23:06:48,243 | INFO | 测试问题数: 2
+2026-03-29 23:06:48,244 | INFO | 语料 chunk 数: 3
+2026-03-29 23:06:48,244 | INFO | Load pretrained SentenceTransformer: BAAI/bge-m3
+2026-03-29 23:06:48,246 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 099bf44a-619f-4c43-8e91-0a6936b85786)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:06:48,246 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:06:49,255 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: dfe0e483-7a32-482a-88ff-8fd576763667)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:06:49,256 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:06:51,259 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 682b39c2-c2cb-4bb4-95a3-cedd0b961b03)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:06:51,260 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:06:55,267 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 6a35149c-a24a-4c26-a850-c30b7bf3035b)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:06:55,267 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:07:03,275 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: cc6f20a9-39bd-464f-8769-2eee03fe9414)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:07:03,276 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:07:11,284 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: f8080e34-3714-4d5d-acdf-e2d0a8a99cd3)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:07:11,292 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 4bfbe7f6-8ea3-4ba3-90b1-8f70c50c130e)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:11,293 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:07:12,297 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 24675db2-aab5-47f7-b4e3-5e3338640a22)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:12,298 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:07:14,307 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: ce046462-a7a9-4e0f-b033-2408d23729ac)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:14,308 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:07:18,315 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 29fc2927-d8d8-448c-ad84-33a34a4b4ec3)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:18,316 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:07:26,318 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 9833e409-7a43-4426-9b0a-d84048fd44fc)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:26,319 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:07:34,324 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 79a3cfa8-51fa-4cc2-8ac8-699888e73b8e)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:34,330 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: d993de8b-32c8-4ed8-9af4-7b548a5359d4)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:34,330 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:07:35,337 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: e812cd41-576d-47ae-8797-34f535112c87)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:35,338 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:07:37,342 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 27b5bff1-cc78-4243-ad07-7a3f98eaff57)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:37,343 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:07:41,351 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: e25334c2-a5e1-4d52-bc1f-a78327f32a18)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:41,352 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:07:49,359 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 6afedf27-cc7f-464c-b74f-9b7fafec5cb4)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:49,359 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:07:57,363 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 7047975e-bcc3-4cc9-879a-9c25c2ea8e76)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./config_sentence_transformers.json
+2026-03-29 23:07:57,366 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/README.md (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: b8e81183-cc78-4d77-95d1-0e8108410b26)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./README.md
+2026-03-29 23:07:57,366 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:07:58,374 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/README.md (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 69b43b0f-2ae7-4c4f-be11-004ea45a5cb0)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./README.md
+2026-03-29 23:07:58,374 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:08:00,382 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/README.md (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: d4438fd5-49d9-4746-9202-64f066ff76d6)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./README.md
+2026-03-29 23:08:00,383 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:08:04,392 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/README.md (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: a34e0302-11a4-4fff-8728-fd5c2d3fa941)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./README.md
+2026-03-29 23:08:04,392 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:08:12,396 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/README.md (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 47ec7e3e-3164-46a5-bc15-97a6875d2df7)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./README.md
+2026-03-29 23:08:12,397 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:08:20,403 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/README.md (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: e67ebd13-a33f-4af3-9e18-c40472fb6f20)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./README.md
+2026-03-29 23:08:20,409 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 46958ef1-1856-4d3b-b79a-94a6fb2f2b1a)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:08:20,410 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:08:21,413 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 81aa9d9a-425b-4cf1-91d3-27b629b338dd)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:08:21,413 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:08:23,421 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: a9e9c946-2936-40b0-9a42-03d5ae81898b)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:08:23,422 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:08:27,426 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 8908cf42-cfba-484b-a0e2-8f5d1a03b0cf)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:08:27,427 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:08:35,434 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 43e1ebd3-ea62-407f-bf1f-421ad95f7fc9)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:08:35,434 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:08:43,438 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/modules.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: dd1fd80f-9198-46c6-b882-b1533a3c0c39)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./modules.json
+2026-03-29 23:08:43,443 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 8c2812cf-1769-45fc-8168-ef9b90fbb58d)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./sentence_bert_config.json
+2026-03-29 23:08:43,444 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:08:44,450 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 30bbf0cc-db53-49b2-af95-e3f29650194a)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./sentence_bert_config.json
+2026-03-29 23:08:44,451 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:08:46,457 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 8cb80a7f-2c34-4918-b64f-e6c21dcedba3)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./sentence_bert_config.json
+2026-03-29 23:08:46,458 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:08:50,464 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 3fb26c45-8bd1-4cf8-b12b-a25784bfd9f2)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./sentence_bert_config.json
+2026-03-29 23:08:50,464 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:08:58,472 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 75849a7c-5f8f-4fc0-b731-4fbb6b0a2676)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./sentence_bert_config.json
+2026-03-29 23:08:58,473 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:09:06,481 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: c7d5420b-92a0-47f7-b200-de810d4328ea)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/./sentence_bert_config.json
+2026-03-29 23:09:06,487 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: fe50873d-904a-4fdd-aa45-3ac96ba5b5a8)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json
+2026-03-29 23:09:06,487 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:09:07,493 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 0a107ca7-ed50-4d92-b2bf-792f3ce68c58)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json
+2026-03-29 23:09:07,494 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:09:09,502 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: a433eba6-6a73-4915-a826-2dbac40c1fb8)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json
+2026-03-29 23:09:09,503 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:09:13,509 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: f66a86a6-8ec7-46c9-8dc1-bcdec496c407)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json
+2026-03-29 23:09:13,510 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:09:21,518 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: bfb0b135-3a2d-4962-8944-024c11702aac)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json
+2026-03-29 23:09:21,519 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:09:29,525 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/adapter_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 1de9ed61-905f-4244-9915-d442aed1c1a4)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/adapter_config.json
+2026-03-29 23:09:29,528 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 4a6c88e0-9b7f-4099-a400-fb74f16f9035)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json
+2026-03-29 23:09:29,528 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:09:30,536 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: d49972eb-2960-4339-b881-844c586b8c9a)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json
+2026-03-29 23:09:30,536 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:09:32,543 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 469f53ce-7251-440f-be81-2deaf7a94f80)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json
+2026-03-29 23:09:32,544 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:09:36,550 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 663189a8-56e8-4650-ba1d-203888e96d92)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json
+2026-03-29 23:09:36,551 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:09:44,559 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 618c380e-598e-4c6b-b740-ec0b4defe115)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json
+2026-03-29 23:09:44,560 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:09:52,566 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 2927662f-3eb3-42c7-bf6f-88da254be412)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/config.json
+2026-03-29 23:09:52,660 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 973997c7-833a-432a-ad50-e819dfade4c8)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json
+2026-03-29 23:09:52,661 | WARNING | Retrying in 1s [Retry 1/5].
+2026-03-29 23:09:53,665 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: dbd43862-6b0c-4fa9-83ed-f1a0c3b758d7)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json
+2026-03-29 23:09:53,666 | WARNING | Retrying in 2s [Retry 2/5].
+2026-03-29 23:09:55,672 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 1275520c-1f65-4d60-8704-c3d33fd2a90f)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json
+2026-03-29 23:09:55,673 | WARNING | Retrying in 4s [Retry 3/5].
+2026-03-29 23:09:59,680 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 3b815fec-d5f8-42ab-8602-b30698c56c3b)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json
+2026-03-29 23:09:59,680 | WARNING | Retrying in 8s [Retry 4/5].
+2026-03-29 23:10:07,685 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: b8300d3f-f170-40fa-bfe0-5c85f2934f66)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json
+2026-03-29 23:10:07,686 | WARNING | Retrying in 8s [Retry 5/5].
+2026-03-29 23:10:15,691 | WARNING | '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /BAAI/bge-m3/resolve/main/tokenizer_config.json (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: bac26d69-65fd-4c55-88f5-df073e914cee)')' thrown while requesting HEAD https://huggingface.co/BAAI/bge-m3/resolve/main/tokenizer_config.json
+2026-03-29 23:10:16,071 | ERROR | 评测主流程失败
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='huggingface.co', port=443): Failed to resolve 'huggingface.co' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /api/models/BAAI/bge-m3 (Caused by NameResolutionError("HTTPSConnection(host='huggingface.co', port=443): Failed to resolve 'huggingface.co' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 914, in main
+    run_eval(cfg)
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 700, in run_eval
+    retriever = DenseRetriever(
+                ^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 411, in __init__
+    self.model = SentenceTransformer(model_name_or_path, device=device)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/sentence_transformers/SentenceTransformer.py", line 327, in __init__
+    modules, self.module_kwargs = self._load_sbert_model(
+                                  ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/sentence_transformers/SentenceTransformer.py", line 2305, in _load_sbert_model
+    module = module_class.load(
+             ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/sentence_transformers/models/Transformer.py", line 366, in load
+    return cls(model_name_or_path=model_name_or_path, **init_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/sentence_transformers/models/Transformer.py", line 103, in __init__
+    self.tokenizer = AutoTokenizer.from_pretrained(
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 1156, in from_pretrained
+    return tokenizer_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 2113, in from_pretrained
+    return cls._from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 2395, in _from_pretrained
+    tokenizer = cls._patch_mistral_regex(
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 2442, in _patch_mistral_regex
+    _is_local or (not _is_local and is_base_mistral(pretrained_model_name_or_path))
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 2432, in is_base_mistral
+    model = model_info(model_id)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 114, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/huggingface_hub/hf_api.py", line 2660, in model_info
+    r = get_session().get(path, headers=headers, timeout=timeout, params=params)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 605, in get
+    return self.request("GET", url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/huggingface_hub/utils/_http.py", line 96, in send
+    return super().send(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: (MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /api/models/BAAI/bge-m3 (Caused by NameResolutionError("HTTPSConnection(host=\'huggingface.co\', port=443): Failed to resolve \'huggingface.co\' ([Errno 8] nodename nor servname provided, or not known)"))'), '(Request ID: 81f31014-71ac-4fe5-81e4-106991a7b5ea)')
+2026-03-29 23:11:24,584 | INFO | 测试问题数: 2
+2026-03-29 23:11:24,584 | INFO | 语料 chunk 数: 3
+2026-03-29 23:11:24,585 | INFO | Load pretrained SentenceTransformer: models/hf_cache/hub/BAAI/bge-m3
+2026-03-29 23:11:26,460 | INFO | 开始评测系统: S1
+2026-03-29 23:11:26,460 | INFO | [S1] 处理样本 1/2 | q001
+2026-03-29 23:11:26,499 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 559, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-29 23:11:26,538 | INFO | [S1] 处理样本 2/2 | q002
+2026-03-29 23:11:26,575 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 559, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-29 23:11:26,612 | INFO | 开始评测系统: S2
+2026-03-29 23:11:26,612 | INFO | [S2] 处理样本 1/2 | q001
+2026-03-29 23:11:27,890 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 559, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-29 23:11:27,928 | INFO | [S2] 处理样本 2/2 | q002
+2026-03-29 23:11:28,058 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 559, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-29 23:11:28,095 | INFO | 开始评测系统: S3
+2026-03-29 23:11:28,095 | INFO | [S3] 处理样本 1/2 | q001
+2026-03-29 23:11:28,221 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 559, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-29 23:11:28,259 | INFO | [S3] 处理样本 2/2 | q002
+2026-03-29 23:11:28,383 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 559, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-29 23:11:28,434 | INFO | 评测完成，用时 3.85s
+2026-03-29 23:11:28,435 | INFO | 输出文件: experiments/end2end/outputs/detailed_results.csv
+2026-03-29 23:11:28,435 | INFO | 输出文件: experiments/end2end/outputs/summary_results.csv
+2026-03-29 23:11:28,435 | INFO | 输出文件: experiments/end2end/outputs/retrieval_results.csv
+2026-03-29 23:11:28,435 | INFO | 输出文件: experiments/end2end/outputs/generation_results.csv
+2026-03-29 23:14:20,984 | INFO | 测试问题数: 2
+2026-03-29 23:14:20,984 | INFO | 语料 chunk 数: 3
+2026-03-29 23:14:20,985 | INFO | Load pretrained SentenceTransformer: models/hf_cache/hub/BAAI/bge-m3
+2026-03-29 23:14:21,700 | INFO | 开始评测系统: S1
+2026-03-29 23:14:21,700 | INFO | [S1] 处理样本 1/2 | q001
+2026-03-29 23:14:22,512 | INFO | [S1] 处理样本 2/2 | q002
+2026-03-29 23:14:23,632 | INFO | 开始评测系统: S2
+2026-03-29 23:14:23,632 | INFO | [S2] 处理样本 1/2 | q001
+2026-03-29 23:14:24,756 | INFO | [S2] 处理样本 2/2 | q002
+2026-03-29 23:14:25,881 | INFO | 开始评测系统: S3
+2026-03-29 23:14:25,881 | INFO | [S3] 处理样本 1/2 | q001
+2026-03-29 23:14:26,804 | INFO | [S3] 处理样本 2/2 | q002
+2026-03-29 23:14:28,043 | INFO | 评测完成，用时 7.06s
+2026-03-29 23:14:28,043 | INFO | 输出文件: experiments/end2end/outputs/detailed_results.csv
+2026-03-29 23:14:28,043 | INFO | 输出文件: experiments/end2end/outputs/summary_results.csv
+2026-03-29 23:14:28,043 | INFO | 输出文件: experiments/end2end/outputs/retrieval_results.csv
+2026-03-29 23:14:28,043 | INFO | 输出文件: experiments/end2end/outputs/generation_results.csv
+2026-03-29 23:20:45,988 | INFO | 测试问题数: 50
+2026-03-29 23:20:45,989 | INFO | 语料 chunk 数: 3
+2026-03-29 23:20:45,989 | INFO | Load pretrained SentenceTransformer: models/hf_cache/hub/BAAI/bge-m3
+2026-03-29 23:20:46,696 | INFO | 开始评测系统: S1
+2026-03-29 23:20:46,696 | INFO | [S1] 处理样本 1/50 | q001
+2026-03-29 23:20:48,827 | INFO | [S1] 处理样本 2/50 | q002
+2026-03-29 23:20:49,882 | INFO | [S1] 处理样本 3/50 | q003
+2026-03-29 23:20:51,016 | INFO | [S1] 处理样本 4/50 | q004
+2026-03-29 23:20:52,167 | INFO | [S1] 处理样本 5/50 | q005
+2026-03-29 23:20:54,124 | INFO | [S1] 处理样本 6/50 | q006
+2026-03-29 23:20:55,604 | INFO | [S1] 处理样本 7/50 | q007
+2026-03-29 23:20:56,524 | INFO | [S1] 处理样本 8/50 | q008
+2026-03-29 23:20:57,567 | INFO | [S1] 处理样本 9/50 | q009
+2026-03-29 23:20:59,073 | INFO | [S1] 处理样本 10/50 | q010
+2026-03-29 23:21:00,376 | INFO | [S1] 处理样本 11/50 | q011
+2026-03-29 23:21:01,612 | INFO | [S1] 处理样本 12/50 | q012
+2026-03-29 23:21:03,111 | INFO | [S1] 处理样本 13/50 | q013
+2026-03-29 23:21:04,442 | INFO | [S1] 处理样本 14/50 | q014
+2026-03-29 23:21:05,774 | INFO | [S1] 处理样本 15/50 | q015
+2026-03-29 23:21:07,200 | INFO | [S1] 处理样本 16/50 | q016
+2026-03-29 23:21:08,436 | INFO | [S1] 处理样本 17/50 | q017
+2026-03-29 23:21:12,356 | INFO | [S1] 处理样本 18/50 | q018
+2026-03-29 23:21:13,352 | INFO | [S1] 处理样本 19/50 | q019
+2026-03-29 23:21:14,530 | INFO | [S1] 处理样本 20/50 | q020
+2026-03-29 23:21:16,010 | INFO | [S1] 处理样本 21/50 | q021
+2026-03-29 23:21:17,444 | INFO | [S1] 处理样本 22/50 | q022
+2026-03-29 23:21:18,830 | INFO | [S1] 处理样本 23/50 | q023
+2026-03-29 23:21:19,746 | INFO | [S1] 处理样本 24/50 | q024
+2026-03-29 23:21:20,948 | INFO | [S1] 处理样本 25/50 | q025
+2026-03-29 23:21:22,141 | INFO | [S1] 处理样本 26/50 | q026
+2026-03-29 23:21:23,050 | INFO | [S1] 处理样本 27/50 | q027
+2026-03-29 23:21:24,303 | INFO | [S1] 处理样本 28/50 | q028
+2026-03-29 23:21:25,857 | INFO | [S1] 处理样本 29/50 | q029
+2026-03-29 23:21:27,570 | INFO | [S1] 处理样本 30/50 | q030
+2026-03-29 23:21:28,631 | INFO | [S1] 处理样本 31/50 | q031
+2026-03-29 23:21:30,041 | INFO | [S1] 处理样本 32/50 | q032
+2026-03-29 23:21:31,611 | INFO | [S1] 处理样本 33/50 | q033
+2026-03-29 23:21:32,791 | INFO | [S1] 处理样本 34/50 | q034
+2026-03-29 23:21:34,016 | INFO | [S1] 处理样本 35/50 | q035
+2026-03-29 23:21:35,018 | INFO | [S1] 处理样本 36/50 | q036
+2026-03-29 23:21:36,153 | INFO | [S1] 处理样本 37/50 | q037
+2026-03-29 23:21:37,482 | INFO | [S1] 处理样本 38/50 | q038
+2026-03-29 23:21:39,061 | INFO | [S1] 处理样本 39/50 | q039
+2026-03-29 23:21:40,406 | INFO | [S1] 处理样本 40/50 | q040
+2026-03-29 23:21:41,934 | INFO | [S1] 处理样本 41/50 | q041
+2026-03-29 23:21:43,128 | INFO | [S1] 处理样本 42/50 | q042
+2026-03-29 23:21:45,033 | INFO | [S1] 处理样本 43/50 | q043
+2026-03-29 23:21:46,216 | INFO | [S1] 处理样本 44/50 | q044
+2026-03-29 23:21:47,555 | INFO | [S1] 处理样本 45/50 | q045
+2026-03-29 23:21:49,956 | INFO | [S1] 处理样本 46/50 | q046
+2026-03-29 23:21:50,898 | INFO | [S1] 处理样本 47/50 | q047
+2026-03-29 23:21:52,160 | INFO | [S1] 处理样本 48/50 | q048
+2026-03-29 23:21:53,052 | INFO | [S1] 处理样本 49/50 | q049
+2026-03-29 23:21:54,221 | INFO | [S1] 处理样本 50/50 | q050
+2026-03-29 23:21:55,568 | INFO | 开始评测系统: S2
+2026-03-29 23:21:55,569 | INFO | [S2] 处理样本 1/50 | q001
+2026-03-29 23:21:57,476 | INFO | [S2] 处理样本 2/50 | q002
+2026-03-29 23:21:58,492 | INFO | [S2] 处理样本 3/50 | q003
+2026-03-29 23:21:59,594 | INFO | [S2] 处理样本 4/50 | q004
+2026-03-29 23:22:00,735 | INFO | [S2] 处理样本 5/50 | q005
+2026-03-29 23:22:04,235 | INFO | [S2] 处理样本 6/50 | q006
+2026-03-29 23:22:06,701 | INFO | [S2] 处理样本 7/50 | q007
+2026-03-29 23:22:07,812 | INFO | [S2] 处理样本 8/50 | q008
+2026-03-29 23:22:09,043 | INFO | [S2] 处理样本 9/50 | q009
+2026-03-29 23:22:10,283 | INFO | [S2] 处理样本 10/50 | q010
+2026-03-29 23:22:11,396 | INFO | [S2] 处理样本 11/50 | q011
+2026-03-29 23:22:12,639 | INFO | [S2] 处理样本 12/50 | q012
+2026-03-29 23:22:14,394 | INFO | [S2] 处理样本 13/50 | q013
+2026-03-29 23:22:15,602 | INFO | [S2] 处理样本 14/50 | q014
+2026-03-29 23:22:17,045 | INFO | [S2] 处理样本 15/50 | q015
+2026-03-29 23:22:18,477 | INFO | [S2] 处理样本 16/50 | q016
+2026-03-29 23:22:19,775 | INFO | [S2] 处理样本 17/50 | q017
+2026-03-29 23:22:23,324 | INFO | [S2] 处理样本 18/50 | q018
+2026-03-29 23:22:24,703 | INFO | [S2] 处理样本 19/50 | q019
+2026-03-29 23:22:26,169 | INFO | [S2] 处理样本 20/50 | q020
+2026-03-29 23:22:27,910 | INFO | [S2] 处理样本 21/50 | q021
+2026-03-29 23:22:29,432 | INFO | [S2] 处理样本 22/50 | q022
+2026-03-29 23:22:30,868 | INFO | [S2] 处理样本 23/50 | q023
+2026-03-29 23:22:32,853 | INFO | [S2] 处理样本 24/50 | q024
+2026-03-29 23:22:34,359 | INFO | [S2] 处理样本 25/50 | q025
+2026-03-29 23:22:35,631 | INFO | [S2] 处理样本 26/50 | q026
+2026-03-29 23:22:37,008 | INFO | [S2] 处理样本 27/50 | q027
+2026-03-29 23:22:38,341 | INFO | [S2] 处理样本 28/50 | q028
+2026-03-29 23:22:39,561 | INFO | [S2] 处理样本 29/50 | q029
+2026-03-29 23:22:40,604 | INFO | [S2] 处理样本 30/50 | q030
+2026-03-29 23:22:41,811 | INFO | [S2] 处理样本 31/50 | q031
+2026-03-29 23:22:44,119 | INFO | [S2] 处理样本 32/50 | q032
+2026-03-29 23:22:45,764 | INFO | [S2] 处理样本 33/50 | q033
+2026-03-29 23:22:47,149 | INFO | [S2] 处理样本 34/50 | q034
+2026-03-29 23:22:48,209 | INFO | [S2] 处理样本 35/50 | q035
+2026-03-29 23:22:49,592 | INFO | [S2] 处理样本 36/50 | q036
+2026-03-29 23:22:50,937 | INFO | [S2] 处理样本 37/50 | q037
+2026-03-29 23:22:52,486 | INFO | [S2] 处理样本 38/50 | q038
+2026-03-29 23:22:54,019 | INFO | [S2] 处理样本 39/50 | q039
+2026-03-29 23:22:55,284 | INFO | [S2] 处理样本 40/50 | q040
+2026-03-29 23:22:57,328 | INFO | [S2] 处理样本 41/50 | q041
+2026-03-29 23:22:58,717 | INFO | [S2] 处理样本 42/50 | q042
+2026-03-29 23:23:00,495 | INFO | [S2] 处理样本 43/50 | q043
+2026-03-29 23:23:01,893 | INFO | [S2] 处理样本 44/50 | q044
+2026-03-29 23:23:03,465 | INFO | [S2] 处理样本 45/50 | q045
+2026-03-29 23:23:06,456 | INFO | [S2] 处理样本 46/50 | q046
+2026-03-29 23:23:07,832 | INFO | [S2] 处理样本 47/50 | q047
+2026-03-29 23:23:09,257 | INFO | [S2] 处理样本 48/50 | q048
+2026-03-29 23:23:10,711 | INFO | [S2] 处理样本 49/50 | q049
+2026-03-29 23:23:11,929 | INFO | [S2] 处理样本 50/50 | q050
+2026-03-29 23:23:17,224 | INFO | 开始评测系统: S3
+2026-03-29 23:23:17,224 | INFO | [S3] 处理样本 1/50 | q001
+2026-03-29 23:23:18,043 | INFO | [S3] 处理样本 2/50 | q002
+2026-03-29 23:23:18,878 | INFO | [S3] 处理样本 3/50 | q003
+2026-03-29 23:23:20,527 | INFO | [S3] 处理样本 4/50 | q004
+2026-03-29 23:23:21,223 | INFO | [S3] 处理样本 5/50 | q005
+2026-03-29 23:23:23,390 | INFO | [S3] 处理样本 6/50 | q006
+2026-03-29 23:23:24,134 | INFO | [S3] 处理样本 7/50 | q007
+2026-03-29 23:23:25,339 | INFO | [S3] 处理样本 8/50 | q008
+2026-03-29 23:23:26,032 | INFO | [S3] 处理样本 9/50 | q009
+2026-03-29 23:23:26,850 | INFO | [S3] 处理样本 10/50 | q010
+2026-03-29 23:23:27,565 | INFO | [S3] 处理样本 11/50 | q011
+2026-03-29 23:23:28,402 | INFO | [S3] 处理样本 12/50 | q012
+2026-03-29 23:23:29,090 | INFO | [S3] 处理样本 13/50 | q013
+2026-03-29 23:23:29,938 | INFO | [S3] 处理样本 14/50 | q014
+2026-03-29 23:23:30,680 | INFO | [S3] 处理样本 15/50 | q015
+2026-03-29 23:23:31,428 | INFO | [S3] 处理样本 16/50 | q016
+2026-03-29 23:23:32,174 | INFO | [S3] 处理样本 17/50 | q017
+2026-03-29 23:23:32,832 | INFO | [S3] 处理样本 18/50 | q018
+2026-03-29 23:23:33,623 | INFO | [S3] 处理样本 19/50 | q019
+2026-03-29 23:23:34,326 | INFO | [S3] 处理样本 20/50 | q020
+2026-03-29 23:23:35,060 | INFO | [S3] 处理样本 21/50 | q021
+2026-03-29 23:23:35,765 | INFO | [S3] 处理样本 22/50 | q022
+2026-03-29 23:23:36,593 | INFO | [S3] 处理样本 23/50 | q023
+2026-03-29 23:23:37,291 | INFO | [S3] 处理样本 24/50 | q024
+2026-03-29 23:23:38,004 | INFO | [S3] 处理样本 25/50 | q025
+2026-03-29 23:23:38,744 | INFO | [S3] 处理样本 26/50 | q026
+2026-03-29 23:23:39,446 | INFO | [S3] 处理样本 27/50 | q027
+2026-03-29 23:23:40,161 | INFO | [S3] 处理样本 28/50 | q028
+2026-03-29 23:23:40,943 | INFO | [S3] 处理样本 29/50 | q029
+2026-03-29 23:23:41,611 | INFO | [S3] 处理样本 30/50 | q030
+2026-03-29 23:23:42,308 | INFO | [S3] 处理样本 31/50 | q031
+2026-03-29 23:23:42,973 | INFO | [S3] 处理样本 32/50 | q032
+2026-03-29 23:23:43,762 | INFO | [S3] 处理样本 33/50 | q033
+2026-03-29 23:23:44,465 | INFO | [S3] 处理样本 34/50 | q034
+2026-03-29 23:23:45,154 | INFO | [S3] 处理样本 35/50 | q035
+2026-03-29 23:23:45,898 | INFO | [S3] 处理样本 36/50 | q036
+2026-03-29 23:23:46,718 | INFO | [S3] 处理样本 37/50 | q037
+2026-03-29 23:23:47,431 | INFO | [S3] 处理样本 38/50 | q038
+2026-03-29 23:23:48,113 | INFO | [S3] 处理样本 39/50 | q039
+2026-03-29 23:23:48,868 | INFO | [S3] 处理样本 40/50 | q040
+2026-03-29 23:23:49,683 | INFO | [S3] 处理样本 41/50 | q041
+2026-03-29 23:23:50,373 | INFO | [S3] 处理样本 42/50 | q042
+2026-03-29 23:23:51,120 | INFO | [S3] 处理样本 43/50 | q043
+2026-03-29 23:23:51,837 | INFO | [S3] 处理样本 44/50 | q044
+2026-03-29 23:23:52,553 | INFO | [S3] 处理样本 45/50 | q045
+2026-03-29 23:23:53,320 | INFO | [S3] 处理样本 46/50 | q046
+2026-03-29 23:23:53,983 | INFO | [S3] 处理样本 47/50 | q047
+2026-03-29 23:23:54,823 | INFO | [S3] 处理样本 48/50 | q048
+2026-03-29 23:23:55,537 | INFO | [S3] 处理样本 49/50 | q049
+2026-03-29 23:23:56,189 | INFO | [S3] 处理样本 50/50 | q050
+2026-03-29 23:23:56,967 | INFO | 评测完成，用时 190.98s
+2026-03-29 23:23:56,967 | INFO | 输出文件: experiments/end2end/outputs/detailed_results.csv
+2026-03-29 23:23:56,967 | INFO | 输出文件: experiments/end2end/outputs/summary_results.csv
+2026-03-29 23:23:56,968 | INFO | 输出文件: experiments/end2end/outputs/retrieval_results.csv
+2026-03-29 23:23:56,968 | INFO | 输出文件: experiments/end2end/outputs/generation_results.csv
+2026-03-29 23:59:31,525 | INFO | 测试问题数: 50
+2026-03-29 23:59:31,525 | INFO | 语料 chunk 数: 164
+2026-03-29 23:59:31,526 | INFO | Load pretrained SentenceTransformer: models/hf_cache/hub/BAAI/bge-m3
+2026-03-30 00:00:02,504 | INFO | 开始评测系统: S1
+2026-03-30 00:00:02,504 | INFO | [S1] 处理样本 1/50 | q001
+2026-03-30 00:00:06,838 | INFO | [S1] 处理样本 2/50 | q002
+2026-03-30 00:00:07,978 | INFO | [S1] 处理样本 3/50 | q003
+2026-03-30 00:00:09,174 | INFO | [S1] 处理样本 4/50 | q004
+2026-03-30 00:00:11,175 | INFO | [S1] 处理样本 5/50 | q005
+2026-03-30 00:00:13,661 | INFO | [S1] 处理样本 6/50 | q006
+2026-03-30 00:00:15,421 | INFO | [S1] 处理样本 7/50 | q007
+2026-03-30 00:00:16,446 | INFO | [S1] 处理样本 8/50 | q008
+2026-03-30 00:00:18,722 | INFO | [S1] 处理样本 9/50 | q009
+2026-03-30 00:00:22,604 | INFO | [S1] 处理样本 10/50 | q010
+2026-03-30 00:00:26,957 | INFO | [S1] 处理样本 11/50 | q011
+2026-03-30 00:00:30,005 | ERROR | Kimi API 调用失败: 429 Client Error: Too Many Requests for url: https://api.moonshot.cn/v1/chat/completions
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 565, in generate
+    response.raise_for_status()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/models.py", line 1028, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://api.moonshot.cn/v1/chat/completions
+2026-03-30 00:00:30,081 | INFO | [S1] 处理样本 12/50 | q012
+2026-03-30 00:00:36,136 | INFO | [S1] 处理样本 13/50 | q013
+2026-03-30 00:00:37,555 | INFO | [S1] 处理样本 14/50 | q014
+2026-03-30 00:00:39,183 | INFO | [S1] 处理样本 15/50 | q015
+2026-03-30 00:00:42,368 | INFO | [S1] 处理样本 16/50 | q016
+2026-03-30 00:00:44,854 | INFO | [S1] 处理样本 17/50 | q017
+2026-03-30 00:00:47,369 | INFO | [S1] 处理样本 18/50 | q018
+2026-03-30 00:00:48,614 | INFO | [S1] 处理样本 19/50 | q019
+2026-03-30 00:00:49,931 | INFO | [S1] 处理样本 20/50 | q020
+2026-03-30 00:00:52,335 | INFO | [S1] 处理样本 21/50 | q021
+2026-03-30 00:00:53,835 | INFO | [S1] 处理样本 22/50 | q022
+2026-03-30 00:00:55,067 | INFO | [S1] 处理样本 23/50 | q023
+2026-03-30 00:00:57,434 | INFO | [S1] 处理样本 24/50 | q024
+2026-03-30 00:00:58,855 | INFO | [S1] 处理样本 25/50 | q025
+2026-03-30 00:00:59,874 | INFO | [S1] 处理样本 26/50 | q026
+2026-03-30 00:01:01,297 | INFO | [S1] 处理样本 27/50 | q027
+2026-03-30 00:01:02,762 | INFO | [S1] 处理样本 28/50 | q028
+2026-03-30 00:01:06,533 | INFO | [S1] 处理样本 29/50 | q029
+2026-03-30 00:01:09,797 | INFO | [S1] 处理样本 30/50 | q030
+2026-03-30 00:01:11,246 | INFO | [S1] 处理样本 31/50 | q031
+2026-03-30 00:01:13,421 | INFO | [S1] 处理样本 32/50 | q032
+2026-03-30 00:01:16,446 | INFO | [S1] 处理样本 33/50 | q033
+2026-03-30 00:01:17,372 | INFO | [S1] 处理样本 34/50 | q034
+2026-03-30 00:01:18,617 | INFO | [S1] 处理样本 35/50 | q035
+2026-03-30 00:01:21,933 | INFO | [S1] 处理样本 36/50 | q036
+2026-03-30 00:01:23,722 | INFO | [S1] 处理样本 37/50 | q037
+2026-03-30 00:01:25,580 | INFO | [S1] 处理样本 38/50 | q038
+2026-03-30 00:01:26,997 | INFO | [S1] 处理样本 39/50 | q039
+2026-03-30 00:01:28,806 | INFO | [S1] 处理样本 40/50 | q040
+2026-03-30 00:01:30,930 | INFO | [S1] 处理样本 41/50 | q041
+2026-03-30 00:01:32,338 | INFO | [S1] 处理样本 42/50 | q042
+2026-03-30 00:01:33,655 | INFO | [S1] 处理样本 43/50 | q043
+2026-03-30 00:01:35,614 | INFO | [S1] 处理样本 44/50 | q044
+2026-03-30 00:01:37,915 | INFO | [S1] 处理样本 45/50 | q045
+2026-03-30 00:01:41,557 | INFO | [S1] 处理样本 46/50 | q046
+2026-03-30 00:01:42,779 | INFO | [S1] 处理样本 47/50 | q047
+2026-03-30 00:01:44,201 | INFO | [S1] 处理样本 48/50 | q048
+2026-03-30 00:01:45,597 | INFO | [S1] 处理样本 49/50 | q049
+2026-03-30 00:01:47,352 | INFO | [S1] 处理样本 50/50 | q050
+2026-03-30 00:01:49,839 | INFO | 开始评测系统: S2
+2026-03-30 00:01:49,840 | INFO | [S2] 处理样本 1/50 | q001
+2026-03-30 00:02:03,167 | INFO | [S2] 处理样本 2/50 | q002
+2026-03-30 00:02:12,312 | INFO | [S2] 处理样本 3/50 | q003
+2026-03-30 00:02:23,195 | INFO | [S2] 处理样本 4/50 | q004
+2026-03-30 00:02:28,698 | INFO | [S2] 处理样本 5/50 | q005
+2026-03-30 00:02:40,448 | INFO | [S2] 处理样本 6/50 | q006
+2026-03-30 00:02:52,556 | INFO | [S2] 处理样本 7/50 | q007
+2026-03-30 00:03:02,551 | INFO | [S2] 处理样本 8/50 | q008
+2026-03-30 00:03:13,469 | INFO | [S2] 处理样本 9/50 | q009
+2026-03-30 00:03:23,856 | INFO | [S2] 处理样本 10/50 | q010
+2026-03-30 00:03:35,088 | INFO | [S2] 处理样本 11/50 | q011
+2026-03-30 00:03:46,854 | INFO | [S2] 处理样本 12/50 | q012
+2026-03-30 00:03:57,851 | INFO | [S2] 处理样本 13/50 | q013
+2026-03-30 00:04:08,199 | INFO | [S2] 处理样本 14/50 | q014
+2026-03-30 00:04:18,846 | INFO | [S2] 处理样本 15/50 | q015
+2026-03-30 00:04:29,297 | INFO | [S2] 处理样本 16/50 | q016
+2026-03-30 00:04:40,586 | INFO | [S2] 处理样本 17/50 | q017
+2026-03-30 00:04:51,594 | INFO | [S2] 处理样本 18/50 | q018
+2026-03-30 00:05:02,380 | INFO | [S2] 处理样本 19/50 | q019
+2026-03-30 00:05:13,243 | INFO | [S2] 处理样本 20/50 | q020
+2026-03-30 00:05:25,097 | INFO | [S2] 处理样本 21/50 | q021
+2026-03-30 00:05:35,439 | INFO | [S2] 处理样本 22/50 | q022
+2026-03-30 00:05:45,474 | INFO | [S2] 处理样本 23/50 | q023
+2026-03-30 00:05:56,140 | INFO | [S2] 处理样本 24/50 | q024
+2026-03-30 00:06:06,767 | INFO | [S2] 处理样本 25/50 | q025
+2026-03-30 00:06:13,526 | INFO | [S2] 处理样本 26/50 | q026
+2026-03-30 00:06:23,479 | INFO | [S2] 处理样本 27/50 | q027
+2026-03-30 00:06:33,823 | INFO | [S2] 处理样本 28/50 | q028
+2026-03-30 00:06:44,394 | INFO | [S2] 处理样本 29/50 | q029
+2026-03-30 00:06:55,753 | INFO | [S2] 处理样本 30/50 | q030
+2026-03-30 00:07:07,926 | INFO | [S2] 处理样本 31/50 | q031
+2026-03-30 00:07:20,948 | INFO | [S2] 处理样本 32/50 | q032
+2026-03-30 00:07:33,593 | INFO | [S2] 处理样本 33/50 | q033
+2026-03-30 00:07:40,646 | INFO | [S2] 处理样本 34/50 | q034
+2026-03-30 00:07:46,503 | INFO | [S2] 处理样本 35/50 | q035
+2026-03-30 00:07:58,873 | INFO | [S2] 处理样本 36/50 | q036
+2026-03-30 00:08:05,341 | INFO | [S2] 处理样本 37/50 | q037
+2026-03-30 00:08:15,944 | INFO | [S2] 处理样本 38/50 | q038
+2026-03-30 00:08:25,703 | INFO | [S2] 处理样本 39/50 | q039
+2026-03-30 00:08:37,830 | INFO | [S2] 处理样本 40/50 | q040
+2026-03-30 00:08:49,492 | INFO | [S2] 处理样本 41/50 | q041
+2026-03-30 00:08:59,496 | INFO | [S2] 处理样本 42/50 | q042
+2026-03-30 00:09:10,417 | INFO | [S2] 处理样本 43/50 | q043
+2026-03-30 00:09:20,502 | INFO | [S2] 处理样本 44/50 | q044
+2026-03-30 00:09:30,987 | INFO | [S2] 处理样本 45/50 | q045
+2026-03-30 00:09:44,852 | INFO | [S2] 处理样本 46/50 | q046
+2026-03-30 00:09:50,301 | INFO | [S2] 处理样本 47/50 | q047
+2026-03-30 00:10:00,894 | INFO | [S2] 处理样本 48/50 | q048
+2026-03-30 00:10:11,760 | INFO | [S2] 处理样本 49/50 | q049
+2026-03-30 00:10:22,589 | INFO | [S2] 处理样本 50/50 | q050
+2026-03-30 00:10:34,460 | INFO | 开始评测系统: S3
+2026-03-30 00:10:34,460 | INFO | [S3] 处理样本 1/50 | q001
+2026-03-30 00:10:45,834 | INFO | [S3] 处理样本 2/50 | q002
+2026-03-30 00:10:54,670 | INFO | [S3] 处理样本 3/50 | q003
+2026-03-30 00:11:06,386 | INFO | [S3] 处理样本 4/50 | q004
+2026-03-30 00:11:11,541 | INFO | [S3] 处理样本 5/50 | q005
+2026-03-30 00:11:23,728 | INFO | [S3] 处理样本 6/50 | q006
+2026-03-30 00:11:35,812 | INFO | [S3] 处理样本 7/50 | q007
+2026-03-30 00:11:45,431 | INFO | [S3] 处理样本 8/50 | q008
+2026-03-30 00:11:56,255 | INFO | [S3] 处理样本 9/50 | q009
+2026-03-30 00:12:06,254 | INFO | [S3] 处理样本 10/50 | q010
+2026-03-30 00:12:16,808 | INFO | [S3] 处理样本 11/50 | q011
+2026-03-30 00:12:27,895 | INFO | [S3] 处理样本 12/50 | q012
+2026-03-30 00:12:38,538 | INFO | [S3] 处理样本 13/50 | q013
+2026-03-30 00:12:49,128 | INFO | [S3] 处理样本 14/50 | q014
+2026-03-30 00:12:59,464 | INFO | [S3] 处理样本 15/50 | q015
+2026-03-30 00:13:09,678 | INFO | [S3] 处理样本 16/50 | q016
+2026-03-30 00:13:20,826 | INFO | [S3] 处理样本 17/50 | q017
+2026-03-30 00:13:33,571 | INFO | [S3] 处理样本 18/50 | q018
+2026-03-30 00:13:43,744 | INFO | [S3] 处理样本 19/50 | q019
+2026-03-30 00:13:54,302 | INFO | [S3] 处理样本 20/50 | q020
+2026-03-30 00:14:06,037 | INFO | [S3] 处理样本 21/50 | q021
+2026-03-30 00:14:16,915 | INFO | [S3] 处理样本 22/50 | q022
+2026-03-30 00:14:26,711 | INFO | [S3] 处理样本 23/50 | q023
+2026-03-30 00:14:37,015 | INFO | [S3] 处理样本 24/50 | q024
+2026-03-30 00:14:46,956 | INFO | [S3] 处理样本 25/50 | q025
+2026-03-30 00:14:53,131 | INFO | [S3] 处理样本 26/50 | q026
+2026-03-30 00:15:02,858 | INFO | [S3] 处理样本 27/50 | q027
+2026-03-30 00:15:12,980 | INFO | [S3] 处理样本 28/50 | q028
+2026-03-30 00:15:23,035 | INFO | [S3] 处理样本 29/50 | q029
+2026-03-30 00:15:33,825 | INFO | [S3] 处理样本 30/50 | q030
+2026-03-30 00:15:44,768 | INFO | [S3] 处理样本 31/50 | q031
+2026-03-30 00:15:54,503 | INFO | [S3] 处理样本 32/50 | q032
+2026-03-30 00:16:06,930 | INFO | [S3] 处理样本 33/50 | q033
+2026-03-30 00:16:11,041 | INFO | [S3] 处理样本 34/50 | q034
+2026-03-30 00:16:16,384 | INFO | [S3] 处理样本 35/50 | q035
+2026-03-30 00:16:27,836 | INFO | [S3] 处理样本 36/50 | q036
+2026-03-30 00:16:33,892 | INFO | [S3] 处理样本 37/50 | q037
+2026-03-30 00:16:43,872 | INFO | [S3] 处理样本 38/50 | q038
+2026-03-30 00:16:53,350 | INFO | [S3] 处理样本 39/50 | q039
+2026-03-30 00:17:05,038 | INFO | [S3] 处理样本 40/50 | q040
+2026-03-30 00:17:16,353 | INFO | [S3] 处理样本 41/50 | q041
+2026-03-30 00:17:26,084 | INFO | [S3] 处理样本 42/50 | q042
+2026-03-30 00:17:37,236 | INFO | [S3] 处理样本 43/50 | q043
+2026-03-30 00:17:46,957 | INFO | [S3] 处理样本 44/50 | q044
+2026-03-30 00:17:57,724 | INFO | [S3] 处理样本 45/50 | q045
+2026-03-30 00:18:11,690 | INFO | [S3] 处理样本 46/50 | q046
+2026-03-30 00:18:17,008 | INFO | [S3] 处理样本 47/50 | q047
+2026-03-30 00:18:27,353 | INFO | [S3] 处理样本 48/50 | q048
+2026-03-30 00:18:38,650 | INFO | [S3] 处理样本 49/50 | q049
+2026-03-30 00:18:48,329 | INFO | [S3] 处理样本 50/50 | q050
+2026-03-30 00:19:00,015 | INFO | 评测完成，用时 1168.49s
+2026-03-30 00:19:00,015 | INFO | 输出文件: experiments/end2end/outputs/detailed_results.csv
+2026-03-30 00:19:00,015 | INFO | 输出文件: experiments/end2end/outputs/summary_results.csv
+2026-03-30 00:19:00,015 | INFO | 输出文件: experiments/end2end/outputs/retrieval_results.csv
+2026-03-30 00:19:00,015 | INFO | 输出文件: experiments/end2end/outputs/generation_results.csv
+2026-03-30 00:29:45,204 | INFO | 测试问题数: 10
+2026-03-30 00:29:45,204 | INFO | 语料 chunk 数: 221
+2026-03-30 00:29:45,205 | INFO | Load pretrained SentenceTransformer: models/hf_cache/hub/BAAI/bge-m3
+2026-03-30 00:30:14,696 | INFO | 开始评测系统: S1
+2026-03-30 00:30:14,696 | INFO | [S1] 处理样本 1/10 | q001
+2026-03-30 00:30:14,737 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:14,778 | INFO | [S1][q001] top1=大数据-2025级本科生培养方案-v13-724.pdf rank=1 hit@5=1.0
+2026-03-30 00:30:14,778 | INFO | [S1] 处理样本 2/10 | q002
+2026-03-30 00:30:14,815 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:14,865 | INFO | [S1][q002] top1=附件1-13 信息学院关于工程教育认证专业课程目标达成度与毕业要求达成度阈值的通知.pdf rank=2 hit@5=1.0
+2026-03-30 00:30:14,866 | INFO | [S1] 处理样本 3/10 | q003
+2026-03-30 00:30:14,902 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:14,939 | INFO | [S1][q003] top1=附件1-10 上海海洋大学信息学院课程质量评价办法.pdf rank=1 hit@5=1.0
+2026-03-30 00:30:14,939 | INFO | [S1] 处理样本 4/10 | q004
+2026-03-30 00:30:14,975 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:15,012 | INFO | [S1] 处理样本 5/10 | q005
+2026-03-30 00:30:15,048 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:15,085 | INFO | [S1] 处理样本 6/10 | q006
+2026-03-30 00:30:15,122 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:15,173 | INFO | [S1] 处理样本 7/10 | q007
+2026-03-30 00:30:15,209 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:15,246 | INFO | [S1] 处理样本 8/10 | q008
+2026-03-30 00:30:15,282 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:15,319 | INFO | [S1] 处理样本 9/10 | q009
+2026-03-30 00:30:15,355 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:15,393 | INFO | [S1] 处理样本 10/10 | q010
+2026-03-30 00:30:15,428 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.15/Frameworks/Python.framework/Versions/3.11/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.moonshot.cn', port=443): Failed to resolve 'api.moonshot.cn' ([Errno 8] nodename nor servname provided, or not known)"))
+2026-03-30 00:30:15,475 | INFO | 评测完成，用时 30.27s
+2026-03-30 00:30:15,476 | INFO | 输出文件: experiments/end2end/outputs/detailed_results.csv
+2026-03-30 00:30:15,476 | INFO | 输出文件: experiments/end2end/outputs/summary_results.csv
+2026-03-30 00:30:15,476 | INFO | 输出文件: experiments/end2end/outputs/retrieval_results.csv
+2026-03-30 00:30:15,476 | INFO | 输出文件: experiments/end2end/outputs/generation_results.csv
+2026-03-30 00:41:23,521 | INFO | 测试问题数: 50
+2026-03-30 00:41:23,522 | INFO | 语料 chunk 数: 221
+2026-03-30 00:41:23,522 | INFO | Load pretrained SentenceTransformer: models/hf_cache/hub/BAAI/bge-m3
+2026-03-30 00:41:55,463 | INFO | 开始评测系统: S1
+2026-03-30 00:41:55,464 | INFO | [S1] 处理样本 1/50 | q001
+2026-03-30 00:41:58,582 | INFO | [S1][q001] top1=大数据-2025级本科生培养方案-v13-724.pdf rank=1 hit@5=1.0
+2026-03-30 00:41:58,582 | INFO | [S1] 处理样本 2/50 | q002
+2026-03-30 00:41:59,720 | INFO | [S1][q002] top1=附件1-13 信息学院关于工程教育认证专业课程目标达成度与毕业要求达成度阈值的通知.pdf rank=2 hit@5=1.0
+2026-03-30 00:41:59,720 | INFO | [S1] 处理样本 3/50 | q003
+2026-03-30 00:42:01,874 | INFO | [S1][q003] top1=附件1-10 上海海洋大学信息学院课程质量评价办法.pdf rank=1 hit@5=1.0
+2026-03-30 00:42:01,874 | INFO | [S1] 处理样本 4/50 | q004
+2026-03-30 00:42:04,116 | INFO | [S1] 处理样本 5/50 | q005
+2026-03-30 00:42:06,862 | INFO | [S1] 处理样本 6/50 | q006
+2026-03-30 00:42:08,528 | INFO | [S1] 处理样本 7/50 | q007
+2026-03-30 00:42:09,508 | INFO | [S1] 处理样本 8/50 | q008
+2026-03-30 00:42:11,227 | INFO | [S1] 处理样本 9/50 | q009
+2026-03-30 00:42:12,404 | INFO | [S1] 处理样本 10/50 | q010
+2026-03-30 00:42:14,388 | INFO | [S1] 处理样本 11/50 | q011
+2026-03-30 00:42:15,781 | INFO | [S1] 处理样本 12/50 | q012
+2026-03-30 00:42:18,216 | INFO | [S1] 处理样本 13/50 | q013
+2026-03-30 00:42:19,257 | INFO | [S1] 处理样本 14/50 | q014
+2026-03-30 00:42:20,493 | INFO | [S1] 处理样本 15/50 | q015
+2026-03-30 00:42:21,645 | INFO | [S1] 处理样本 16/50 | q016
+2026-03-30 00:42:22,942 | INFO | [S1] 处理样本 17/50 | q017
+2026-03-30 00:42:24,628 | INFO | [S1] 处理样本 18/50 | q018
+2026-03-30 00:42:25,612 | INFO | [S1] 处理样本 19/50 | q019
+2026-03-30 00:42:26,725 | INFO | [S1] 处理样本 20/50 | q020
+2026-03-30 00:42:28,850 | INFO | [S1] 处理样本 21/50 | q021
+2026-03-30 00:42:30,111 | INFO | [S1] 处理样本 22/50 | q022
+2026-03-30 00:42:31,098 | INFO | [S1] 处理样本 23/50 | q023
+2026-03-30 00:42:33,103 | INFO | [S1] 处理样本 24/50 | q024
+2026-03-30 00:42:34,114 | INFO | [S1] 处理样本 25/50 | q025
+2026-03-30 00:42:35,029 | INFO | [S1] 处理样本 26/50 | q026
+2026-03-30 00:42:36,035 | INFO | [S1] 处理样本 27/50 | q027
+2026-03-30 00:42:37,169 | INFO | [S1] 处理样本 28/50 | q028
+2026-03-30 00:42:38,831 | INFO | [S1] 处理样本 29/50 | q029
+2026-03-30 00:42:40,859 | INFO | [S1] 处理样本 30/50 | q030
+2026-03-30 00:42:42,101 | INFO | [S1] 处理样本 31/50 | q031
+2026-03-30 00:42:43,752 | INFO | [S1] 处理样本 32/50 | q032
+2026-03-30 00:42:45,384 | INFO | [S1] 处理样本 33/50 | q033
+2026-03-30 00:42:46,181 | INFO | [S1] 处理样本 34/50 | q034
+2026-03-30 00:42:47,355 | INFO | [S1] 处理样本 35/50 | q035
+2026-03-30 00:42:51,367 | INFO | [S1] 处理样本 36/50 | q036
+2026-03-30 00:42:52,632 | INFO | [S1] 处理样本 37/50 | q037
+2026-03-30 00:42:54,181 | INFO | [S1] 处理样本 38/50 | q038
+2026-03-30 00:42:55,410 | INFO | [S1] 处理样本 39/50 | q039
+2026-03-30 00:42:57,064 | INFO | [S1] 处理样本 40/50 | q040
+2026-03-30 00:42:59,141 | INFO | [S1] 处理样本 41/50 | q041
+2026-03-30 00:43:04,181 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 676, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+2026-03-30 00:43:04,244 | INFO | [S1] 处理样本 42/50 | q042
+2026-03-30 00:43:06,046 | INFO | [S1] 处理样本 43/50 | q043
+2026-03-30 00:43:07,416 | INFO | [S1] 处理样本 44/50 | q044
+2026-03-30 00:43:09,443 | INFO | [S1] 处理样本 45/50 | q045
+2026-03-30 00:43:13,542 | INFO | [S1] 处理样本 46/50 | q046
+2026-03-30 00:43:14,559 | INFO | [S1] 处理样本 47/50 | q047
+2026-03-30 00:43:16,183 | INFO | [S1] 处理样本 48/50 | q048
+2026-03-30 00:43:17,522 | INFO | [S1] 处理样本 49/50 | q049
+2026-03-30 00:43:20,367 | INFO | [S1] 处理样本 50/50 | q050
+2026-03-30 00:43:23,171 | INFO | 开始评测系统: S2
+2026-03-30 00:43:23,171 | INFO | [S2] 处理样本 1/50 | q001
+2026-03-30 00:43:33,306 | INFO | [S2][q001] top1=大数据-2025级本科生培养方案-v13-724.pdf rank=1 hit@5=1.0
+2026-03-30 00:43:33,306 | INFO | [S2] 处理样本 2/50 | q002
+2026-03-30 00:43:39,635 | INFO | [S2][q002] top1=附件1-13 信息学院关于工程教育认证专业课程目标达成度与毕业要求达成度阈值的通知.pdf rank=2 hit@5=1.0
+2026-03-30 00:43:39,635 | INFO | [S2] 处理样本 3/50 | q003
+2026-03-30 00:43:49,210 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 676, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+2026-03-30 00:43:49,267 | INFO | [S2][q003] top1=附件1-10 上海海洋大学信息学院课程质量评价办法.pdf rank=1 hit@5=1.0
+2026-03-30 00:43:49,267 | INFO | [S2] 处理样本 4/50 | q004
+2026-03-30 00:43:54,944 | INFO | [S2] 处理样本 5/50 | q005
+2026-03-30 00:44:02,375 | INFO | [S2] 处理样本 6/50 | q006
+2026-03-30 00:44:10,418 | INFO | [S2] 处理样本 7/50 | q007
+2026-03-30 00:44:16,628 | INFO | [S2] 处理样本 8/50 | q008
+2026-03-30 00:44:23,530 | INFO | [S2] 处理样本 9/50 | q009
+2026-03-30 00:44:30,647 | INFO | [S2] 处理样本 10/50 | q010
+2026-03-30 00:44:38,365 | INFO | [S2] 处理样本 11/50 | q011
+2026-03-30 00:44:45,635 | INFO | [S2] 处理样本 12/50 | q012
+2026-03-30 00:45:00,440 | INFO | [S2] 处理样本 13/50 | q013
+2026-03-30 00:45:07,547 | INFO | [S2] 处理样本 14/50 | q014
+2026-03-30 00:45:13,720 | INFO | [S2] 处理样本 15/50 | q015
+2026-03-30 00:45:20,707 | INFO | [S2] 处理样本 16/50 | q016
+2026-03-30 00:45:27,925 | INFO | [S2] 处理样本 17/50 | q017
+2026-03-30 00:45:34,917 | INFO | [S2] 处理样本 18/50 | q018
+2026-03-30 00:45:41,307 | INFO | [S2] 处理样本 19/50 | q019
+2026-03-30 00:45:47,983 | INFO | [S2] 处理样本 20/50 | q020
+2026-03-30 00:45:55,501 | INFO | [S2] 处理样本 21/50 | q021
+2026-03-30 00:46:01,392 | INFO | [S2] 处理样本 22/50 | q022
+2026-03-30 00:46:07,518 | INFO | [S2] 处理样本 23/50 | q023
+2026-03-30 00:46:14,298 | INFO | [S2] 处理样本 24/50 | q024
+2026-03-30 00:46:20,633 | INFO | [S2] 处理样本 25/50 | q025
+2026-03-30 00:46:26,870 | INFO | [S2] 处理样本 26/50 | q026
+2026-03-30 00:46:32,807 | INFO | [S2] 处理样本 27/50 | q027
+2026-03-30 00:46:38,732 | INFO | [S2] 处理样本 28/50 | q028
+2026-03-30 00:46:45,646 | INFO | [S2] 处理样本 29/50 | q029
+2026-03-30 00:46:52,507 | INFO | [S2] 处理样本 30/50 | q030
+2026-03-30 00:46:59,154 | INFO | [S2] 处理样本 31/50 | q031
+2026-03-30 00:47:05,876 | INFO | [S2] 处理样本 32/50 | q032
+2026-03-30 00:47:12,685 | INFO | [S2] 处理样本 33/50 | q033
+2026-03-30 00:47:18,461 | INFO | [S2] 处理样本 34/50 | q034
+2026-03-30 00:47:24,624 | INFO | [S2] 处理样本 35/50 | q035
+2026-03-30 00:47:34,177 | INFO | [S2] 处理样本 36/50 | q036
+2026-03-30 00:47:40,100 | INFO | [S2] 处理样本 37/50 | q037
+2026-03-30 00:47:46,569 | INFO | [S2] 处理样本 38/50 | q038
+2026-03-30 00:47:52,782 | INFO | [S2] 处理样本 39/50 | q039
+2026-03-30 00:47:59,901 | INFO | [S2] 处理样本 40/50 | q040
+2026-03-30 00:48:07,186 | INFO | [S2] 处理样本 41/50 | q041
+2026-03-30 00:48:13,258 | INFO | [S2] 处理样本 42/50 | q042
+2026-03-30 00:48:19,866 | INFO | [S2] 处理样本 43/50 | q043
+2026-03-30 00:48:25,961 | INFO | [S2] 处理样本 44/50 | q044
+2026-03-30 00:48:32,772 | INFO | [S2] 处理样本 45/50 | q045
+2026-03-30 00:48:42,546 | INFO | [S2] 处理样本 46/50 | q046
+2026-03-30 00:48:47,976 | INFO | [S2] 处理样本 47/50 | q047
+2026-03-30 00:48:54,344 | INFO | [S2] 处理样本 48/50 | q048
+2026-03-30 00:49:00,895 | INFO | [S2] 处理样本 49/50 | q049
+2026-03-30 00:49:07,370 | INFO | [S2] 处理样本 50/50 | q050
+2026-03-30 00:49:15,310 | INFO | 开始评测系统: S3
+2026-03-30 00:49:15,310 | INFO | [S3] 处理样本 1/50 | q001
+2026-03-30 00:49:23,266 | INFO | [S3][q001] top1=大数据-2025级本科生培养方案-v13-724.pdf rank=1 hit@5=1.0
+2026-03-30 00:49:23,267 | INFO | [S3] 处理样本 2/50 | q002
+2026-03-30 00:49:27,806 | INFO | [S3][q002] top1=附件1-13 信息学院关于工程教育认证专业课程目标达成度与毕业要求达成度阈值的通知.pdf rank=2 hit@5=1.0
+2026-03-30 00:49:27,807 | INFO | [S3] 处理样本 3/50 | q003
+2026-03-30 00:49:35,293 | INFO | [S3][q003] top1=附件1-10 上海海洋大学信息学院课程质量评价办法.pdf rank=1 hit@5=1.0
+2026-03-30 00:49:35,293 | INFO | [S3] 处理样本 4/50 | q004
+2026-03-30 00:49:40,548 | INFO | [S3] 处理样本 5/50 | q005
+2026-03-30 00:49:46,145 | INFO | [S3] 处理样本 6/50 | q006
+2026-03-30 00:49:52,401 | INFO | [S3] 处理样本 7/50 | q007
+2026-03-30 00:49:58,121 | INFO | [S3] 处理样本 8/50 | q008
+2026-03-30 00:50:04,406 | INFO | [S3] 处理样本 9/50 | q009
+2026-03-30 00:50:10,410 | INFO | [S3] 处理样本 10/50 | q010
+2026-03-30 00:50:17,311 | INFO | [S3] 处理样本 11/50 | q011
+2026-03-30 00:50:24,159 | INFO | [S3] 处理样本 12/50 | q012
+2026-03-30 00:50:32,136 | INFO | [S3] 处理样本 13/50 | q013
+2026-03-30 00:50:38,059 | INFO | [S3] 处理样本 14/50 | q014
+2026-03-30 00:50:43,842 | INFO | [S3] 处理样本 15/50 | q015
+2026-03-30 00:50:50,140 | INFO | [S3] 处理样本 16/50 | q016
+2026-03-30 00:50:56,656 | INFO | [S3] 处理样本 17/50 | q017
+2026-03-30 00:51:05,239 | INFO | [S3] 处理样本 18/50 | q018
+2026-03-30 00:51:11,337 | INFO | [S3] 处理样本 19/50 | q019
+2026-03-30 00:51:17,702 | INFO | [S3] 处理样本 20/50 | q020
+2026-03-30 00:51:24,892 | INFO | [S3] 处理样本 21/50 | q021
+2026-03-30 00:51:30,693 | INFO | [S3] 处理样本 22/50 | q022
+2026-03-30 00:51:36,469 | INFO | [S3] 处理样本 23/50 | q023
+2026-03-30 00:51:42,744 | INFO | [S3] 处理样本 24/50 | q024
+2026-03-30 00:51:48,386 | INFO | [S3] 处理样本 25/50 | q025
+2026-03-30 00:51:53,971 | INFO | [S3] 处理样本 26/50 | q026
+2026-03-30 00:51:59,976 | INFO | [S3] 处理样本 27/50 | q027
+2026-03-30 00:52:05,578 | INFO | [S3] 处理样本 28/50 | q028
+2026-03-30 00:52:11,756 | INFO | [S3] 处理样本 29/50 | q029
+2026-03-30 00:52:18,453 | INFO | [S3] 处理样本 30/50 | q030
+2026-03-30 00:52:24,781 | INFO | [S3] 处理样本 31/50 | q031
+2026-03-30 00:52:30,594 | INFO | [S3] 处理样本 32/50 | q032
+2026-03-30 00:52:37,188 | INFO | [S3] 处理样本 33/50 | q033
+2026-03-30 00:52:42,764 | INFO | [S3] 处理样本 34/50 | q034
+2026-03-30 00:52:48,764 | INFO | [S3] 处理样本 35/50 | q035
+2026-03-30 00:52:57,754 | INFO | [S3] 处理样本 36/50 | q036
+2026-03-30 00:53:03,255 | INFO | [S3] 处理样本 37/50 | q037
+2026-03-30 00:53:09,149 | INFO | [S3] 处理样本 38/50 | q038
+2026-03-30 00:53:15,142 | INFO | [S3] 处理样本 39/50 | q039
+2026-03-30 00:53:22,466 | INFO | [S3] 处理样本 40/50 | q040
+2026-03-30 00:53:29,553 | INFO | [S3] 处理样本 41/50 | q041
+2026-03-30 00:53:39,348 | ERROR | Kimi API 调用失败: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+urllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/user/毕设/rag-project/experiments/end2end/scripts/eval_rag_system.py", line 652, in generate
+    response = requests.post(
+               ^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/user/毕设/rag-project/.venv/lib/python3.11/site-packages/requests/adapters.py", line 676, in send
+    raise SSLError(e, request=request)
+requests.exceptions.SSLError: HTTPSConnectionPool(host='api.moonshot.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+2026-03-30 00:53:39,413 | INFO | [S3] 处理样本 42/50 | q042
+2026-03-30 00:53:46,025 | INFO | [S3] 处理样本 43/50 | q043
+2026-03-30 00:53:51,901 | INFO | [S3] 处理样本 44/50 | q044
+2026-03-30 00:53:58,289 | INFO | [S3] 处理样本 45/50 | q045
+2026-03-30 00:54:08,020 | INFO | [S3] 处理样本 46/50 | q046
+2026-03-30 00:54:13,508 | INFO | [S3] 处理样本 47/50 | q047
+2026-03-30 00:54:19,451 | INFO | [S3] 处理样本 48/50 | q048
+2026-03-30 00:54:25,386 | INFO | [S3] 处理样本 49/50 | q049
+2026-03-30 00:54:30,900 | INFO | [S3] 处理样本 50/50 | q050
+2026-03-30 00:54:38,919 | INFO | 评测完成，用时 795.40s
+2026-03-30 00:54:38,919 | INFO | 输出文件: experiments/end2end/outputs/detailed_results.csv
+2026-03-30 00:54:38,920 | INFO | 输出文件: experiments/end2end/outputs/summary_results.csv
+2026-03-30 00:54:38,920 | INFO | 输出文件: experiments/end2end/outputs/retrieval_results.csv
+2026-03-30 00:54:38,920 | INFO | 输出文件: experiments/end2end/outputs/generation_results.csv

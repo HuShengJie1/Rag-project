@@ -1,0 +1,11 @@
+{
+  "doc_id": "37",
+  "parser_name": "pymupdf",
+  "actual_parser": "pymupdf",
+  "success": true,
+  "elapsed_time": 0.0168,
+  "text_length": 12530,
+  "markdown_length": 0,
+  "page_count": 20,
+  "error_message": ""
+}

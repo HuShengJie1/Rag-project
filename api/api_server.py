@@ -33,8 +33,38 @@ app.add_middleware(
 )
 
 # --- 路径配置 ---
-EMBED_PATH = "e:/rag-project/models/bge-m3"
-RERANK_PATH = "e:/rag-project/models/bge-reranker-v2-m3" # 👈 新增：重排模型路径
+MODELS_ROOT = Path(os.getenv("LOCAL_MODELS_ROOT", str(PROJECT_ROOT / "models"))).expanduser()
+
+
+def _resolve_model_path(*candidates: Path) -> str:
+    for p in candidates:
+        if p.exists():
+            return str(p)
+    return str(candidates[0])
+
+
+def _optional_env_path(env_key: str) -> Path | None:
+    value = (os.getenv(env_key) or "").strip()
+    if not value:
+        return None
+    return Path(value).expanduser()
+
+
+embed_candidates = [MODELS_ROOT / "bge-m3", MODELS_ROOT / "hf_cache" / "hub" / "BAAI" / "bge-m3"]
+rerank_candidates = [
+    MODELS_ROOT / "bge-reranker-v2-m3",
+    MODELS_ROOT / "hf_cache" / "hub" / "BAAI" / "bge-reranker-v2-m3",
+]
+
+env_bge = _optional_env_path("BGE_M3_PATH")
+env_rerank = _optional_env_path("BGE_RERANKER_PATH")
+if env_bge is not None:
+    embed_candidates.insert(0, env_bge)
+if env_rerank is not None:
+    rerank_candidates.insert(0, env_rerank)
+
+EMBED_PATH = _resolve_model_path(*embed_candidates)
+RERANK_PATH = _resolve_model_path(*rerank_candidates)  # 👈 重排模型路径
 PERSIST_DIR = PROJECT_ROOT / "data" / "chroma" / "bge_v2_db"
 
 # --- 1. 加载嵌入模型 ---

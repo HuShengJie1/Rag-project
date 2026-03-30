@@ -1,0 +1,8 @@
+2026-03-29 15:11:57,970 | INFO | Run ID: 20260329T071157Z
+2026-03-29 15:11:57,971 | INFO | Input dir: /Users/user/毕设/rag-project/experiments/embedding_experiment/parsing/input_docs
+2026-03-29 15:11:57,971 | INFO | Output dir: /Users/user/毕设/rag-project/experiments/embedding_experiment/parsing/outputs
+2026-03-29 15:11:57,971 | INFO | Manifest CSV: /Users/user/毕设/rag-project/experiments/embedding_experiment/parsing/manifest.csv
+2026-03-29 15:11:57,971 | INFO | Manifest JSON: /Users/user/毕设/rag-project/experiments/embedding_experiment/parsing/manifest.json
+2026-03-29 15:11:57,971 | INFO | Log file: /Users/user/毕设/rag-project/experiments/embedding_experiment/parsing/logs/run_20260329T071157Z.log
+2026-03-29 15:11:57,972 | INFO | Discovered 0 files to consider.
+2026-03-29 15:11:57,972 | INFO | Summary | total=0 success=0 failed=0 skipped=0

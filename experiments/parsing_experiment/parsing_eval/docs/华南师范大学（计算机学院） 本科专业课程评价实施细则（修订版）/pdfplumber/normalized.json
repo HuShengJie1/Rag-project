@@ -1,0 +1,189 @@
+{
+  "doc_id": "16",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\16.pdf",
+  "parser_name": "pdfplumber",
+  "pages": [
+    {
+      "page_no": 1,
+      "text_length": 0
+    },
+    {
+      "page_no": 2,
+      "text_length": 0
+    },
+    {
+      "page_no": 3,
+      "text_length": 0
+    },
+    {
+      "page_no": 4,
+      "text_length": 0
+    },
+    {
+      "page_no": 5,
+      "text_length": 0
+    },
+    {
+      "page_no": 6,
+      "text_length": 0
+    },
+    {
+      "page_no": 7,
+      "text_length": 0
+    },
+    {
+      "page_no": 8,
+      "text_length": 0
+    },
+    {
+      "page_no": 9,
+      "text_length": 0
+    },
+    {
+      "page_no": 10,
+      "text_length": 0
+    },
+    {
+      "page_no": 11,
+      "text_length": 0
+    },
+    {
+      "page_no": 12,
+      "text_length": 0
+    },
+    {
+      "page_no": 13,
+      "text_length": 0
+    },
+    {
+      "page_no": 14,
+      "text_length": 0
+    },
+    {
+      "page_no": 15,
+      "text_length": 0
+    },
+    {
+      "page_no": 16,
+      "text_length": 0
+    },
+    {
+      "page_no": 17,
+      "text_length": 0
+    },
+    {
+      "page_no": 18,
+      "text_length": 0
+    }
+  ],
+  "blocks": [
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 12,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 13,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 14,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 15,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 16,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 17,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "",
+      "page_no": 18,
+      "metadata": {}
+    }
+  ]
+}

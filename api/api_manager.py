@@ -3,9 +3,8 @@ import uuid
 import shutil
 import sys
 from pathlib import Path
-from fastapi import APIRouter, UploadFile, File, BackgroundTasks, HTTPException
+from fastapi import APIRouter, UploadFile, File, HTTPException
 from fastapi.responses import FileResponse
-from fastapi import HTTPException
 import urllib.parse
 # 确保能引用到 src 目录下的模块
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
@@ -15,7 +14,7 @@ if str(PROJECT_ROOT / "src") not in sys.path:
 # 从项目组件中导入
 from core import SessionLocal, DocumentRecord, vector_store  #
 from chunkers.chunking import chunk_markdown_file           #
-from loaders.pdf_loader import load_pdf
+from loaders.mineru_loader import load_pdf, load_docx
 
 router = APIRouter(prefix="/api")
 UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
@@ -64,17 +63,28 @@ def process_ingestion_task(file_id: str, user_id: str, file_path: Path, filename
         
         # --- 步骤 A: 根据后缀判断解析方式 ---
         suffix = file_path.suffix.lower()
-        raw_text = ""
+        raw_records = []
 
         if suffix == ".pdf":
-            # PDF: 使用 PyMuPDF 提取带页码标记的文本
-            print("   ↳ 检测到 PDF，正在提取文本...")
-            raw_text = load_pdf(str(file_path))
+            # PDF: 使用 MinerU 本地模型解析为 Markdown
+            print("   ↳ 检测到 PDF，正在使用 MinerU 解析...")
+            raw_records = load_pdf(str(file_path))
+
+        elif suffix == ".docx":
+            # DOCX: 使用 MinerU office 模块解析
+            print("   ↳ 检测到 DOCX，正在使用 MinerU 解析...")
+            raw_records = load_docx(str(file_path))
         
         elif suffix in [".md", ".txt"]:
             # 文本: 直接读取
             print("   ↳ 检测到 Markdown/Text，直接读取...")
             raw_text = file_path.read_text(encoding="utf-8")
+            raw_records = [{
+                "doc_name": file_path.name,
+                "page": 1,
+                "text": raw_text,
+                "section_path": None,
+            }]
         
         else:
             print(f"⚠️ 跳过不支持的文件格式: {suffix}")
@@ -86,7 +96,7 @@ def process_ingestion_task(file_id: str, user_id: str, file_path: Path, filename
         
         # 创建一个同名但后缀为 .temp.md 的临时文件
         temp_md_path = file_path.with_suffix(".temp.md")
-        content = "\n\n\n".join([str(rec.get("text", "")) for rec in raw_text])
+        content = "\n\n\n".join([str(rec.get("text", "")) for rec in raw_records])
         temp_md_path.write_text(content, encoding="utf-8")
         
         # --- 步骤 C: 语义分块并注入隔离标签 (file_id & user_id) ---
@@ -164,7 +174,7 @@ async def list_sources():
 @router.post("/upload")
 async def upload_document(file: UploadFile = File(...)):
     """处理前端‘添加来源’请求（改为同步阻塞式）"""
-    if not file.filename.endswith(('.md', '.pdf', '.txt')):
+    if not file.filename.endswith(('.md', '.pdf', '.txt', '.docx')):
         raise HTTPException(status_code=400, detail="不支持的文件格式")
 
     current_user = "admin"

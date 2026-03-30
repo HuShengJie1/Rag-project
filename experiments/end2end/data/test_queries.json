@@ -1,0 +1,606 @@
+[
+  {
+    "id": "q001",
+    "query": "大数据专业预期的毕业5年目标是什么？",
+    "gold_answer": "培养具备解决复杂工程问题能力，能在智慧海洋、生物信息领域从事软件开发、数据分析及项目管理的复合应用型人才。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "大数据-2025级本科生培养方案-v13-724.md",
+      "附件1-1 信息学院本科教学工作委员会职责"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "预期在毕业 5 年左右...具备解决专业领域复杂工程问题的能力...在智慧海洋、生物信息等相关领域...工作的复合应用型新时代专业人才。（培养方案 1.1）"
+  },
+  {
+    "id": "q002",
+    "query": "计算机类专业工程教育认证中的“毕业要求”共有多少项？",
+    "gold_answer": "12项。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "大数据-2025级本科生培养方案-v13-724.md"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "毕业要求（1）工程知识...（12）个人和团队。（培养方案 1.2）"
+  },
+  {
+    "id": "q003",
+    "query": "课程质量评价到底是在评什么？",
+    "gold_answer": "实质是评价课程目标的达成情况。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "附件1-10 课程质量评价办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "课程质量评价是教学过程质量监控的核心内容，实质是评价课程目标的达成情况。（附件1-10 1.）"
+  },
+  {
+    "id": "q004",
+    "query": "学院教学咨询委员会是什么性质的组织？",
+    "gold_answer": "是学院与企业联系的桥梁、校企合作的平台，也是推进专业认证的保障。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "附件1-2 教学咨询委员会章程"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "本委员会是上海海洋大学信息学院与知名企业联系的桥梁与纽带...是探索校企合作、推进专业国际工程认证的平台和有力保障。（附件1-2 第三条）"
+  },
+  {
+    "id": "q005",
+    "query": "哪些课程或环节必须进行质量评价？",
+    "gold_answer": "所有理论课程、实践课程、毕业设计。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "附件1-10 课程质量评价办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "评价对象：各本科专业人才培养方案中开出的所有理论课程、实践课程、毕业设计。（附件1-10 一.1）"
+  },
+  {
+    "id": "q006",
+    "query": "毕业要求指标点（3）“设计/开发解决方案”除了技术外还需考虑什么？",
+    "gold_answer": "健康、安全与环境、全生命周期成本与净零碳要求、法律与伦理、社会与文化因素。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "大数据-2025级本科生培养方案-v13-724.md"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "并能够在设计环节中体现创新性，考虑健康、安全与环境、全生命周期成本与净零碳要求、法律与伦理、社会与文化等因素。（培养方案 1.2(3)）"
+  },
+  {
+    "id": "q007",
+    "query": "大数据专业所属的主干学科是什么？",
+    "gold_answer": "计算机科学与技术。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "大数据-2025级本科生培养方案-v13-724.md"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "主干学科 计算机科学与技术（培养方案 四.1）"
+  },
+  {
+    "id": "q008",
+    "query": "教学督导小组由哪些专家组成？",
+    "gold_answer": "1名组长和4-8名专家。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "附件1-3 本科教学督导工作条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "各学院设一个督导小组，由 1 名组长和 4-8 名专家组成。（附件1-3 第2条）"
+  },
+  {
+    "id": "q009",
+    "query": "课堂教学“教学六环节”具体指什么？",
+    "gold_answer": "备课、讲授、讨论、答疑、作业、考核。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "附件1-3 本科教学督导工作条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "按照备课、讲授、讨论、答疑、作业、考核等课堂教学环节（简称“教学六环节”）。（附件1-3 第3条）"
+  },
+  {
+    "id": "q010",
+    "query": "大数据专业的核心课程有哪些？",
+    "gold_answer": "程序设计基础、数据结构与算法、操作系统原理、数据库原理、计算机网络、大数据原理与技术、数据挖掘。",
+    "question_type": "术语定义",
+    "gold_evidence_doc": [
+      "大数据-2025级本科生培养方案-v13-724.md"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "主要课程：程序设计基础 I/II、数据结构与算法...操作系统原理、数据库原理、计算机网络...大数据原理与技术、数据挖掘等。（培养方案 四.2）"
+  },
+  {
+    "id": "q011",
+    "query": "课程目标达成情况计算时，主客观权重如何分配？",
+    "gold_answer": "客观评价占0.8，主观评价占0.2。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "大数据-2025级本科生培养方案-v13-724.md"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "课程目标达成情况 = 课程目标达成情况(客观) * 0.8 + 课程目标达成情况(主观) * 0.2（附件1-10 五.2）"
+  },
+  {
+    "id": "q012",
+    "query": "某项毕业要求的最终达成值是如何确定的？",
+    "gold_answer": "取该毕业要求下所有指标点达成度评价值的最小值。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-10 课程质量评价办法",
+      "附件1-14 毕业要求达成情况评价办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "单项毕业要求达成值 = min{该毕业要求的各指标点达成度评价值}（附件1-14 五.1.5）"
+  },
+  {
+    "id": "q013",
+    "query": "学生主观评分采用五级制，其中“合格”对应多少分？",
+    "gold_answer": "2分。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-10 课程质量评价办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "评价采用五级制（优、良、中、合格、差），分别对应5，4，3，2，1分。（附件1-10 五.2）"
+  },
+  {
+    "id": "q014",
+    "query": "学生在校最长学习年限（含休学和保留学籍）是多久？",
+    "gold_answer": "六年。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生在校最长学习年限（含休学和保留学籍）为六年。（附件1-11 第六条）"
+  },
+  {
+    "id": "q015",
+    "query": "第二学期至第四学期，每学期选课学分上限是多少？",
+    "gold_answer": "35学分。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-1 信息学院本科教学工作委员会职责",
+      "附件1-11 本科生学籍管理条例",
+      "附件1-13 达成度阈值通知"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "第二至第四学期每学期选课最少不得低于 16 学分，最多不超过 35 学分。（附件1-11 第九条）"
+  },
+  {
+    "id": "q016",
+    "query": "缺课多少会被取消考核资格？",
+    "gold_answer": "缺课超过三分之一学时或随机抽查三次不到。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "对未经请假批准缺课超过三分之一学时或随机抽查三次不到者，教师有权取消其考核资格。（附件1-11 第十一条）"
+  },
+  {
+    "id": "q017",
+    "query": "怎么计算学生的平均学分绩点？",
+    "gold_answer": "Σ(课程学分×课程绩点) / Σ课程学分。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "平均学分绩点 = Σ(课程学分 × 课程绩点) / Σ课程学分（附件1-11 第二十五条）"
+  },
+  {
+    "id": "q018",
+    "query": "试卷命题与前两届试题的重复率限制是多少？",
+    "gold_answer": "不得超过30%。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-9 试卷命题及课程目标达成度评价细则"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "试题与前两届试题不得重复超过 30%。（附件1-9 二.2）"
+  },
+  {
+    "id": "q019",
+    "query": "必修课不及格达到多少分可以参加补考？",
+    "gold_answer": "30分及以上。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "必修课程...不及格且在 30 分以上者（含 30 分），可参加下学期开学初的补考。（附件1-11 第十八条）"
+  },
+  {
+    "id": "q020",
+    "query": "如果某门课程规模为75人且教学课时为32，该老师能得多少教学任务分？",
+    "gold_answer": "38.4分。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-7 课程教学基本规范及考核计算办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "60-90 人的每个教学课时...计 1.2 分。（32 * 1.2 = 38.4）（附件1-7 二.1）"
+  },
+  {
+    "id": "q021",
+    "query": "2025级大数据专业培养方案中，实践教学环节共计多少学分？",
+    "gold_answer": "44学分。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-7 课程教学基本规范及考核计算办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "实践教学包括专业实践实训 36 学分...共 44 学分。（培养方案 七.4）"
+  },
+  {
+    "id": "q022",
+    "query": "试读生修获学分达到多少比例可以解除试读？",
+    "gold_answer": "70%及以上。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-9 试卷命题及课程目标达成度评价细则"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "试读期满，对试读一年期内所选课程学分修获达 70%及以上者，解除试读。（附件1-11 第四十七条）"
+  },
+  {
+    "id": "q023",
+    "query": "学业警告的触发条件是什么？",
+    "gold_answer": "当学期考核（含补考）后未取得当学期选修课程二分之一学分。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "考核（包括补考）后未取得其中二分之一学分者，予以学业警告。（附件1-11 第四十六条）"
+  },
+  {
+    "id": "q024",
+    "query": "开卷考试中直接从教材找答案的题目分值限制是多少？",
+    "gold_answer": "不得超过总分的20%。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-9 试卷命题及课程目标达成度评价细则"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "直接可以在教材中找到答案的题目分值不应超过总分值的 20%。（附件1-9 二.2）"
+  },
+  {
+    "id": "q025",
+    "query": "信息学院确定的毕业要求达成度合格阈值是多少？",
+    "gold_answer": "0.65。",
+    "question_type": "逻辑计算",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "现确定学院各专业...课程目标达成度与毕业要求达成度阈值均为 0.65。（附件1-13）"
+  },
+  {
+    "id": "q026",
+    "query": "新生报到请假期限一般不得超过多久？",
+    "gold_answer": "两周。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "假期一般不得超过两周，未经请假或请假后逾期不报到者...视为放弃入学资格。（附件1-11 第一条）"
+  },
+  {
+    "id": "q027",
+    "query": "学生在校最多能休学多久？",
+    "gold_answer": "累计不得超过四学期。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生休学以一学期为期，累计不得超过四学期。（附件1-11 第四十二条）"
+  },
+  {
+    "id": "q028",
+    "query": "想申请提前毕业需要在什么时候提申请？",
+    "gold_answer": "拟毕业学期的前一学期。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "必须在拟毕业学期的前一学期向所在学院提出书面申请。（附件1-11 第七条）"
+  },
+  {
+    "id": "q029",
+    "query": "哪些课程不可以申请免听或免修？",
+    "gold_answer": "思想政治理论课、体育课、实验课、实习、课程设计、毕业设计（论文）。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "以下课程（环节）不得申请免听和免修：（一）思想政治理论课、体育课、实验课...（二）实习、课程设计、毕业设计（论文）。（附件1-11 第二十八条）"
+  },
+  {
+    "id": "q030",
+    "query": "专业接收转学生的比例标准是多少？",
+    "gold_answer": "一般不低于本专业同年级原招生数的10%。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-1 信息学院本科教学工作委员会职责",
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "转专业接收名额一般不低于本专业同年级原招生数的 10%。（附件1-11 第三十一条）"
+  },
+  {
+    "id": "q031",
+    "query": "休学期间有严重违纪行为的学生复学时如何处理？",
+    "gold_answer": "取消其复学资格。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "对在休学期间有严重违法违纪行为者，取消其复学资格。（附件1-11 第四十四条）"
+  },
+  {
+    "id": "q032",
+    "query": "受过留校察看处分的学生能拿学位吗？",
+    "gold_answer": "原则上不授予；表现良好者可书面申请由校学位委员会决定。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-12 学士学位授予工作细则"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "受留校察看及以上处分者不授予学士学位...曾经受过处分的学生...毕业前本人可书面提出授予学位申请...由校学位委员会研究决定。（附件1-12 第三、四条）"
+  },
+  {
+    "id": "q033",
+    "query": "专业培养目标的全面评价周期是几年？",
+    "gold_answer": "四年。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-15 持续改进工作指导意见"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "对培养目标建议每四年进行一次全面评价。（附件1-15 一.2）"
+  },
+  {
+    "id": "q034",
+    "query": "毕业要求和课程体系的合理性评价周期是几年？",
+    "gold_answer": "二年。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-5 课程体系合理性评价办法",
+      "附件1-15 持续改进工作指导意见"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "专业至少每二年一次对毕业要求进行一次综合评价。（附件1-15 二.2）"
+  },
+  {
+    "id": "q035",
+    "query": "试卷命题和审核在人员安排上有何规定？",
+    "gold_answer": "不可由同一人完成。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-7 课程教学基本规范及考核计算办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "不可由同一人完成命题和审核。（附件1-7 一.3）"
+  },
+  {
+    "id": "q036",
+    "query": "命题工作应在考核前多久完成？",
+    "gold_answer": "两周。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-9 试卷命题及课程目标达成度评价细则"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "课程考核命题工作一般应在考核前两周完成。（附件1-9 一.5）"
+  },
+  {
+    "id": "q037",
+    "query": "对成绩有异议应在什么时候申请复议？",
+    "gold_answer": "开学注册时。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生如对成绩有异议，可在开学注册时提出成绩复议申请。（附件1-11 第十五条）"
+  },
+  {
+    "id": "q038",
+    "query": "补考成绩及格后如何记载？",
+    "gold_answer": "按“及格”或“60分”记载。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "补考课程如合格，其成绩均按及格（60 分）记载。（附件1-11 第十八条）"
+  },
+  {
+    "id": "q039",
+    "query": "创新创业学分获得后如何计入档案？",
+    "gold_answer": "经学生申请及校院审核后计入学业成绩。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": null,
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "经学生申请，校院审核后，获得创新创业教育学分，计入学业成绩。（附件1-11 第二十四条）"
+  },
+  {
+    "id": "q040",
+    "query": "重修课程如果和上课时间冲突了怎么办？",
+    "gold_answer": "可申请免听，但必须参加考核。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生因重修课程与其他课程的上课时间有冲突...可...申请免听，参加课程考核。（附件1-11 第二十六条）"
+  },
+  {
+    "id": "q041",
+    "query": "入伍的新生保留入学资格期限是多久？",
+    "gold_answer": "退役后2年内。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "保留入学资格至退役后 2 年内。（附件1-11 第三条）"
+  },
+  {
+    "id": "q042",
+    "query": "毕业证丢了能补办原件吗？",
+    "gold_answer": "不予补发，只出具证明书。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学历证书和学位证书遗失或者损坏一律不予补发...出具相应的证明书。（附件1-11 第六十一条）"
+  },
+  {
+    "id": "q043",
+    "query": "退学学生必须在接到通知后几天内离校？",
+    "gold_answer": "十日。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "退学学生必须在接到通知之日起十日内办理离校手续。（附件1-11 第五十条）"
+  },
+  {
+    "id": "q044",
+    "query": "参加跨校联合培养时学籍怎么处理？",
+    "gold_answer": "学校为其保留学籍。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生参加学校组织的跨校联合培养项目...学校同时为其保留学籍。（附件1-11 第四十条）"
+  },
+  {
+    "id": "q045",
+    "query": "课程目标达成不理想时的持续改进流程是什么？",
+    "gold_answer": "教师提整改思路，系室讨论通过后修订大纲，下一轮实施。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-14 毕业要求达成情况评价办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "责任教师提出整改思路...交由系室组织讨论，讨论通过后修订教学大纲，在下一轮教学中实施。（附件1-14 六.2）"
+  },
+  {
+    "id": "q046",
+    "query": "学生教学信息员原则上由谁担任？",
+    "gold_answer": "各专业班级的学习委员。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-8 学生教学信息员制度实施办法"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生教学信息员原则上由各专业班级的学习委员担任。（附件1-8 三.1）"
+  },
+  {
+    "id": "q047",
+    "query": "考试需要准备几套试卷？",
+    "gold_answer": "A、B两套。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-9 试卷命题及课程目标达成度评价细则"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "考试应准备 A、B 两套试卷，其覆盖面、题型、题量和难度应基本一致。（附件1-9 一.4）"
+  },
+  {
+    "id": "q048",
+    "query": "被取消学籍的学生发给学位证吗？",
+    "gold_answer": "不发学历、学位证书；已发的依法撤销。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "对违反国家招生规定取得入学资格或者学籍的，学校取消其学籍，不发学历证书、学位证书。（附件1-11 第五十九条）"
+  },
+  {
+    "id": "q049",
+    "query": "欠多少学分不能直接进入毕业设计阶段？",
+    "gold_answer": "10学分及以上。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生在前六个学期应修学分中尚缺 10 学分及以上者，不能直接进入毕业设计（论文）阶段。（附件1-11 第十二条）"
+  },
+  {
+    "id": "q050",
+    "query": "如果原有的不及格课程停开了，怎么完成重修？",
+    "gold_answer": "经开课学院认定，可改修内容相近的课程。",
+    "question_type": "政策流程",
+    "gold_evidence_doc": [
+      "附件1-11 本科生学籍管理条例"
+    ],
+    "gold_evidence_page": null,
+    "gold_chunk_id": null,
+    "source_excerpt": "学生可另修与原不及格课程内容相近的课程，经考核合格后给予原课程学分。（附件1-11 第二十一条）"
+  }
+]

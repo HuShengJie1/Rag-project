@@ -1,0 +1,11 @@
+{
+  "doc_id": "27",
+  "parser_name": "unstructured",
+  "actual_parser": "unstructured",
+  "success": true,
+  "elapsed_time": 0.0753,
+  "text_length": 935,
+  "markdown_length": 0,
+  "page_count": 0,
+  "error_message": ""
+}

@@ -1,0 +1,129 @@
+{
+  "doc_id": "30",
+  "source_path": "E:\\rag-project\\experiments\\outputs\\downloads\\30.pdf",
+  "parser_name": "pymupdf",
+  "pages": [
+    {
+      "page_no": 1,
+      "text_length": 1628
+    },
+    {
+      "page_no": 2,
+      "text_length": 1960
+    },
+    {
+      "page_no": 3,
+      "text_length": 3502
+    },
+    {
+      "page_no": 4,
+      "text_length": 1945
+    },
+    {
+      "page_no": 5,
+      "text_length": 719
+    },
+    {
+      "page_no": 6,
+      "text_length": 1570
+    },
+    {
+      "page_no": 7,
+      "text_length": 1721
+    },
+    {
+      "page_no": 8,
+      "text_length": 421
+    },
+    {
+      "page_no": 9,
+      "text_length": 1147
+    },
+    {
+      "page_no": 10,
+      "text_length": 1599
+    },
+    {
+      "page_no": 11,
+      "text_length": 1794
+    },
+    {
+      "page_no": 12,
+      "text_length": 1019
+    }
+  ],
+  "blocks": [
+    {
+      "block_type": "page",
+      "text": "测控技术与仪器专业人才培养方案\nUndergraduate Program for Measurement-Control Technology and\nInstrument Major\n学科门类：工学\nDiscipline Type: Engineering\n国标代码：08\nCode: 08\n专业类：仪器类\nType: Instrument\n国标代码：0803\nCode: 0803\n专业名称：测控技术与仪器\nTitle of the Major: Measurement-Control\nTechnology and Instrument\n国标代码：080301\nCode: 080301\n校内代码：16\n一、学制与学位\nLength of Schooling and Degree\n学制：四年\nDuration: Four years\n授予学位：工学学士\nDegree: Bachelor of Engineering\n二、培养目标\nEducational Objectives\n适应社会经济发展和能源电力相关行业技术进步需求，以培养社会主义建设者和接班人\n为根本任务，培养系统掌握测量、控制和计算机应用的基本理论及技术，电力特色鲜明，能\n够在能源、环保及流程工业等领域从事与仪器仪表及过程控制相关的研究、设计、制造、计\n量测试及项目管理等工作，德智体美劳全面发展的卓越工程科技人才。\nThis major is set to adapt the needs of socio-economic development and technological progress\nin energy and power related industries and the fundamental task is training socialist builders and\nsuccessors. The graduates have distinctive electric power characteristics are aimed to be cultivated\nto be excellent engineering and technological talents, who systematically master the basic theory\nand technology of measurement, control and computer application, can engage in research, design,\nmanufacturing, metrology and measurement and project management related to process control\nand instrumentation in the fields of energy, environmental protection and process industry. They\nare also required to have the comprehensive development of moral, physical and mental skills.\n学生毕业5 年左右能够达到的职业和专业成就：\n（1）具备良好的理工基础与人文素养，具有健全的人格和正确的价值观，能够正确认\n识工程实践对环境、社会可持续发展的影响；\n（2）能够系统运用测控技术与仪器仪表，综合考虑社会、健康、安全、法律、文化以\n及环境等因素，针对能源电力相关行业测量与控制领域复杂工程问题，设计开发相应的解决\n方案；\n（3）具有良好的团队合作精神与项目管理能力，遵守法律法规，具有工程职业道德，\n遵守职业规范，有社会责任感；\n（4）能够跟踪测控技术及仪器仪表领域的前沿技术和能源电力相关行业国内外发展趋\n",
+      "page_no": 1,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "势，具备良好的主动发展意识、创新精神与自主终身学习能力；\n（5）具备良好的表达与沟通能力，能够承担国际交流与对外合作工作。\nGraduates are expected to have the following professional achievements after 5 years of work\npractice:\n(1)\nThey will have a good scientific and technological foundation and humanistic literacy,\nand have a sound personality and correct values;\n(2)\nThey can systematically apply measurement and control theory and technology to\nprovide solutions to complex engineering problems in the measurement and automation field of\nenergy and power related industries, and has the ability to undertake measurement and automation\nengineering projects;\n(3)\nThey will have a good teamwork spirit and management coordination ability, have a\nsense of social responsibility and engineering ethics, and abide by professional standards;\n(4)\nThey are able to track cutting-edge technologies in the field of measurement\n&automation and development trends at home and abroad in energy and power-related industries,\nand have a good sense of active development, innovative spirit and independent lifelong learning\nability;\n(5)\nThey will have good expression and communication skills, and be able to undertake\ninternational exchanges and foreign cooperation.\n三、专业培养基本要求Skills Profile\n本专业学生毕业时应达到以下要求：\n（1）工程知识：掌握数学、自然科学、工程基础和专业知识，能够用于解决能源电力\n相关行业测控技术与仪器领域的复杂工程问题。\n（2）问题分析：能够应用数学、自然科学和工程科学的基本原理，识别、表达并通过\n文献研究分析能源电力相关行业测控技术与仪器领域的复杂工程问题，能够给出合理的解决\n方案。\n（3）设计/开发解决方案：能够设计针对能源电力相关行业测控技术与仪器领域复杂工\n程问题的解决方案，设计满足生产需求的测控系统或仪器仪表，并能够在设计环节中体现创\n新意识，考虑社会、健康、安全、法律、文化以及环境等因素。\n（4）研究：能够基于科学原理并采用科学方法对测控技术与仪器领域，尤其是能源电\n力相关行业测控技术与仪器领域复杂工程问题进行研究，包括设计实验、分析与解释数据、\n并通过信息综合得到合理有效的结论。\n（5）使用现代工具：能够针对能源电力相关行业测控技术与仪器领域的复杂工程问题，\n开发、选择与使用恰当的技术、资源、现代工程工具和信息技术工具，包括对复杂工程问题\n的预测与模拟，并能够理解其局限性。\n（6）工程与社会：能够基于能源电力相关行业的工程背景知识进行合理分析，评价测\n控技术与仪器专业工程实践和复杂工程问题解决方案对社会、健康、安全、法律以及文化的\n影响，并理解应承担的责任。\n（7）环境和可持续发展：能够理解和评价针对能源电力相关行业测控技术与仪器领域\n复杂工程问题的工程实践对环境、社会可持续发展的影响。\n（8）职业规范：具有人文社会科学素养、社会责任感，能够在能源电力相关行业测控\n技术与仪器领域的工程实践中理解并遵守工程职业道德和规范，履行责任。\n（9）个人和团队：能够在多学科背景下的团队中承担个体、团队成员以及负责人的角\n",
+      "page_no": 2,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "色。\n（10）沟通：能够就能源电力相关行业测控技术与仪器领域的复杂工程问题与业界同行\n及社会公众进行有效沟通和交流，包括撰写报告和设计文稿、陈述发言、清晰表达或回应指\n令。并具备一定的国际视野，能够在跨文化背景下进行沟通和交流。\n（11）项目管理：理解并掌握测控技术与仪器领域的工程管理原理与经济决策方法，并\n能在多学科环境中应用。\n（12）终身学习：具有自主学习和终身学习的意识，有不断学习和适应发展的能力。\nThe graduates should meet the following requirements:\n(1)\nEngineering knowledge: they should possess mathematics, natural science, engineering\nfoundation and professional knowledge to analyze and solve the complicated engineering\nproblems in measurement-control technology and instrument field of energy and power related\nindustries.\n(2)\nProblem analysis: they should have the ability to identify, express and analyze\ncomplicated engineering problems in measurement-control technology and instrument field of\nenergy and power related industries through literature research by using the basic principles of\nmathematics, natural science, and engineering science, and design solutions.\n(3)\nSolutions design/development: they should have the ability to design the solution for\nmeasurement-control\nsystem\nand\ninstrument\nin\nthe\ncomplex\nengineering\nproblems\nin\nmeasurement-control technology and instrument field of energy and power related industries\nsystematically, and have the ability to design the technological process and system for some\npurpose, taking multi-factors, such as innovativeness in the design phase, society, healthy, safety,\nlaw, culture, and environment in account.\n(4)\nResearch: they should have the ability to conduct investigations of complex\nmeasurement\nand control\nengineering problems\nin measurement-control\ntechnology\nand\ninstrument field of energy and power related industries using research-based knowledge and\nresearch methods including design of experiments, analysis and interpretation of data, and\nsynthesis of information to provide valid conclusions.\n(5)\nModern tool usage: they should be able to develop, select and use appropriate\ntechnologies, resources, modern engineering tools and information technology tools for complex\nengineering problems in measurement-control technology and instrument field of energy and\npower related industries, including the prediction and simulation of complex engineering problems,\nand be able to understand their limitations.\n(6)\nEngineer and society relations: they should be able to conduct reasonable analysis based\non energy and power engineering-related background knowledge, and evaluate the impact of\nmeasurement-control technology and instrument professional engineering practices and complex\nengineering problem solutions on society, health, safety, law, and culture, and understand their\nresponsibilities.\n(7)\nEnvironment and sustainable development: they should be able to understand and\nevaluate\nthe\nimpact\nof\nengineering\npractices\non\ncomplex\nengineering\nissues\nin\nmeasurement-control technology and instrument field of energy and power related industries on\nenvironmental and social sustainable development.\n(8)\nProfessional standard accomplishment: they should have humanities and social sciences\nliteracy and social responsibility, be able to understand and abide by engineering professional\nethics\nand\nnorms,\nand\nperform\ntheir\nresponsibilities\nin\nengineering\npractice\nin\nmeasurement-control technology and instrument field of energy and power related industries.\n(9)\nIndividual and team competence: they should be able to assume the roles of individuals,\nteam members, and leaders in teams with multidisciplinary backgrounds.\n(10) Communication: they should be able to effectively communicate and communicate with\n",
+      "page_no": 3,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "industry peers and the public on complex engineering issues in measurement-control technology\nand instrument field of energy and power related industries, including writing reports and design\nmanuscripts, making statements, expressing or responding to explanations, and has a certain\ninternational vision, able to communicate and communicate in a cross-cultural background.\n(11) Project management: they should be able to understand and master engineering\nmanagement\nprinciples\nand\neconomic\ndecision-making\nmethods\nin\nthe\nfield\nof\nmeasurement-control technology and instrument, and be able to apply them in a multidisciplinary\nenvironment.\n(12) Lifelong learning: they should have the consciousness of independent learning and\nlifelong learning, and have the ability to learn and adapt to development.\n四、学时与学分\nHours and Credits\n类别\n学时\n学分\n比例\n必修课\nRequired\ncourses\n公共基础\nPublic infrastructure\n644\n33\n19.41%\n学科门类基础\nBasis of discipline\n560\n35\n20.59%\n专业类基础\nBasis of major\n300\n18.5\n10.88%\n专业核心\nRequired courses of\nmajor\n472\n29.5\n17.35%\n集中实践\nIntensive practice\n208 学时+17 周\n208 class hours +\n17 weeks\n29\n17.06%\n必修课小计\nSubtotal of Required courses\n2184 学时+17 周\n2184 class hours\n+ 17 weeks\n145\n85.30%\n选修课\nElectives\n320\n20\n11.76%\n课外实践学分\nPractice credits of extra-curricular\n5 周\n5 weeks\n5\n2.94%\n总计\nTotal\n2504 学时+22 周\n2504 class hours\n+ 22 weeks\n170\n100%\n说明：\n必修实践环节学分包括：集中实践课程29 学分，课外实践课程5 学分，学科门类基础、\n专业基础课程中的实验课程6.5 学分，学科门类基础、专业基础、专业必修课程中的实验、\n上机学时折算4.5 学分，共计45 学分，占总学分26.47%。\nNote:\nTotal of 44 credits for required practice training, accounting for 26.47% of the total credits,\nincluding: 29 credits for Intensive practice, 5 credits for practice credits of extra-curricular, 6.5\ncredits for basis of discipline and basis of major, 4.5 credits for experiment and computer practice\nin basis of discipline, basis of major, and required courses of major.\n五、专业主干课程Main Course\n传感器原理与应用、微机原理与嵌入式系统、数字信号处理基础、过程参数检测技术、\n自动控制理论、过程控制系统、控制装置与系统、智能仪器设计、顺序控制、清洁能源发电\n设备及测控技术。\n",
+      "page_no": 4,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "Principle and application of sensors, microcomputer principle and embedded system,\nfundamentals of digital signal processing, process parameter detection and Instrument, automatic\ncontrol theory, process control system, control device and system, intelligent instrument, switch\ncontrol, clean energy power generation equipment and measurement and control technology.\n六、总周数分配\nArrangement of the Total Weeks\n学期Semester\n教学环节Teaching Program\n一\n二\n三\n四\n五\n六\n七\n八\n合计\n理论教学Theory Teaching\n18\n17\n17\n16\n17\n16\n17\n2\n121\n复习考试Review and Exam\n2\n2\n3\n1\n1\n1\n3\n0\n13\n集中实践环节Intensive Practice\n2\n2\n0\n3\n3\n3\n0\n16\n28\n小计Subtotal\n22\n21\n20\n20\n21\n20\n20\n18\n162\n寒假Winter Vacation\n5\n5\n5\n5\n20\n暑假Summer Vacation\n6\n6\n6\n18\n合计Total\n27\n27\n25\n26\n26\n26\n25\n18\n200\n",
+      "page_no": 5,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "测控技术与仪器专业必修课程体系及教学计划\nTable of Teaching Schedule for Required Course and Teaching Plan\n类别\nType\n课程编\n号\nCourse\nID\n课程名称\nCourse name\n学分\nCredits\n总\n学时\nHours\n课内\n学时\nIn\nclass\nhours\n实验\n学时\nLab\nhours\n课外\n学时\nOff\nclass\nhours\n开课\n学期\nSemester\n公共基\n础类课\n程\nPublic\nbasic\ncourses\n00700975 中国近现代史纲要\nOutline of Modern Chinese History\n3\n48\n32\n16\n2\n00701353 思想道德与法治\nIdeology and Moral Cultivation & Law Basis\n3\n48\n32\n16\n1\n00700983\n毛泽东思想和中国特色社会主义理论体系概论\nMao Zedong Thought and the Theory of Building\nSocialism with Chinese Characteristics\n3\n48\n32\n16\n3\n00700971 马克思主义基本原理\nMarxist Theory\n3\n48\n32\n16\n3\n00700988\n习近平新时代中国特色社会主义思想概论\nOutline of Xi Jinping's New China's Socialist\nIdeology\n3\n48\n32\n16\n2\n00701661\n-00701668\n形势与政策\nCurrent Affair and Policy\n2\n64\n64\n1-8\n01390011\n军事理论\nMilitary Theory\n2\n36\n24\n12\n1\nJ100010 现代电力工程师\nModern Power Engineer\n2\n32\n32\n2\n00801410 通用英语General English\n4\n64\n64\n1\n00801400 学术英语Academic English\n4\n64\n64\n2\n01000011 体育(1)Physical Education (1)\n1\n36\n30\n6\n1\n01000021 体育(2)Physical Education (2)\n1\n36\n30\n6\n2\n01000031 体育(3)Physical Education (3)\n1\n36\n30\n6\n3\n01000041 体育(4)Physical Education (4)\n1\n36\n30\n6\n4\n公共基础课程小计Subtotal of public basic courses\n33\n644\n528\n116\n学科门\n类基础\n课程\nBasis of\ndiscipline\n00900130 高等数学(1)\nAdvanced Mathematics (1)\n5.5\n88\n88\n1\n00900140 高等数学(2)\nAdvanced Mathematics (2)\n6\n96\n96\n2\n00900462 线性代数\nLinear Algebra\n3\n48\n48\n2\n00900111 概率论与数理统计\nProbability and Mathematical Statistics\n3.5\n56\n56\n4\n00900090 复变函数与积分变换\nComplex Function and Integral Transformation\n3\n48\n48\n3\n00900053 大学物理(1)\nCollege Physics (1)\n3.5\n56\n56\n2\n00900440 物理实验(1)\nExperiment of Physics (1)\n2\n32\n32\n2\n",
+      "page_no": 6,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "类别\nType\n课程编\n号\nCourse\nID\n课程名称\nCourse name\n学分\nCredits\n总\n学时\nHours\n课内\n学时\nIn\nclass\nhours\n实验\n学时\nLab\nhours\n课外\n学时\nOff\nclass\nhours\n开课\n学期\nSemester\n00900064 大学物理(2)\nCollege Physics (2)\n3\n48\n48\n3\n00900450 物理实验(2)\nExperiment of Physics (2)\n2\n32\n32\n3\n00600204 C/C++程序设计\nC/C++ Language Programming\n3.5\n56\n36\n20\n1\n工程基础类课程小计Subtotal of Engineering foundation\n35\n560\n476\n84\n专业基\n础类课\n程\nThe\nmajor\nbasic\ncourses\n00600233 工程制图基础\nEngineering Graphics\n2\n32\n32\n2\n10310610 自动化概论\nIntroduction to Automation\n0.5\n8\n8\n2\n00200491 电路分析基础\nCircuit Analysis Fundamentals\n3.5\n56\n56\n3\n00200522 电路实验Experiment of\nCircuit Analysis\nFundamentals\n0.5\n8\n8\n3\n00500351 模拟电子技术基础\nFundamentals of Analogue Electronics Technology\n3\n48\n48\n3\n00500172\n模拟电子技术基础实验\nExperiment\nof\nFundamentals\nof\nAnalogue\nElectronics Technology\n1\n16\n16\n3\n00500410 数字电子技术基础\nFundamentals of Digital Electronics Technology\n3\n48\n48\n4\n00500180\n数字电子技术基础实验A\nExperiment of Fundamentals of Digital Electronics\nTechnology A\n1\n20\n20\n4\n00200611 发电厂动力部分\nPower Part of Power Plant\n2\n32\n32\n4\n00400340 误差理论与数据处理\nError Theory and Data Processing\n2\n32\n32\n4\n专业基础类课程小计Subtotal of The major basic courses\n18.5\n300\n256\n44\n专业核\n心课程\nRequired\ncourses\nof major\n00400700 自动控制理论A\nAutomatic Control Theory A\n4\n64\n58\n6\n5\n10141180 微机原理与嵌入式系统\nMicrocomputer Principle and Embedded System\n3.5\n56\n46\n10\n5\n00400041 传感器原理与应用\nPrinciple and Application of Sensors\n3\n48\n44\n4\n5\n10141170 数字信号处理基础A\nFundamentals of Digital Signal Processing A\n2.5\n40\n40\n5\n10141280 过程参数检测技术A\nProcess Parameter Detection Technology A\n3\n48\n42\n6\n6\n10141261\n清洁能源发电设备及测控技术\nClean Energy Power Generation Equipment and\nMeasurement and Control Technology\n2\n32\n28\n4\n6\n10141190 过程控制系统B\nProcess Control System B\n3\n48\n40\n8\n6\n00400730 顺序控制\nSequence Control\n2\n32\n26\n6\n6\n",
+      "page_no": 7,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "类别\nType\n课程编\n号\nCourse\nID\n课程名称\nCourse name\n学分\nCredits\n总\n学时\nHours\n课内\n学时\nIn\nclass\nhours\n实验\n学时\nLab\nhours\n课外\n学时\nOff\nclass\nhours\n开课\n学期\nSemester\n00400690 智能仪器设计\nDesign of Intelligent Instrument\n2\n32\n28\n4\n6\n00400181 计量测试技术\nMetrology and Measurement Technique\n2\n32\n28\n4\n7\n00400621 控制装置与系统\nControl Device and System\n2.5\n40\n36\n4\n7\n专业核心课程小计Subtotal of Required courses of major\n29.5\n472\n416\n56\n必修课学分合计Subtotal of Required courses\n116\n",
+      "page_no": 8,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "测控技术与仪器专业部分集中实践环节设置\nTable of Teaching Schedule for Main Practical Training\n类别\nType\n课序号\nID\n环节名称Name\n学分\nCredits\n周数\nWeeks\n学时数\nHours\n开课\n学期\nSemester\n必修\nRequired\n01390012\n军事技能\nMilitary Training\n2\n2 周\n1\nJ100060\n劳动教育\nLabor Education\n2\n2 周\n4\n00490170\n认识实习\nAcquaintanceship Practice\n1\n1 周\n4\n00490321\n火电厂运行仿真实践B\nSimulation-based Operation and Practice Training for of\nThermal Power Plant B\n1\n1 周\n8\n00390200\n金工实习\nMetalworking Practice\n2\n2 周\n2\n00490060\n传感器综合实践\nComprehensive Practice of Sensors\n1\n1 周\n5\n00690820\n数字信号处理基础A 课程设计\nCourse Design for Fundamentals of Digital Signal Processing\nA\n1\n1 周\n5\n00690830\n微机原理与嵌入式系统课程设计\nCourse Design for Microcomputer Principle and Embedded\nSystem\n1\n1 周\n5\n00690840\n智能仪器设计综合实践\nComprehensive Practice of Intelligent Instrument\n1\n1 周\n6\n00490110\n过程参数检测技术A 课程设计\nCourse Design for Process Parameter Detection Technology\nA\n1\n1 周\n6\n00690860\n过程控制系统B 课程设计\nCourse Design for Process Control System B\n1\n1 周\n6\n00690021\n毕业设计\nGraduation Project\n13\n208\n7-8\n00490300\n仪器仪表实训\nInstrumentation Practice\n1\n1 周\n8\n00490043\n毕业实习\nMajor Practice\n1\n1 周\n8\n00490010\n毕业教育\nGraduation Education\n0\n1 周\n8\n集中实践小计Subtotal of major practical training\n29\n17 周\n208\n",
+      "page_no": 9,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "测控技术与仪器专业选修课教学进程\nTable of Teaching Schedule for Electives\n选修课程分为专业领域课程、其它专业课程、通识教育课程3 个部分，总学分不低于\n20 学分。其中，专业领域课程和其它专业课程学分不低于12 学分。学生可根据自身情况、\n兴趣爱好等进行选课。\nElective courses are divided into 3 parts: major courses, general education courses, other\nmajor courses. The total elective credits are not less than 20 credits total credits, and the total\ncourses including major courses and other major courses are not less than 12 credits total credits.\nStudents can choose courses according to their own situation and interests.\n1．专业领域课程Major field courses\n专业领域课程旨在培养学生在该专业某领域内具备综合分析、处理（研究、设计）问题\n的技能及专业前沿知识。本专业领域的选修课程如下表所示。\nMajor\nfield\ncourses\naim\nto\ndevelop\nstudents'\nskills\nand advanced\nknowledge\nof\ncomprehensive analysis, processing (research, design) problems in a certain field of the major.\nElective courses in this field are shown in the following table.\n2．其他专业课程Other major courses\n为了培养复合型人才，鼓励学生跨专业选修课程。学生可以选修我校开设的任何专业的\n课程。\nIn order to cultivate compound talents, students should be encouraged to cross major elective\ncourses. Students can take any courses offered by our university.\n3．通识教育课程General education curriculum\n通识教育课程包括人文社科、语言交流、文化艺术、科学技术、经济管理、创新创业等\n模块，学生从学校给定的通识教育课程中选择。\nGeneral\neducation\ncurriculum\nincludes\nhumanities\nand\nsocial\nsciences,\nlanguage\ncommunication, culture and art, science and technology, economic management, innovation and\nentrepreneurship modules. Students choose from general education courses offered by the\nuniversity. The courses “Introduction to environmental protection and sustainable society” and\n“Engineering Project Management” are suggested to be selected.\n",
+      "page_no": 10,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "组\n别\n课程编号\n课程名称\n学\n分\n总\n学时\n课内\n学时\n实验\n学时\n课外\n学时\n开课\n学期\n模块\n1\n模块\n1\n00400100 工程光学\nEngineering Optics\n2\n32\n32\n4\n总学分\n不少于\n12 学分\nElectives,\nnot less\nthan 12\ncredits\n00400710 现代控制理论\nTheory of Modern Control\n2\n32\n32\n6\n10141220\n发电过程建模与辨识\nModeling\nand\nidentification\nof\npower\ngeneration\n2\n32\n28\n4\n5\n00400450\n专业英语阅读(测控)\nProfessional English Reading (Measurement\nand Control)\n2\n32\n32\n7\n00400420 仪表可靠性基础\nFundamentals of Instrument Reliability\n2\n32\n32\n7\n10410240\n人工智能导论\nPrinciples\nand\nMethods\nof\nArtificial\nIntelligence\n1\n16\n16\n7\n模块\n2\n11111494\n无线传感器网络\nWireless sensor network\n2\n32\n32\n7\n10141200\n测控软件技术\nMeasurement\nand\nControl\nSoftware\nTechnology\n1\n16\n16\n7\n10141210 测控总线技术\nMeasurement and Control Bus Technology\n1\n16\n16\n7\n00400670\n虚拟仪器技术(研讨型)\nVirtual\nInstrument\nTechnology\n(seminar\ntype)\n2\n32\n32\n7\n00400600 检测新技术(研讨型)\nNew Detection Technology (seminar type)\n2\n32\n32\n5\n模块\n3\n10411070 热工及流体基础\nThermal and Fluid Machinery Fundamentals\n2\n32\n32\n4\n00400610\n控制系统数字仿真与参数优化\nControl\nSystem\nDigital\nSimulation\nand\nParameter Optimization\n2\n32\n32\n6\n00200080 电磁测量技术\nElectromagnetic Measurement Technology\n2\n32\n32\n5\n00200192 电力电子技术B\nPower Electronics Technology B\n2\n32\n32\n5\n模块\n4\n跨专业选修其他专业的专业课程\nInterdisciplinary Electives\n2-8\n2\n通识教育选修课程\nGeneral Education Electives\n2-8\n公共艺\n术类课\n程至少\n选修2 学\n分；其它\n可用组\n别1 中课\n程学分\n替代\n选修课总学分不低于20 学分。其中，组别1 中的专业领域课程和其它专业课程学分不低于12 学分。\n选修课选课建议：Recommendations for electives\n1.第二、第三学期：建议每学期选修通识教育选修课程模块中的课程1-2 门。\n2.第四、五、六、七、八学期：建议每学期从专业选修课各模块中选修1-3 门课程；也可根\n据个人兴趣，跨专业选修其他专业的专业课程。\n1.\nSecond and third semesters: It is recommended to select 1-2 courses in General Education Electives every\nsemester.\n2.\nFourth, fifth, sixth, seventh, and eighth semesters: It is recommended to choose 1-3 courses from each part of\nelectives each semester; you can also select Interdisciplinary Electives based on personal interests.\n",
+      "page_no": 11,
+      "metadata": {}
+    },
+    {
+      "block_type": "page",
+      "text": "辅修测控技术与仪器专业人才培养方案\nUndergraduate Program for the Measurement-Control Technology\nand Instrument Minor\n组别\n课程编号\n课程名称\n学分\n总学\n时\n课内\n学时\n实验\n学时\n开课\n学期\n备注\nA\n00400700\n自动控制理论A\nAutomatic Control Theory A\n4\n64\n60\n4\n5\n10141180\n微机原理与嵌入式系统\nMicrocomputer Principle and Embedded System\n3.5\n56\n46\n10\n5\n00400041\n传感器原理与应用\nPrinciple and Application of Sensors\n3\n48\n44\n4\n5\n10141170\n数字信号处理基础A\nFundamentals of Digital Signal Processing A\n2.5\n40\n40\n5\n10141280\n过程参数检测技术A\nProcess Parameter Detection Technology A\n3\n48\n42\n6\n6\n00400621\n控制装置与系统\nControl Device and System\n2.5\n40\n32\n8\n7\n10141190\n过程控制系统B\nProcess Control System B\n3\n48\n40\n8\n6\n00400730\n顺序控制B\nSequence Control B\n2\n32\n24\n8\n6\n00400690\n智能仪器设计\nDesign of Intelligent Instrument\n2\n32\n24\n8\n6\n10141261\n清洁能源发电设备及测控技术\nClean Energy Power Generation Equipment and Measurement and\nControl Technology\n2\n32\n28\n4\n6\n00400181\n计量测试技术\nMetrology and Measurement Technique\n2\n32\n28\n4\n7\nB\n00690021\n毕业设计\nGraduation Project\n13\n7-8\n学分合计\nSubtotal of courses\n42.5\n说明：1.辅修专业需修读A 组课程，计29.5 学分；\n2.辅修专业学士学位需修读A、B 两组课程，计42 学分。\n",
+      "page_no": 12,
+      "metadata": {}
+    }
+  ]
+}

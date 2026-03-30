@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 from typing import Dict, List, Optional, Sequence, Tuple
+import os
+from pathlib import Path
 import torch
 from langchain_huggingface.embeddings import HuggingFaceEmbeddings as _HuggingFaceEmbeddings
 
@@ -17,7 +19,7 @@ class BGEEmbedding:
     def __init__(
         self,
         # 默认路径
-        model_name: str = "e:/rag-project/models/bge-m3", 
+        model_name: Optional[str] = None,
         device: Optional[str] = None,
         batch_size: int = 32,  
         normalize_embeddings: bool = True,
@@ -29,6 +31,11 @@ class BGEEmbedding:
         if device is None:
             device = "cuda" if torch.cuda.is_available() else "cpu"
             
+        if model_name is None:
+            project_root = Path(__file__).resolve().parents[2]
+            default_path = project_root / "models" / "bge-m3"
+            model_name = os.getenv("BGE_M3_PATH", str(default_path))
+
         cache_key = (model_name, device)
         if cache_key not in self._MODEL_CACHE:
             model_kwargs = {
