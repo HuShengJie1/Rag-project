@@ -33,31 +33,31 @@
 \contentsline {subsection}{\numberline {4.1}复杂结构文档解析与精细化切块策略}{16}{}%
 \contentsline {subsubsection}{\numberline {4.1.1}解析引擎选型与 Benchmark 验证}{16}{}%
 \contentsline {subsubsection}{\numberline {4.1.2}语义感知与精细化切块策略}{17}{}%
-\contentsline {subsection}{\numberline {4.2}领域知识向量化与 Embedding 模型选型}{17}{}%
+\contentsline {subsection}{\numberline {4.2}领域知识向量化与 Embedding 模型选型}{18}{}%
 \contentsline {subsubsection}{\numberline {4.2.1}评测基准与选型约束条件}{18}{}%
 \contentsline {subsubsection}{\numberline {4.2.2}榜单筛选与候选模型确定}{18}{}%
 \contentsline {subsubsection}{\numberline {4.2.3}本地测试集验证与最终选型}{19}{}%
 \contentsline {subsection}{\numberline {4.3}混合检索与重排序（Re-ranking）机制}{20}{}%
 \contentsline {subsubsection}{\numberline {4.3.1}单阶段稠密检索的局限性分析}{20}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}双阶段检索框架设计}{20}{}%
-\contentsline {subsection}{\numberline {4.4}提示工程设计与生成约束}{21}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}双阶段检索框架设计}{21}{}%
+\contentsline {subsection}{\numberline {4.4}提示工程设计与生成约束}{22}{}%
 \contentsline {subsubsection}{\numberline {4.4.1}基于检索约束的生成机制}{22}{}%
 \contentsline {subsubsection}{\numberline {4.4.2}系统级 Prompt 约束设计}{22}{}%
 \contentsline {subsubsection}{\numberline {4.4.3}证据驱动的引用生成机制}{22}{}%
 \contentsline {subsubsection}{\numberline {4.4.4}幻觉抑制机制分析}{23}{}%
 \contentsline {subsubsection}{\numberline {4.4.5}与系统证据链机制的协同作用}{23}{}%
-\contentsline {section}{\numberline {5}系统实现与整体性能评测}{23}{}%
-\contentsline {subsection}{\numberline {5.1}开发环境与系统部署}{23}{}%
+\contentsline {section}{\numberline {5}系统实现与整体性能评测}{24}{}%
+\contentsline {subsection}{\numberline {5.1}开发环境与系统部署}{24}{}%
 \contentsline {subsection}{\numberline {5.2}核心功能模块实现与界面展示}{24}{}%
 \contentsline {paragraph}{（1）文档处理模块}{24}{}%
-\contentsline {paragraph}{（2）双阶段检索模块}{24}{}%
-\contentsline {paragraph}{（3）生成模块}{24}{}%
+\contentsline {paragraph}{（2）双阶段检索模块}{25}{}%
+\contentsline {paragraph}{（3）生成模块}{25}{}%
 \contentsline {paragraph}{（4）前端展示模块}{25}{}%
 \contentsline {subsection}{\numberline {5.3}端到端系统整体性能评估}{25}{}%
 \contentsline {paragraph}{（1）检索性能分析}{25}{}%
 \contentsline {paragraph}{（2）生成质量分析}{26}{}%
-\contentsline {paragraph}{（3）综合分析}{26}{}%
+\contentsline {paragraph}{（3）综合分析}{27}{}%
 \contentsline {section}{\numberline {6}总结与展望}{27}{}%
 \contentsline {subsection}{\numberline {6.1}全文工作总结}{27}{}%
-\contentsline {subsection}{\numberline {6.2}系统局限性与未来展望}{27}{}%
+\contentsline {subsection}{\numberline {6.2}系统局限性与未来展望}{28}{}%
 \contentsfinish 
