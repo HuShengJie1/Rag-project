@@ -232,15 +232,6 @@
         </div>
         
         <el-scrollbar class="notebooklm-body citation-detail-body">
-          
-          <div class="debug-panel">
-            <div class="debug-title">🛠️ [调试] 1. 原始切片内容 (Raw Chunk)：</div>
-            <pre class="debug-code">{{ currentCitation.content }}</pre>
-            
-            <div class="debug-title" style="margin-top: 10px;">🛠️ [调试] 2. 正则清洗后的切片 (Clean Chunk)：</div>
-            <pre class="debug-code">{{ debugCleanChunk(currentCitation.content) }}</pre>
-          </div>
-
           <div class="markdown-body custom-md" v-html="renderHighlightedMarkdown(currentCitation.full_content || currentCitation.content, currentCitation.content)"></div>
         </el-scrollbar>
       </template>
@@ -665,13 +656,6 @@ const renderMarkdown = (t) => {
   return md.render(htmlWithCitations)
 }
 
-// 提供给面板调试用的清洗函数
-const debugCleanChunk = (chunkText) => {
-  if (!chunkText) return ''
-  return chunkText.replace(/^(?:\s*【[\s\S]*?】\s*)+/, '').trim()
-}
-
-
 // 🟢 核心功能 2：终极抗干扰高亮算法（提取纯核心文本进行降维映射匹配）
 const renderHighlightedMarkdown = (fullText, chunkText) => {
   if (!fullText) return md.render(chunkText || '')
@@ -904,11 +888,6 @@ watch(chats, () => {
 .close-btn { cursor: pointer; width: 28px; height: 28px; border-radius: 50%; background: #f1f3f4; display: flex; align-items: center; justify-content: center; color: #5f6368; }
 .close-btn:hover { background: #e8eaed; color: #202124; }
 .citation-meta-tags { display: flex; gap: 8px; margin-top: 8px; }
-
-/* ========== 调试面板样式 ========== */
-.debug-panel { margin-bottom: 16px; padding: 12px; background-color: #1e1e1e; border-radius: 6px; border: 1px solid #333; }
-.debug-title { font-size: 12px; font-weight: bold; color: #4af626; margin-bottom: 6px; }
-.debug-code { font-family: Consolas, Monaco, monospace; font-size: 12px; color: #d4d4d4; white-space: pre-wrap; word-wrap: break-word; background: #2d2d2d; padding: 8px; border-radius: 4px; margin: 0; }
 
 /* ========== 右侧 Markdown 详情与高亮 ========== */
 .citation-detail-body { flex: 1; padding: 16px 20px; background: #fff; border-top: 1px solid #f1f3f4;}

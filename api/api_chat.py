@@ -5,35 +5,60 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 from typing import List, Optional, Dict
 from langchain_core.messages import HumanMessage, SystemMessage, AIMessage
-from core import vector_store, reranker, llm
+from core import vector_store, reranker, llm, SessionLocal, DocumentRecord
 from pathlib import Path
 
 router = APIRouter(prefix="/api")
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+PARSED_MD_DIR = PROJECT_ROOT / "data" / "parsed" / "md"
+UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
+SYSTEM_DOCS_DIR = PROJECT_ROOT / "data" / "system_docs"
 
-def extract_complete_markdown(source_file: str) -> str:
+def extract_complete_markdown(
+    source_file: str,
+    file_id: Optional[str] = None,
+    full_md_path: Optional[str] = None,
+) -> str:
     try:
-        # 1. 拿到纯文件名，并暴力把 ".temp" 删掉
-        clean_name = Path(source_file).name.replace(".temp", "")
-        
-        # 2. 确保后缀一定是 .md (比如 xxx.pdf 会变成 xxx.md)
-        base_name = Path(clean_name).with_suffix(".md").name
-        
-        # 🟢 3. ⚠️ 务必在这里写上你电脑里【真正】的路径！
-        # 不要再原封不动复制我的占位符啦 😂
-        markdown_folder = Path(r"E:/rag-project/data/parsed/md") 
-        
-        # 4. 拼接出最终的文件路径
-        file_path = markdown_folder / base_name
-        
-        print(f"👉 [寻址定位] 准备读取文件: {file_path}")
+        # 0) 优先使用 metadata 中直接给出的完整 markdown 路径
+        if full_md_path:
+            p = Path(full_md_path).expanduser()
+            if p.exists() and p.is_file():
+                return p.read_text(encoding="utf-8")
 
-        if file_path.exists():
-            print("✅ [寻址定位] 完美！找到文件并成功读取。")
-            return file_path.read_text(encoding="utf-8")
-        else:
-            print("❌ [寻址定位] 糟糕！在这个路径下没有找到文件。")
-            return ""
-            
+        # 1) 由 source 反推 parsed/md 里的完整 markdown（适配 .temp.md / .pdf / .docx / .md）
+        clean_name = Path(str(source_file or "")).name.replace(".temp", "")
+        base_md_name = Path(clean_name).with_suffix(".md").name
+        parsed_candidate = PARSED_MD_DIR / base_md_name
+        if parsed_candidate.exists():
+            return parsed_candidate.read_text(encoding="utf-8")
+
+        # 2) 通过 file_id 回查原始文件路径，优先读取原生 md/txt，或再映射 parsed/md
+        if file_id:
+            db = SessionLocal()
+            try:
+                doc = db.query(DocumentRecord).filter(DocumentRecord.id == file_id).first()
+                if doc and doc.path:
+                    original_path = Path(doc.path)
+                    if original_path.exists() and original_path.suffix.lower() in {".md", ".txt"}:
+                        return original_path.read_text(encoding="utf-8")
+
+                    mapped_md = PARSED_MD_DIR / f"{original_path.stem}.md"
+                    if mapped_md.exists():
+                        return mapped_md.read_text(encoding="utf-8")
+            finally:
+                db.close()
+
+        # 3) 最后兜底：在 uploads/system_docs 内按同名 md 查找
+        fallback_candidates = [
+            UPLOAD_DIR / base_md_name,
+            SYSTEM_DOCS_DIR / base_md_name,
+        ]
+        for p in fallback_candidates:
+            if p.exists() and p.is_file():
+                return p.read_text(encoding="utf-8")
+
+        return ""
     except Exception as e:
         print(f"❌ [寻址定位] 读取文件时发生错误: {e}")
         return ""
@@ -98,12 +123,19 @@ async def chat_with_rag(request: ChatRequest):
     for idx, d in enumerate(final_docs):
         source_name = d.metadata.get("source", "未知来源")
         page_label = str(d.metadata.get("page_labels", "1"))
+        file_id = d.metadata.get("file_id")
+        full_md_path = d.metadata.get("full_md_path")
         
         # 如果缓存里没有这个文件，就去读一次
-        if source_name not in md_cache:
-            md_cache[source_name] = extract_complete_markdown(source_name)
+        cache_key = f"{file_id}|{source_name}|{full_md_path}"
+        if cache_key not in md_cache:
+            md_cache[cache_key] = extract_complete_markdown(
+                source_name,
+                file_id=file_id,
+                full_md_path=full_md_path,
+            )
             
-        full_document_text = md_cache[source_name]
+        full_document_text = md_cache[cache_key]
         
         evidence_list.append({
             "index": idx + 1,

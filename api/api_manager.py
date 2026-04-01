@@ -19,6 +19,8 @@ from loaders.mineru_loader import load_pdf, load_docx
 router = APIRouter(prefix="/api")
 UPLOAD_DIR = PROJECT_ROOT / "data" / "uploads"
 UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
+PARSED_MD_DIR = PROJECT_ROOT / "data" / "parsed" / "md"
+PARSED_MD_DIR.mkdir(parents=True, exist_ok=True)
 
 # --- 1. 后台异步入库逻辑 ---
 
@@ -57,6 +59,7 @@ def process_ingestion_task(file_id: str, user_id: str, file_path: Path, filename
     异步任务：类型判断 -> 解析 -> 转存临时MD -> 分块 -> 注入元数据 -> 写入 ChromaDB
     """
     temp_md_path = None # 初始化临时路径变量
+    persistent_md_path = PARSED_MD_DIR / f"{file_path.stem}.md"
     
     try:
         print(f"⏳ [后台任务] 开始处理文件: {filename}")
@@ -98,6 +101,8 @@ def process_ingestion_task(file_id: str, user_id: str, file_path: Path, filename
         temp_md_path = file_path.with_suffix(".temp.md")
         content = "\n\n\n".join([str(rec.get("text", "")) for rec in raw_records])
         temp_md_path.write_text(content, encoding="utf-8")
+        # 持久化完整未切分 Markdown，供证据链高亮回溯使用
+        persistent_md_path.write_text(content, encoding="utf-8")
         
         # --- 步骤 C: 语义分块并注入隔离标签 (file_id & user_id) ---
         # 注意：这里传入的是 temp_md_path
@@ -114,9 +119,7 @@ def process_ingestion_task(file_id: str, user_id: str, file_path: Path, filename
         # --- 步骤 D: 准备写入向量库的数据 ---
         texts = [c["text"] for c in chunks]
         
-        # 修正 metadata 中的 source 字段
-        # 因为我们用了临时文件，source 可能会变成 "xxx.temp.md"
-        # 我们这里手动把它改回原始文件名，保持数据显示好看
+        # 修正 metadata 中的 source 字段，并附带完整 markdown 路径
         metadatas = []
         for c in chunks:
             extra = c.get("metadata",{})
@@ -124,10 +127,11 @@ def process_ingestion_task(file_id: str, user_id: str, file_path: Path, filename
                 "chunk_id" : c.get("chunk_id"),
                 "user_id" : extra.get("user_id"),
                 "file_id" : extra.get("file_id"),
-                "source" : extra.get("source"),
+                "source" : filename,
                 "page_labels" : extra.get("page_labels"),
                 "headers" : extra.get("headers"),
-                "chunk_seq" : extra.get("chunk_seq")
+                "chunk_seq" : extra.get("chunk_seq"),
+                "full_md_path": str(persistent_md_path),
             }
             metadatas.append({k: _normalize_metadata(v) for k, v in meta.items()})
 
