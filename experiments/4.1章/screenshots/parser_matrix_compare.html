@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>毕业要求支撑矩阵页面对比</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="page-header">
+      <h1>图 A：培养方案第 2 页“毕业要求支撑矩阵”本地解析对比</h1>
+      <p>同一原始页面下，对比原始 PDF 局部、pdftotext -layout、MinerU pipeline 与 MinerU2.5 的真实输出差异。</p>
+    </header>
+    <section class="grid grid-4">
+      <section class="card image-card">
+      <header class="card-header">
+        <h2>原始 PDF 页面局部</h2>
+        <p class="card-subtitle">培养方案第 2 页，矩阵位于页面中下部。</p>
+      </header>
+      <div class="card-body">
+        
+    <div class="image-frame focus-matrix">
+      <img src="assets/bigdata_page2.png" alt="原始 PDF 页面局部">
+    </div>
+    
+      </div>
+      <footer class="card-footer">
+        <span class="summary-label">小结</span>
+        <span>原页可见矩阵结构完整，是后续对比的参照基准。</span>
+      </footer>
+    </section><section class="card">
+      <header class="card-header">
+        <h2>pdftotext -layout</h2>
+        <p class="card-subtitle">真实抽取结果，仅做基础排版，不修正文中问题。</p>
+      </header>
+      <div class="card-body">
+        <pre class="mono-block">毕业要求对培养目标的支撑关系矩阵（有支撑关系打√）
+          目标 1    目标 2       目标 3   目标 4   目标 5
+毕业要求 1                                      √
+毕业要求 2                                      √
+毕业要求 3                                      √
+毕业要求 4                        √      √
+毕业要求 5                                      √
+毕业要求 6     √       √                 √
+毕业要求 7     √
+毕业要求 8             √
+毕业要求 9             √          √
+毕业要求 10            √                        √
+毕业要求 11                       √      √</pre>
+      </div>
+      <footer class="card-footer">
+        <span class="summary-label">小结</span>
+        <span>矩阵已线性化，行列关系被展开为普通文本。</span>
+      </footer>
+    </section><section class="card">
+      <header class="card-header">
+        <h2>MinerU pipeline</h2>
+        <p class="card-subtitle">直接取自 pipeline 结构化输出中的矩阵表格。</p>
+      </header>
+      <div class="card-body">
+        <div class="fragment-title">毕业要求对培养目标的支撑关系矩阵</div>
+<div class="table-wrap"><table><tr><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>目标1</td><td rowspan=1 colspan=1>目标2</td><td rowspan=1 colspan=1>目标3</td><td rowspan=1 colspan=1>目标4</td><td rowspan=1 colspan=1>目标5</td></tr><tr><td rowspan=1 colspan=1>毕业要求1</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> $\surd$ </td></tr><tr><td rowspan=1 colspan=1>毕业要求2</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> $\surd$ </td></tr><tr><td rowspan=1 colspan=1>毕业要求3</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>专</td></tr><tr><td rowspan=1 colspan=1>毕业要求4</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>毕业要求5</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td></tr><tr><td rowspan=1 colspan=1>毕业要求6</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>~</td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>毕业要求7</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>毕业要求8</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>毕业要求9</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>专</td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td></tr><tr><td rowspan=1 colspan=1>毕业要求10</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> $\surd$ </td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1> $\surd$ </td></tr><tr><td rowspan=1 colspan=1>毕业要求11</td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1></td><td rowspan=1 colspan=1>√</td><td rowspan=1 colspan=1> $\surd$ </td><td rowspan=1 colspan=1></td></tr></table></div>
+      </div>
+      <footer class="card-footer">
+        <span class="summary-label">小结</span>
+        <span>已恢复表格外形，但个别勾选符号误识别为异常字符。</span>
+      </footer>
+    </section><section class="card">
+      <header class="card-header">
+        <h2>MinerU2.5</h2>
+        <p class="card-subtitle">直接取自 MinerU2.5 VLM 输出中的矩阵表格。</p>
+      </header>
+      <div class="card-body">
+        <div class="fragment-title">毕业要求对培养目标的支撑关系矩阵</div>
+<div class="table-wrap"><table><tr><td></td><td>目标1</td><td>目标2</td><td>目标3</td><td>目标4</td><td>目标5</td></tr><tr><td>毕业要求1</td><td></td><td></td><td></td><td></td><td>✓</td></tr><tr><td>毕业要求2</td><td></td><td></td><td></td><td></td><td>✓</td></tr><tr><td>毕业要求3</td><td></td><td></td><td></td><td></td><td>✓</td></tr><tr><td>毕业要求4</td><td></td><td></td><td>✓</td><td>✓</td><td></td></tr><tr><td>毕业要求5</td><td></td><td></td><td></td><td></td><td>✓</td></tr><tr><td>毕业要求6</td><td>✓</td><td>✓</td><td></td><td>✓</td><td></td></tr><tr><td>毕业要求7</td><td>✓</td><td></td><td></td><td></td><td></td></tr><tr><td>毕业要求8</td><td></td><td>✓</td><td></td><td></td><td></td></tr><tr><td>毕业要求9</td><td></td><td>✓</td><td>✓</td><td></td><td></td></tr><tr><td>毕业要求10</td><td></td><td>✓</td><td></td><td></td><td>✓</td></tr><tr><td>毕业要求11</td><td></td><td></td><td>✓</td><td>✓</td><td></td></tr></table></div>
+      </div>
+      <footer class="card-footer">
+        <span class="summary-label">小结</span>
+        <span>表格与勾选符号保持较完整，适合后续按表格语义切块。</span>
+      </footer>
+    </section>
+    </section>
+  </main>
+</body>
+</html>

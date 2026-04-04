@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  2 APR 2026 18:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  4 APR 2026 19:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -782,51 +782,309 @@ File: figures/system_architecture.png Graphic file (type bmp)
  [11] [12]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 373.
+(Font)              size <10.95> substituted on input line 372.
 
-[13] [14] [15]
-Overfull \hbox (4.24149pt too wide) in paragraph at lines 473--474
+[13]
+File: figures/4_1/matrix_pdftotext.png Graphic file (type bmp)
+<figures/4_1/matrix_pdftotext.png>
+File: figures/4_1/matrix_mineru_pipeline.png Graphic file (type bmp)
+<figures/4_1/matrix_mineru_pipeline.png>
+File: figures/4_1/matrix_mineru25.png Graphic file (type bmp)
+<figures/4_1/matrix_mineru25.png>
+File: figures/4_1/mixed_page1_mineru25.png Graphic file (type bmp)
+<figures/4_1/mixed_page1_mineru25.png>
+File: figures/4_1/mixed_page4_mineru_pipeline.png Graphic file (type bmp)
+<figures/4_1/mixed_page4_mineru_pipeline.png>
+File: figures/4_1/mixed_page4_mineru25.png Graphic file (type bmp)
+<figures/4_1/mixed_page4_mineru25.png>
+ [14]
+Underfull \hbox (badness 7558) in paragraph at lines 447--447
+[]|\TU/STSong(0)/m/n/9.03374 阅 读 顺 序 一
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 447--447
+[]|\TU/STSong(0)/m/n/9.03374 标 题 层 级 保
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--447
+[]|\TU/STSong(0)/m/n/9.03374 后 续 切 块 可
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 449--449
+[]|\TU/lmtt/m/n/9.03374 pdftotext
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 449--450
+\TU/STSong(0)/m/n/9.03374 列 对 应 关 系 难 以 稳 定
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--450
+[]|\TU/lmr/m/n/9.03374 MinerU
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+[]|\TU/STSong(0)/m/n/9.03374 虽 可 恢 复 表 格 外 形，|
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 450--451
+|\TU/STSong(0)/m/n/9.03374 “专”|  或 其 他 异 常 符 号，|
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 450--451
+\TU/STSong(0)/m/n/9.03374 关 键 支 撑 关 系 存 在 语
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 451--452
+\TU/STSong(0)/m/n/9.03374 页 内 章 节 边 界 保 持 较
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]|\TU/lmtt/m/n/9.03374 pdftotext
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--453
+[]|\TU/lmr/m/n/9.03374 MinerU
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 453--454
+\TU/STSong(0)/m/n/9.03374 公 式 区 域 出 现 明 显 失
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 454--455
+\TU/STSong(0)/m/n/9.03374 公 式 语 义 整 体 保 持 较
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 454--455
+\TU/STSong(0)/m/n/9.03374 切 块 与 元 数 据 绑 定 的
+ []
+
+
+Overfull \hbox (55.5476pt too wide) in paragraph at lines 445--457
+ [][] 
+ []
+
+[15] [16] [17]
+Overfull \hbox (4.24149pt too wide) in paragraph at lines 560--561
 \TU/STSong(0)/m/n/12.045 最 佳，|  说 明 其 在 排 序 能 力 与 首 条 命 中 准 确 率 方 面 具 有 一 定 优 势；|  而 \TU/lmtt/m/n/12.045 MiniCPM-Embedding
  []
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.045> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 477.
-[16] [17]
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 564.
+[18] [19]
+Underfull \hbox (badness 1184) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 语 义 相 关 但
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 试 卷 命 题 与 前 两 届
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+\TU/STSong(0)/m/n/12.045 试 题 的 重 复 率 限 制
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 生 成 阶 段 容 易 基 于
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+\TU/STSong(0)/m/n/12.045 相 邻 但 不 充 分 的 制
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 跨 块\TU/lmr/m/n/12.045 /\TU/STSong(0)/m/n/12.045 跨 页
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 毕 业 要 求 和 课 程 体
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+\TU/STSong(0)/m/n/12.045 系 的 合 理 性 评 价 周
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 首 位 结 果 往 往 只 能
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+\TU/STSong(0)/m/n/12.045 系 统 难 以 直 接 给 出
+ []
+
+
+Underfull \hbox (badness 1184) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 高 召 回 下 噪
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 开 卷 考 试 中 直 接 从
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+\TU/STSong(0)/m/n/12.045 教 材 找 答 案 的 题 目
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 检 索 模 型 对  |“教
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 625--625
+\TU/STSong(0)/m/n/12.045 材” “分 值” “不 超 过”|
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+[]|\TU/STSong(0)/m/n/12.045 召 回 集 合 中 虽 包 含
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 625--625
+\TU/STSong(0)/m/n/12.045 低 后 续 生 成 的 证 据
+ []
+
+[20] [21]
 File: figures/two_stage_retrieval.png Graphic file (type bmp)
 <figures/two_stage_retrieval.png>
- [18]
+ [22]
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+[]|\TU/STSong(0)/m/n/12.045 试 卷 命 题 与 前 两 届
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 试 题 的 重 复 率 限 制
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 中 重 复 题 目 不 得 超
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 试 题 不 得 重 复 超 过
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 700--700
+[]|\TU/STSong(0)/m/n/12.045 精 排 后 能 够 区 分 同
+ []
+
+
+Underfull \hbox (badness 1448) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 届 试 题”|  的 条 款 提 升
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+[]|\TU/STSong(0)/m/n/12.045 开 卷 考 试 中 直 接 从
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 教 材 找 答 案 的 题 目
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 材 中 找 到 答 案 的 题
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 目 分 值 不 应 超 过 总
+ []
+
+
+Underfull \hbox (badness 1478) in paragraph at lines 700--700
+[]|\TU/STSong(0)/m/n/12.045 精 排 显 著 抑 制 了  |“教
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+[]|\TU/STSong(0)/m/n/12.045 毕 业 要 求 和 课 程 体
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 系 的 合 理 性 评 价 周
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 毕 业 时 完 成 毕 业 要
+ []
+
+
+Underfull \hbox (badness 2529) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 每 二 年 综 合 评 价 一
+ []
+
+
+Underfull \hbox (badness 4846) in paragraph at lines 700--700
+\TU/STSong(0)/m/n/12.045 的 相 关 证 据 进 入 前
+ []
+
+[23]
 File: figures/generation_constraint_framework.png Graphic file (type bmp)
 <figures/generation_constraint_framework.png>
- [19] [20]
-Overfull \hbox (0.70848pt too wide) in paragraph at lines 614--615
+ [24] [25]
+Overfull \hbox (0.70848pt too wide) in paragraph at lines 792--793
 []\TU/STSong(0)/m/n/12.045 本 文 所 提 出 的 工 程 教 育 专 业 认 证 私 有 知 识 助 手 系 统 基 于 检 索 增 强 生 成  |（\TU/lmr/m/n/12.045 Retrieval-
  []
 
-[21]
+[26]
 File: figures/deployment_architecture.png Graphic file (type bmp)
 <figures/deployment_architecture.png>
- [22] [23] [24]
+ [27] [28] [29]
 File: figures/system_ui_left.png Graphic file (type bmp)
 <figures/system_ui_left.png>
- [25]
+ [30]
 File: figures/system_ui_center.png Graphic file (type bmp)
 <figures/system_ui_center.png>
 File: figures/system_ui_right.png Graphic file (type bmp)
 <figures/system_ui_right.png>
- [26] [27]
+ [31] [32]
 File: figures/term_answer_demo.png Graphic file (type bmp)
 <figures/term_answer_demo.png>
 File: figures/term_trace_demo.png Graphic file (type bmp)
 <figures/term_trace_demo.png>
- [28]
+ [33]
 File: figures/calc_answer_demo.png Graphic file (type bmp)
 <figures/calc_answer_demo.png>
 File: figures/calc_trace_demo.png Graphic file (type bmp)
 <figures/calc_trace_demo.png>
- [29] [30]
+ [34] [35]
 File: figures/policy_trace_demo.png Graphic file (type bmp)
 <figures/policy_trace_demo.png>
- [31] [32] [33] [34] (./毕业论文.bbl [35] [36] [37]) [38] (./毕业论文.aux)
+ [36] [37] [38] [39] (./毕业论文.bbl [40] [41] [42]) [43] (./毕业论文.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -841,12 +1099,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11083 strings out of 468168
- 309539 string characters out of 5432815
- 706406 words of memory out of 5000000
- 39605 multiletter control sequences out of 15000+600000
- 634791 words of font info for 113 fonts, out of 8000000 for 9000
+ 11251 strings out of 468168
+ 318349 string characters out of 5432815
+ 717060 words of memory out of 5000000
+ 39758 multiletter control sequences out of 15000+600000
+ 635952 words of font info for 120 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,114p,1186b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 毕业论文.pdf (41 pages).
+Output written on 毕业论文.pdf (46 pages).

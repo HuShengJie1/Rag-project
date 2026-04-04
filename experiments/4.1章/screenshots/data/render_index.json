@@ -1,0 +1,30 @@
+{
+  "figures": {
+    "parser_matrix_compare.html": {
+      "target": "图 A：培养方案第 2 页毕业要求支撑矩阵对比",
+      "sources": [
+        "data/system_docs/大数据-2025级本科生培养方案-v13-724.pdf#page=2",
+        "experiments/4.1章/generated/pdftotext/bigdata_plan/page_02.txt",
+        "experiments/embedding_experiment/parsing/outputs/pipeline/大数据-2025级本科生培养方案-v13-724__0e3d9ebe07/大数据-2025级本科生培养方案-v13-724/auto/大数据-2025级本科生培养方案-v13-724_content_list.json",
+        "experiments/embedding_experiment/parsing/outputs/vlm/大数据-2025级本科生培养方案-v13-724__0e3d9ebe07/大数据-2025级本科生培养方案-v13-724/hybrid_auto/大数据-2025级本科生培养方案-v13-724_content_list.json"
+      ]
+    },
+    "parser_matrix_compare.md": {
+      "target": "图 A：培养方案第 2 页毕业要求支撑矩阵对比（Markdown 版）"
+    },
+    "parser_mixed_compare.html": {
+      "target": "图 B：制度办法第 1 页与第 4 页复杂结构页面对比",
+      "sources": [
+        "data/system_docs/附件1-10 上海海洋大学信息学院课程质量评价办法.pdf#page=1",
+        "data/system_docs/附件1-10 上海海洋大学信息学院课程质量评价办法.pdf#page=4",
+        "experiments/4.1章/generated/pdftotext/course_quality_rules/page_01.txt",
+        "experiments/embedding_experiment/parsing/outputs/pipeline/附件1-10_上海海洋大学信息学院课程质量评价办法__2f8b91b22d/附件1-10 上海海洋大学信息学院课程质量评价办法/auto/附件1-10 上海海洋大学信息学院课程质量评价办法_content_list.json",
+        "experiments/embedding_experiment/parsing/outputs/vlm/附件1-10_上海海洋大学信息学院课程质量评价办法__2f8b91b22d/附件1-10 上海海洋大学信息学院课程质量评价办法/hybrid_auto/附件1-10 上海海洋大学信息学院课程质量评价办法_content_list.json"
+      ],
+      "pdftotext_page1_status": "empty"
+    },
+    "parser_mixed_compare.md": {
+      "target": "图 B：制度办法第 1 页与第 4 页复杂结构页面对比（Markdown 版）"
+    }
+  }
+}
