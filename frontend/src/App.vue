@@ -232,7 +232,11 @@
         </div>
         
         <el-scrollbar class="notebooklm-body citation-detail-body">
-          <div class="markdown-body custom-md" v-html="renderHighlightedMarkdown(currentCitation.full_content || currentCitation.content, currentCitation.content)"></div>
+          <div
+            ref="citationContentRef"
+            class="markdown-body custom-md"
+            v-html="renderHighlightedMarkdown(currentCitation.full_content || currentCitation.content, currentCitation.content)"
+          ></div>
         </el-scrollbar>
       </template>
 
@@ -301,13 +305,22 @@
 <script setup>
 import { ref, computed, onMounted, nextTick, watch } from 'vue'
 import MarkdownIt from 'markdown-it'
+import texmath from 'markdown-it-texmath'
+import katex from 'katex'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { Plus, Document, Delete, ChatLineRound, Top, Loading, School, Close, Upload, Edit } from '@element-plus/icons-vue' 
 
 import VuePdfApp from "vue3-pdf-app";
 import "vue3-pdf-app/dist/icons/main.css";
 
-const md = new MarkdownIt({ html: true, linkify: true })
+const md = new MarkdownIt({ html: true, linkify: true }).use(texmath, {
+  engine: katex,
+  delimiters: ['dollars', 'brackets', 'beg_end'],
+  katexOptions: {
+    throwOnError: false,
+    strict: 'ignore'
+  }
+})
 
 const leftWidth = ref(240)
 const rightWidth = ref(400) 
@@ -324,6 +337,7 @@ const userInput = ref('')
 const thinking = ref(false)
 const chatRef = ref(null)
 const evidences = ref([])
+const citationContentRef = ref(null)
 const kimiUpload = ref(null)
 const isKimiUploading = ref(false)
 const tableDialogVisible = ref(false)
@@ -767,10 +781,27 @@ const handleCitationClick = (event) => {
   }
 }
 
+const scrollToHighlightedChunk = () => {
+  nextTick(() => {
+    const root = citationContentRef.value
+    if (!root) return
+
+    const highlight = root.querySelector('.chunk-highlight')
+    if (highlight) {
+      highlight.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'nearest' })
+      return
+    }
+
+    const scrollWrap = root.closest('.el-scrollbar__wrap')
+    if (scrollWrap) scrollWrap.scrollTop = 0
+  })
+}
+
 const openCitationDetail = (ev) => {
   if(!ev.index) ev.index = evidences.value.indexOf(ev) + 1
   currentCitation.value = ev
   rightPanelMode.value = 'detail' 
+  scrollToHighlightedChunk()
 }
 
 const openPdf = (ev) => { /* ... */ }
