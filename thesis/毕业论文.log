@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  5 APR 2026 13:19
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  5 APR 2026 14:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,10 +841,10 @@ Package fontspec Info:
 
  [3] [1
 
-] [2] [3] [4] [5] [6] [7] [8] [9] [10]
+] [2] [3] [4] [5] [6] [7] [8] [9]
 File: figures/system_architecture.png Graphic file (type bmp)
 <figures/system_architecture.png>
- [11] [12]
+ [10] [11] [12]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 363.
@@ -862,7 +862,7 @@ File: figures/4_1/mixed_page4_mineru_pipeline.png Graphic file (type bmp)
 <figures/4_1/mixed_page4_mineru_pipeline.png>
 File: figures/4_1/mixed_page4_mineru25.png Graphic file (type bmp)
 <figures/4_1/mixed_page4_mineru25.png>
- [14]
+
 Underfull \hbox (badness 1137) in paragraph at lines 454--454
 []|\TU/STSong(0)/m/n/10.53937 表 格 结 构
  []
@@ -912,14 +912,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
 []|\TU/lmr/m/n/10.53937 MinerU
  []
 
-[15] [16] [17] [18]
+[14] [15] [16] [17]
 Overfull \hbox (4.24149pt too wide) in paragraph at lines 573--574
 \TU/STSong(0)/m/n/12.045 最 佳，|  说 明 其 在 排 序 能 力 与 首 条 命 中 准 确 率 方 面 具 有 一 定 优 势；|  而 \TU/lmtt/m/n/12.045 MiniCPM-Embedding
  []
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.045> not available
 (Font)              Font shape `TU/lmtt/b/n' tried instead on input line 577.
-[19] [20]
+[18] [19] [20]
 Underfull \hbox (badness 10000) in paragraph at lines 628--629
 []|\TU/STSong(0)/m/n/10.53937 跨 块\TU/lmr/m/n/10.53937 /\TU/STSong(0)/m/n/10.53937 跨 页 证
  []
@@ -929,10 +929,15 @@ Underfull \hbox (badness 3668) in paragraph at lines 629--630
 []|\TU/STSong(0)/m/n/10.53937 毕 业 要 求 和 课 程 体 系
  []
 
-[21] [22]
+
+Overfull \hbox (5.89989pt too wide) in paragraph at lines 651--652
+[]\TU/STSong(0)/m/n/12.045 针 对 单 阶 段 稠 密 检 索 在 工 程 教 育 专 业 认 证 场 景 中 存 在 的  |“语 义 相 关 但 证 据 不 足” “跨
+ []
+
+[21]
 File: figures/two_stage_retrieval.png Graphic file (type bmp)
 <figures/two_stage_retrieval.png>
- [23]
+ [22]
 Underfull \hbox (badness 7151) in paragraph at lines 693--693
 []|\TU/STSong(0)/m/n/10.53937 是 否 为 有
  []
@@ -987,39 +992,34 @@ Underfull \hbox (badness 1184) in paragraph at lines 715--716
 []|\TU/STSong(0)/m/n/10.53937 命 中  |“毕 业 要 求 至 少 每
  []
 
-[24]
+[23]
 File: figures/generation_constraint_framework.png Graphic file (type bmp)
 <figures/generation_constraint_framework.png>
- [25] [26]
-Overfull \hbox (0.70848pt too wide) in paragraph at lines 813--814
-[]\TU/STSong(0)/m/n/12.045 本 文 所 提 出 的 工 程 教 育 专 业 认 证 私 有 知 识 助 手 系 统 基 于 检 索 增 强 生 成  |（\TU/lmr/m/n/12.045 Retrieval-
- []
-
-[27]
+ [24] [25] [26]
 File: figures/deployment_architecture.png Graphic file (type bmp)
 <figures/deployment_architecture.png>
- [28] [29] [30]
+ [27] [28] [29]
 File: figures/system_ui_left.png Graphic file (type bmp)
 <figures/system_ui_left.png>
+ [30]
 File: figures/system_ui_center.png Graphic file (type bmp)
 <figures/system_ui_center.png>
- [31]
 File: figures/system_ui_right.png Graphic file (type bmp)
 <figures/system_ui_right.png>
- [32]
+ [31] [32]
 File: figures/term_answer_demo.png Graphic file (type bmp)
 <figures/term_answer_demo.png>
 File: figures/term_trace_demo.png Graphic file (type bmp)
 <figures/term_trace_demo.png>
- [33] [34]
+ [33]
 File: figures/calc_answer_demo.png Graphic file (type bmp)
 <figures/calc_answer_demo.png>
 File: figures/calc_trace_demo.png Graphic file (type bmp)
 <figures/calc_trace_demo.png>
- [35]
+ [34] [35]
 File: figures/policy_trace_demo.png Graphic file (type bmp)
 <figures/policy_trace_demo.png>
- [36] [37] [38] [39] [40] (./毕业论文.bbl [41] [42]) [43] (./毕业论文.aux)
+ [36] [37] [38] [39] (./毕业论文.bbl [40] [41]) [42] (./毕业论文.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1036,10 +1036,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  13649 strings out of 468168
  361310 string characters out of 5432815
- 759128 words of memory out of 5000000
+ 764128 words of memory out of 5000000
  42124 multiletter control sequences out of 15000+600000
  634791 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,117p,1186b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 毕业论文.pdf (46 pages).
+Output written on 毕业论文.pdf (45 pages).
