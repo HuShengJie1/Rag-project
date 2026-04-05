@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  4 APR 2026 19:49
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  5 APR 2026 13:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,6 +399,68 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count315
 \@lastruleclass=\count316
 \@thisrulewidth=\dimen262
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2025/11/04 v2.10 package option processing (HA)
+ (/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local/texlive/2026/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks20
+\XKV@tempa@toks=\toks21
+\XKV@tempb@toks=\toks22
+)
+\XKV@depth=\count317
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (/usr/local/texlive/2026/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box58
+)
+\tc@llx=\dimen263
+\tc@lly=\dimen264
+\tc@urx=\dimen265
+\tc@ury=\dimen266
+Package trimclip Info: Using driver 'tc-xetex.def'.
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/adjustbox/tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
+))
+\adjbox@Width=\dimen267
+\adjbox@Height=\dimen268
+\adjbox@Depth=\dimen269
+\adjbox@Totalheight=\dimen270
+\adjbox@pwidth=\dimen271
+\adjbox@pheight=\dimen272
+\adjbox@pdepth=\dimen273
+\adjbox@ptotalheight=\dimen274
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count318
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box59
+\sift@deathcycles=\count319
+\@vwid@loff=\dimen275
+\@vwid@roff=\dimen276
+)
+==> First Aid for varwidth.sty applied!
+) (/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (/usr/local/texlive/2026/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen277
+\captionmargin=\dimen278
+\caption@leftmargin=\dimen279
+\caption@rightmargin=\dimen280
+\caption@width=\dimen281
+\caption@indent=\dimen282
+\caption@parindent=\dimen283
+\caption@hangindent=\dimen284
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count320
+\c@continuedfloat=\count321
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip62
@@ -408,68 +470,68 @@ For additional information on amsmath, use the `?' option.
 Package: amstext 2024/11/17 v2.01 AMS text
  (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen263
+\@emptytoks=\toks23
+\ex@=\dimen285
 )) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen264
+\pmbraise@=\dimen286
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count317
+\inf@bad=\count322
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count318
-\leftroot@=\count319
+\uproot@=\count323
+\leftroot@=\count324
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count320
-\DOTSCASE@=\count321
+\classnum@=\count325
+\DOTSCASE@=\count326
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box58
-\strutbox@=\box59
+\Mathstrutbox@=\box60
+\strutbox@=\box61
 LaTeX Info: Redefining \big on input line 721.
 LaTeX Info: Redefining \Big on input line 722.
 LaTeX Info: Redefining \bigg on input line 723.
 LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen265
+\big@size=\dimen287
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count322
+\macc@depth=\count327
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count323
+\c@MaxMatrixCols=\count328
 \dotsspace@=\muskip17
-\c@parentequation=\count324
-\dspbrk@lvl=\count325
-\tag@help=\toks21
-\row@=\count326
-\column@=\count327
-\maxfields@=\count328
-\andhelp@=\toks22
-\eqnshift@=\dimen266
-\alignsep@=\dimen267
-\tagshift@=\dimen268
-\tagwidth@=\dimen269
-\totwidth@=\dimen270
-\lineht@=\dimen271
-\@envbody=\toks23
+\c@parentequation=\count329
+\dspbrk@lvl=\count330
+\tag@help=\toks24
+\row@=\count331
+\column@=\count332
+\maxfields@=\count333
+\andhelp@=\toks25
+\eqnshift@=\dimen288
+\alignsep@=\dimen289
+\tagshift@=\dimen290
+\tagwidth@=\dimen291
+\totwidth@=\dimen292
+\lineht@=\dimen293
+\@envbody=\toks26
 \multlinegap=\skip63
 \multlinetaggap=\skip64
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks27
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count329
-\float@exts=\toks25
-\float@box=\box60
-\@float@everytoks=\toks26
-\@floatcapt=\box61
+\c@float@type=\count334
+\float@exts=\toks28
+\float@box=\box62
+\@float@everytoks=\toks29
+\@floatcapt=\box63
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/gbt7714/gbt7714.sty
 Package: gbt7714 2026/01/15 v2.1.9 GB/T 7714 BibTeX Style
  (/usr/local/texlive/2026/texmf-dist/tex/latex/natbib/natbib.sty
@@ -477,7 +539,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip65
 \bibsep=\skip66
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count330
+\c@NAT@ctr=\count335
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
@@ -510,8 +572,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforefigskip=\skip90
 \cftfigindent=\skip91
 \cftfignumwidth=\skip92
-\c@lofdepth=\count331
-\c@lotdepth=\count332
+\c@lofdepth=\count336
+\c@lotdepth=\count337
 \cftbeforelottitleskip=\skip93
 \cftafterlottitleskip=\skip94
 \cftbeforetabskip=\skip95
@@ -519,7 +581,7 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cfttabnumwidth=\skip97
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/titlesec/titletoc.sty
 Package: titletoc 2025/01/04 v2.17 TOC entries
-\ttl@leftsep=\dimen272
+\ttl@leftsep=\dimen294
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip98
@@ -536,40 +598,40 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthL=\skip109
 \f@nch@widthC=\skip110
 \f@nch@widthR=\skip111
-\@temptokenb=\toks27
+\@temptokenb=\toks30
 ) (/usr/local/texlive/2026/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip112
-\enit@outerparindent=\dimen273
-\enit@toks=\toks28
-\enit@inbox=\box62
-\enit@count@id=\count333
-\enitdp@description=\count334
+\enit@outerparindent=\dimen295
+\enit@toks=\toks31
+\enit@inbox=\box64
+\enit@count@id=\count338
+\enitdp@description=\count339
 )
 
 Package ctexhook Warning: Package `ctex' can not be loaded with `ctexart'.
 
 LaTeX Info: Package 'ctex.sty' has been disabled.
-            Load request ignored on input line 15.
+            Load request ignored on input line 17.
 (./毕业论文.aux)
 \openout1 = `毕业论文.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
-LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -577,56 +639,56 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 82.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 82.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 82.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 82.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 82.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 82.
-LaTeX Font Info:    Redeclaring math accent \check on input line 82.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 82.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 82.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 82.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 82.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 82.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 86.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 86.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 86.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 86.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 86.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 86.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 86.
+LaTeX Font Info:    Redeclaring math accent \check on input line 86.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 86.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 86.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 86.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 86.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 82.
+(Font)              `operators' in the math version `normal' on input line 86.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 82.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 86.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 82.
+(Font)              `operators' in the math version `bold' on input line 86.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 86.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 82.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 82.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 82.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 82.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 86.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 82.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 82.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 82.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 86.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 82.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 86.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -662,6 +724,9 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
 
 Package fontspec Info: 
 (fontspec)             Script 'CJK' not explicitly supported within font
@@ -734,7 +799,7 @@ Package fontspec Info:
 
 
 LaTeX Font Warning: Font shape `TU/STHeiti(0)/b/n' undefined
-(Font)              using `TU/STHeiti(0)/m/n' instead on input line 103.
+(Font)              using `TU/STHeiti(0)/m/n' instead on input line 107.
 
 (./毕业论文.toc
 
@@ -782,7 +847,7 @@ File: figures/system_architecture.png Graphic file (type bmp)
  [11] [12]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 372.
+(Font)              size <10.95> substituted on input line 363.
 
 [13]
 File: figures/4_1/matrix_pdftotext.png Graphic file (type bmp)
@@ -798,293 +863,163 @@ File: figures/4_1/mixed_page4_mineru_pipeline.png Graphic file (type bmp)
 File: figures/4_1/mixed_page4_mineru25.png Graphic file (type bmp)
 <figures/4_1/mixed_page4_mineru25.png>
  [14]
-Underfull \hbox (badness 7558) in paragraph at lines 447--447
-[]|\TU/STSong(0)/m/n/9.03374 阅 读 顺 序 一
+Underfull \hbox (badness 1137) in paragraph at lines 454--454
+[]|\TU/STSong(0)/m/n/10.53937 表 格 结 构
  []
 
 
-Underfull \hbox (badness 1122) in paragraph at lines 447--447
-[]|\TU/STSong(0)/m/n/9.03374 标 题 层 级 保
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
+[]|\TU/STSong(0)/m/n/10.53937 阅 读 顺 序
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--447
-[]|\TU/STSong(0)/m/n/9.03374 后 续 切 块 可
+Underfull \hbox (badness 7151) in paragraph at lines 454--454
+[]|\TU/STSong(0)/m/n/10.53937 标 题 层 级
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 449--449
-[]|\TU/lmtt/m/n/9.03374 pdftotext
+Underfull \hbox (badness 10000) in paragraph at lines 456--456
+[]|\TU/lmtt/m/n/10.53937 pdftotext
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 449--450
-\TU/STSong(0)/m/n/9.03374 列 对 应 关 系 难 以 稳 定
+Underfull \hbox (badness 3701) in paragraph at lines 456--456
+[]|\TU/STSong(0)/m/n/10.53937 培 养 方 案 第 \TU/lmr/m/n/10.53937 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--450
-[]|\TU/lmr/m/n/9.03374 MinerU
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
+[]|\TU/lmr/m/n/10.53937 MinerU
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
-[]|\TU/STSong(0)/m/n/9.03374 虽 可 恢 复 表 格 外 形，|
+Underfull \hbox (badness 3701) in paragraph at lines 457--457
+[]|\TU/STSong(0)/m/n/10.53937 培 养 方 案 第 \TU/lmr/m/n/10.53937 2
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 450--451
-|\TU/STSong(0)/m/n/9.03374 “专”|  或 其 他 异 常 符 号，|
+Underfull \hbox (badness 3701) in paragraph at lines 458--458
+[]|\TU/STSong(0)/m/n/10.53937 培 养 方 案 第 \TU/lmr/m/n/10.53937 2
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 450--451
-\TU/STSong(0)/m/n/9.03374 关 键 支 撑 关 系 存 在 语
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
+[]|\TU/lmtt/m/n/10.53937 pdftotext
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 451--452
-\TU/STSong(0)/m/n/9.03374 页 内 章 节 边 界 保 持 较
+Underfull \hbox (badness 10000) in paragraph at lines 460--460
+[]|\TU/lmr/m/n/10.53937 MinerU
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--452
-[]|\TU/lmtt/m/n/9.03374 pdftotext
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
-[]|\TU/lmr/m/n/9.03374 MinerU
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 453--454
-\TU/STSong(0)/m/n/9.03374 公 式 区 域 出 现 明 显 失
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 454--455
-\TU/STSong(0)/m/n/9.03374 公 式 语 义 整 体 保 持 较
- []
-
-
-Underfull \hbox (badness 1406) in paragraph at lines 454--455
-\TU/STSong(0)/m/n/9.03374 切 块 与 元 数 据 绑 定 的
- []
-
-
-Overfull \hbox (55.5476pt too wide) in paragraph at lines 445--457
- [][] 
- []
-
-[15] [16] [17]
-Overfull \hbox (4.24149pt too wide) in paragraph at lines 560--561
+[15] [16] [17] [18]
+Overfull \hbox (4.24149pt too wide) in paragraph at lines 573--574
 \TU/STSong(0)/m/n/12.045 最 佳，|  说 明 其 在 排 序 能 力 与 首 条 命 中 准 确 率 方 面 具 有 一 定 优 势；|  而 \TU/lmtt/m/n/12.045 MiniCPM-Embedding
  []
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.045> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 564.
-[18] [19]
-Underfull \hbox (badness 1184) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 语 义 相 关 但
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 577.
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 628--629
+[]|\TU/STSong(0)/m/n/10.53937 跨 块\TU/lmr/m/n/10.53937 /\TU/STSong(0)/m/n/10.53937 跨 页 证
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 试 卷 命 题 与 前 两 届
+Underfull \hbox (badness 3668) in paragraph at lines 629--630
+[]|\TU/STSong(0)/m/n/10.53937 毕 业 要 求 和 课 程 体 系
  []
 
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-\TU/STSong(0)/m/n/12.045 试 题 的 重 复 率 限 制
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 生 成 阶 段 容 易 基 于
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-\TU/STSong(0)/m/n/12.045 相 邻 但 不 充 分 的 制
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 跨 块\TU/lmr/m/n/12.045 /\TU/STSong(0)/m/n/12.045 跨 页
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 毕 业 要 求 和 课 程 体
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-\TU/STSong(0)/m/n/12.045 系 的 合 理 性 评 价 周
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 首 位 结 果 往 往 只 能
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-\TU/STSong(0)/m/n/12.045 系 统 难 以 直 接 给 出
- []
-
-
-Underfull \hbox (badness 1184) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 高 召 回 下 噪
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 开 卷 考 试 中 直 接 从
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-\TU/STSong(0)/m/n/12.045 教 材 找 答 案 的 题 目
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 检 索 模 型 对  |“教
- []
-
-
-Underfull \hbox (badness 1163) in paragraph at lines 625--625
-\TU/STSong(0)/m/n/12.045 材” “分 值” “不 超 过”|
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-[]|\TU/STSong(0)/m/n/12.045 召 回 集 合 中 虽 包 含
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 625--625
-\TU/STSong(0)/m/n/12.045 低 后 续 生 成 的 证 据
- []
-
-[20] [21]
+[21] [22]
 File: figures/two_stage_retrieval.png Graphic file (type bmp)
 <figures/two_stage_retrieval.png>
- [22]
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-[]|\TU/STSong(0)/m/n/12.045 试 卷 命 题 与 前 两 届
+ [23]
+Underfull \hbox (badness 7151) in paragraph at lines 693--693
+[]|\TU/STSong(0)/m/n/10.53937 是 否 为 有
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 试 题 的 重 复 率 限 制
+Underfull \hbox (badness 7151) in paragraph at lines 693--693
+[]|\TU/STSong(0)/m/n/10.53937 是 否 为 有
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 中 重 复 题 目 不 得 超
+Underfull \hbox (badness 1783) in paragraph at lines 697--698
+\TU/STSong(0)/m/n/10.53937 中 重 复 题 目 不 得 超 过
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 试 题 不 得 重 复 超 过
+Underfull \hbox (badness 1184) in paragraph at lines 699--700
+[]|\TU/STSong(0)/m/n/10.53937 命 中  |“试 题 与 前 两 届 试
  []
 
 
-Underfull \hbox (badness 4846) in paragraph at lines 700--700
-[]|\TU/STSong(0)/m/n/12.045 精 排 后 能 够 区 分 同
+Underfull \hbox (badness 1184) in paragraph at lines 707--708
+[]|\TU/STSong(0)/m/n/10.53937 命 中  |“直 接 可 以 在 教 材
  []
 
 
-Underfull \hbox (badness 1448) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 届 试 题”|  的 条 款 提 升
+Underfull \hbox (badness 3668) in paragraph at lines 707--708
+\TU/STSong(0)/m/n/10.53937 中 找 到 答 案 的 题 目 分
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-[]|\TU/STSong(0)/m/n/12.045 开 卷 考 试 中 直 接 从
+Underfull \hbox (badness 3668) in paragraph at lines 707--708
+\TU/STSong(0)/m/n/10.53937 值 不 应 超 过 总 分 值 的
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 教 材 找 答 案 的 题 目
+Underfull \hbox (badness 10000) in paragraph at lines 709--710
+[]|\TU/STSong(0)/m/n/10.53937 精 排 显 著 抑 制 了  |“教
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 材 中 找 到 答 案 的 题
+Underfull \hbox (badness 3668) in paragraph at lines 712--713
+[]|\TU/STSong(0)/m/n/10.53937 毕 业 要 求 和 课 程 体 系
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 目 分 值 不 应 超 过 总
+Underfull \hbox (badness 1783) in paragraph at lines 713--714
+\TU/STSong(0)/m/n/10.53937 业 时 完 成 毕 业 要 求 达
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 700--700
-[]|\TU/STSong(0)/m/n/12.045 精 排 显 著 抑 制 了  |“教
+Underfull \hbox (badness 1184) in paragraph at lines 715--716
+[]|\TU/STSong(0)/m/n/10.53937 命 中  |“毕 业 要 求 至 少 每
  []
 
-
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-[]|\TU/STSong(0)/m/n/12.045 毕 业 要 求 和 课 程 体
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 系 的 合 理 性 评 价 周
- []
-
-
-Underfull \hbox (badness 1102) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 毕 业 时 完 成 毕 业 要
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 每 二 年 综 合 评 价 一
- []
-
-
-Underfull \hbox (badness 4846) in paragraph at lines 700--700
-\TU/STSong(0)/m/n/12.045 的 相 关 证 据 进 入 前
- []
-
-[23]
+[24]
 File: figures/generation_constraint_framework.png Graphic file (type bmp)
 <figures/generation_constraint_framework.png>
- [24] [25]
-Overfull \hbox (0.70848pt too wide) in paragraph at lines 792--793
+ [25] [26]
+Overfull \hbox (0.70848pt too wide) in paragraph at lines 813--814
 []\TU/STSong(0)/m/n/12.045 本 文 所 提 出 的 工 程 教 育 专 业 认 证 私 有 知 识 助 手 系 统 基 于 检 索 增 强 生 成  |（\TU/lmr/m/n/12.045 Retrieval-
  []
 
-[26]
+[27]
 File: figures/deployment_architecture.png Graphic file (type bmp)
 <figures/deployment_architecture.png>
- [27] [28] [29]
+ [28] [29] [30]
 File: figures/system_ui_left.png Graphic file (type bmp)
 <figures/system_ui_left.png>
- [30]
 File: figures/system_ui_center.png Graphic file (type bmp)
 <figures/system_ui_center.png>
+ [31]
 File: figures/system_ui_right.png Graphic file (type bmp)
 <figures/system_ui_right.png>
- [31] [32]
+ [32]
 File: figures/term_answer_demo.png Graphic file (type bmp)
 <figures/term_answer_demo.png>
 File: figures/term_trace_demo.png Graphic file (type bmp)
 <figures/term_trace_demo.png>
- [33]
+ [33] [34]
 File: figures/calc_answer_demo.png Graphic file (type bmp)
 <figures/calc_answer_demo.png>
 File: figures/calc_trace_demo.png Graphic file (type bmp)
 <figures/calc_trace_demo.png>
- [34] [35]
+ [35]
 File: figures/policy_trace_demo.png Graphic file (type bmp)
 <figures/policy_trace_demo.png>
- [36] [37] [38] [39] (./毕业论文.bbl [40] [41] [42]) [43] (./毕业论文.aux)
+ [36] [37] [38] [39] [40] (./毕业论文.bbl [41] [42]) [43] (./毕业论文.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1099,12 +1034,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 11251 strings out of 468168
- 318349 string characters out of 5432815
- 717060 words of memory out of 5000000
- 39758 multiletter control sequences out of 15000+600000
- 635952 words of font info for 120 fonts, out of 8000000 for 9000
+ 13649 strings out of 468168
+ 361310 string characters out of 5432815
+ 759128 words of memory out of 5000000
+ 42124 multiletter control sequences out of 15000+600000
+ 634791 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 93i,12n,114p,1186b,574s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,117p,1186b,607s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on 毕业论文.pdf (46 pages).

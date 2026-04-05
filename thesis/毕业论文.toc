@@ -32,35 +32,35 @@
 \contentsline {section}{\numberline {4}核心模块设计与对比实验分析}{13}{}%
 \contentsline {subsection}{\numberline {4.1}复杂结构文档解析与精细化切块策略}{13}{}%
 \contentsline {subsubsection}{\numberline {4.1.1}解析引擎选型的外部基准参考与本地验证}{13}{}%
-\contentsline {subsubsection}{\numberline {4.1.2}语义感知与精细化切块策略}{16}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}语义感知与精细化切块策略}{15}{}%
 \contentsline {subsection}{\numberline {4.2}领域知识向量化与 Embedding 模型选型}{17}{}%
 \contentsline {subsubsection}{\numberline {4.2.1}评测基准与选型约束条件}{17}{}%
-\contentsline {subsubsection}{\numberline {4.2.2}榜单筛选与候选模型确定}{17}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}榜单筛选与候选模型确定}{18}{}%
 \contentsline {subsubsection}{\numberline {4.2.3}本地测试集验证与最终选型}{18}{}%
 \contentsline {subsection}{\numberline {4.3}混合检索与重排序（Re-ranking）机制}{19}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}单阶段稠密检索的局限性分析}{19}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}双阶段检索框架设计}{21}{}%
-\contentsline {subsection}{\numberline {4.4}提示工程设计与生成约束}{24}{}%
-\contentsline {subsubsection}{\numberline {4.4.1}基于检索约束的生成机制}{25}{}%
-\contentsline {subsubsection}{\numberline {4.4.2}系统级 Prompt 约束设计}{25}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}单阶段稠密检索的局限性分析}{20}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}双阶段检索框架设计}{22}{}%
+\contentsline {subsection}{\numberline {4.4}提示工程设计与生成约束}{25}{}%
+\contentsline {subsubsection}{\numberline {4.4.1}基于检索约束的生成机制}{26}{}%
+\contentsline {subsubsection}{\numberline {4.4.2}系统级 Prompt 约束设计}{26}{}%
 \contentsline {subsubsection}{\numberline {4.4.3}证据驱动的引用生成机制}{26}{}%
-\contentsline {subsubsection}{\numberline {4.4.4}幻觉抑制机制分析}{26}{}%
-\contentsline {subsubsection}{\numberline {4.4.5}与系统证据链机制的协同作用}{26}{}%
+\contentsline {subsubsection}{\numberline {4.4.4}幻觉抑制机制分析}{27}{}%
+\contentsline {subsubsection}{\numberline {4.4.5}与系统证据链机制的协同作用}{27}{}%
 \contentsline {section}{\numberline {5}系统实现与整体性能评测}{27}{}%
 \contentsline {subsection}{\numberline {5.1}开发环境与系统部署}{27}{}%
-\contentsline {subsection}{\numberline {5.2}测试数据集构建与分类说明}{28}{}%
+\contentsline {subsection}{\numberline {5.2}测试数据集构建与分类说明}{29}{}%
 \contentsline {subsection}{\numberline {5.3}核心功能模块实现与界面展示}{30}{}%
 \contentsline {paragraph}{（1）文档处理模块}{30}{}%
 \contentsline {paragraph}{（2）双阶段检索模块}{30}{}%
-\contentsline {paragraph}{（3）生成模块}{30}{}%
-\contentsline {paragraph}{（4）前端展示模块}{30}{}%
+\contentsline {paragraph}{（3）生成模块}{31}{}%
+\contentsline {paragraph}{（4）前端展示模块}{31}{}%
 \contentsline {subsection}{\numberline {5.4}系统测试与案例分析}{32}{}%
-\contentsline {subsubsection}{\numberline {5.4.1}术语定义类问题测试}{32}{}%
+\contentsline {subsubsection}{\numberline {5.4.1}术语定义类问题测试}{33}{}%
 \contentsline {subsubsection}{\numberline {5.4.2}逻辑计算类问题测试}{34}{}%
-\contentsline {subsubsection}{\numberline {5.4.3}政策流程类问题测试}{35}{}%
-\contentsline {subsubsection}{\numberline {5.4.4}证据链溯源能力分析}{36}{}%
-\contentsline {subsection}{\numberline {5.5}端到端系统整体性能评估}{37}{}%
-\contentsline {paragraph}{（1）检索性能分析}{37}{}%
+\contentsline {subsubsection}{\numberline {5.4.3}政策流程类问题测试}{36}{}%
+\contentsline {subsubsection}{\numberline {5.4.4}证据链溯源能力分析}{37}{}%
+\contentsline {subsection}{\numberline {5.5}端到端系统整体性能评估}{38}{}%
+\contentsline {paragraph}{（1）检索性能分析}{38}{}%
 \contentsline {paragraph}{（2）生成质量分析}{38}{}%
 \contentsline {paragraph}{（3）综合分析}{39}{}%
 \contentsline {section}{\numberline {6}总结与展望}{39}{}%
