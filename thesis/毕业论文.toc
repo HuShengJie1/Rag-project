@@ -54,16 +54,18 @@
 \contentsline {paragraph}{（2）双阶段检索模块}{30}{}%
 \contentsline {paragraph}{（3）生成模块}{30}{}%
 \contentsline {paragraph}{（4）前端展示模块}{30}{}%
-\contentsline {subsection}{\numberline {5.4}系统测试与案例分析}{32}{}%
+\contentsline {subsection}{\numberline {5.4}系统测试与案例分析}{31}{}%
 \contentsline {subsubsection}{\numberline {5.4.1}术语定义类问题测试}{32}{}%
-\contentsline {subsubsection}{\numberline {5.4.2}逻辑计算类问题测试}{34}{}%
+\contentsline {subsubsection}{\numberline {5.4.2}逻辑计算类问题测试}{33}{}%
 \contentsline {subsubsection}{\numberline {5.4.3}政策流程类问题测试}{35}{}%
 \contentsline {subsubsection}{\numberline {5.4.4}证据链溯源能力分析}{36}{}%
 \contentsline {subsection}{\numberline {5.5}端到端系统整体性能评估}{37}{}%
 \contentsline {paragraph}{（1）检索性能分析}{37}{}%
-\contentsline {paragraph}{（2）生成质量分析}{38}{}%
+\contentsline {paragraph}{（2）生成质量分析}{37}{}%
 \contentsline {paragraph}{（3）综合分析}{38}{}%
-\contentsline {section}{\numberline {6}总结与展望}{39}{}%
-\contentsline {subsection}{\numberline {6.1}全文工作总结}{39}{}%
+\contentsline {section}{\numberline {6}总结与展望}{38}{}%
+\contentsline {subsection}{\numberline {6.1}全文工作总结}{38}{}%
 \contentsline {subsection}{\numberline {6.2}系统局限性与未来展望}{39}{}%
+\contentsline {section}{致谢}{41}{}%
+\contentsline {section}{参考文献}{42}{}%
 \contentsfinish 
