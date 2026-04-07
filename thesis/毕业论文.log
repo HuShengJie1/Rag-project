@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  6 APR 2026 14:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  6 APR 2026 23:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -738,6 +738,39 @@ Package caption Info: End \AtBeginDocument code.
 
 Package fontspec Info: 
 (fontspec)             Script 'CJK' not explicitly supported within font
+(fontspec)             'STHeiti'. Check the typeset output, and if it is okay
+(fontspec)             then ignore this warning. Otherwise a different font
+(fontspec)             should be chosen.
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STHeiti/BI" (it probably
+(fontspec)             doesn't exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STHeiti/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "STHeiti/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'STHeiti(0)' created for font 'STHeiti'
+(fontspec)             with options [Script={CJK}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"STHeiti/OT:script=hani;language=dflt;"
+
+
+Package fontspec Info: 
+(fontspec)             Script 'CJK' not explicitly supported within font
 (fontspec)             'STFangsong'. Check the typeset output, and if it is
 (fontspec)             okay then ignore this warning. Otherwise a different
 (fontspec)             font should be chosen.
@@ -771,43 +804,16 @@ Package fontspec Info:
 [1
 
 ]
+Overfull \hbox (13.60202pt too wide) in paragraph at lines 123--124
+\TU/lmr/bx/n/12.045 Keywords: \TU/lmr/m/n/12.045 Engineering Education Accreditation; Outcome-Based Education; Retrieval-
+ []
 
-Package fontspec Info: 
-(fontspec)             Script 'CJK' not explicitly supported within font
-(fontspec)             'STHeiti'. Check the typeset output, and if it is okay
-(fontspec)             then ignore this warning. Otherwise a different font
-(fontspec)             should be chosen.
+[2
 
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "STHeiti/BI" (it probably
-(fontspec)             doesn't exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "STHeiti/B" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: 
-(fontspec)             Could not resolve font "STHeiti/I" (it probably doesn't
-(fontspec)             exist).
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'STHeiti(0)' created for font 'STHeiti'
-(fontspec)             with options [Script={CJK}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"STHeiti/OT:script=hani;language=dflt;"
-
-
+]
 
 LaTeX Font Warning: Font shape `TU/STHeiti(0)/b/n' undefined
-(Font)              using `TU/STHeiti(0)/m/n' instead on input line 108.
+(Font)              using `TU/STHeiti(0)/m/n' instead on input line 128.
 
 (./毕业论文.toc
 
@@ -843,11 +849,11 @@ Package fontspec Info:
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
 (fontspec)             <->"STSong/OT:script=hani;language=dflt;"
 
- [2])
+ [3])
 \tf@toc=\write3
 \openout3 = `毕业论文.toc'.
 
- [3] [1
+ [4] [1
 
 ] [2] [3] [4] [5] [6] [7] [8] [9]
 File: figures/system_architecture.png Graphic file (type bmp)
@@ -855,7 +861,7 @@ File: figures/system_architecture.png Graphic file (type bmp)
  [10] [11] [12]
 
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
-(Font)              size <10.95> substituted on input line 364.
+(Font)              size <10.95> substituted on input line 384.
 
 [13]
 File: figures/4_1/matrix_pdftotext.png Graphic file (type bmp)
@@ -871,74 +877,74 @@ File: figures/4_1/mixed_page4_mineru_pipeline.png Graphic file (type bmp)
 File: figures/4_1/mixed_page4_mineru25.png Graphic file (type bmp)
 <figures/4_1/mixed_page4_mineru25.png>
 
-Underfull \hbox (badness 1137) in paragraph at lines 455--455
+Underfull \hbox (badness 1137) in paragraph at lines 475--475
 []|\TU/STSong(0)/m/n/10.53937 表 格 结 构
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 475--475
 []|\TU/STSong(0)/m/n/10.53937 阅 读 顺 序
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 455--455
+Underfull \hbox (badness 7151) in paragraph at lines 475--475
 []|\TU/STSong(0)/m/n/10.53937 标 题 层 级
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 457--457
+Underfull \hbox (badness 10000) in paragraph at lines 477--477
 []|\TU/lmtt/m/n/10.53937 pdftotext
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 457--457
+Underfull \hbox (badness 3701) in paragraph at lines 477--477
 []|\TU/STSong(0)/m/n/10.53937 培 养 方 案 第 \TU/lmr/m/n/10.53937 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 458--458
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 []|\TU/lmr/m/n/10.53937 MinerU
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 458--458
+Underfull \hbox (badness 3701) in paragraph at lines 478--478
 []|\TU/STSong(0)/m/n/10.53937 培 养 方 案 第 \TU/lmr/m/n/10.53937 2
  []
 
 
-Underfull \hbox (badness 3701) in paragraph at lines 459--459
+Underfull \hbox (badness 3701) in paragraph at lines 479--479
 []|\TU/STSong(0)/m/n/10.53937 培 养 方 案 第 \TU/lmr/m/n/10.53937 2
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 460--460
+Underfull \hbox (badness 10000) in paragraph at lines 480--480
 []|\TU/lmtt/m/n/10.53937 pdftotext
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 461--461
+Underfull \hbox (badness 10000) in paragraph at lines 481--481
 []|\TU/lmr/m/n/10.53937 MinerU
  []
 
 [14] [15] [16] [17]
-Overfull \hbox (4.24149pt too wide) in paragraph at lines 574--575
+Overfull \hbox (4.24149pt too wide) in paragraph at lines 594--595
 \TU/STSong(0)/m/n/12.045 最 佳，|  说 明 其 在 排 序 能 力 与 首 条 命 中 准 确 率 方 面 具 有 一 定 优 势；|  而 \TU/lmtt/m/n/12.045 MiniCPM-Embedding
  []
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.045> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 578.
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 598.
 [18] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 629--630
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
 []|\TU/STSong(0)/m/n/10.53937 跨 块\TU/lmr/m/n/10.53937 /\TU/STSong(0)/m/n/10.53937 跨 页 证
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 630--631
+Underfull \hbox (badness 3668) in paragraph at lines 650--651
 []|\TU/STSong(0)/m/n/10.53937 毕 业 要 求 和 课 程 体 系
  []
 
 
-Overfull \hbox (5.89989pt too wide) in paragraph at lines 652--653
+Overfull \hbox (5.89989pt too wide) in paragraph at lines 672--673
 []\TU/STSong(0)/m/n/12.045 针 对 单 阶 段 稠 密 检 索 在 工 程 教 育 专 业 认 证 场 景 中 存 在 的  |“语 义 相 关 但 证 据 不 足” “跨
  []
 
@@ -946,57 +952,57 @@ Overfull \hbox (5.89989pt too wide) in paragraph at lines 652--653
 File: figures/two_stage_retrieval.png Graphic file (type bmp)
 <figures/two_stage_retrieval.png>
  [22]
-Underfull \hbox (badness 7151) in paragraph at lines 694--694
+Underfull \hbox (badness 7151) in paragraph at lines 714--714
 []|\TU/STSong(0)/m/n/10.53937 是 否 为 有
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 694--694
+Underfull \hbox (badness 7151) in paragraph at lines 714--714
 []|\TU/STSong(0)/m/n/10.53937 是 否 为 有
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 698--699
+Underfull \hbox (badness 1783) in paragraph at lines 718--719
 \TU/STSong(0)/m/n/10.53937 中 重 复 题 目 不 得 超 过
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 700--701
+Underfull \hbox (badness 1184) in paragraph at lines 720--721
 []|\TU/STSong(0)/m/n/10.53937 命 中  |“试 题 与 前 两 届 试
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 708--709
+Underfull \hbox (badness 1184) in paragraph at lines 728--729
 []|\TU/STSong(0)/m/n/10.53937 命 中  |“直 接 可 以 在 教 材
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 708--709
+Underfull \hbox (badness 3668) in paragraph at lines 728--729
 \TU/STSong(0)/m/n/10.53937 中 找 到 答 案 的 题 目 分
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 708--709
+Underfull \hbox (badness 3668) in paragraph at lines 728--729
 \TU/STSong(0)/m/n/10.53937 值 不 应 超 过 总 分 值 的
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 710--711
+Underfull \hbox (badness 10000) in paragraph at lines 730--731
 []|\TU/STSong(0)/m/n/10.53937 精 排 显 著 抑 制 了  |“教
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 713--714
+Underfull \hbox (badness 3668) in paragraph at lines 733--734
 []|\TU/STSong(0)/m/n/10.53937 毕 业 要 求 和 课 程 体 系
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 714--715
+Underfull \hbox (badness 1783) in paragraph at lines 734--735
 \TU/STSong(0)/m/n/10.53937 业 时 完 成 毕 业 要 求 达
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 716--717
+Underfull \hbox (badness 1184) in paragraph at lines 736--737
 []|\TU/STSong(0)/m/n/10.53937 命 中  |“毕 业 要 求 至 少 每
  []
 
@@ -1045,12 +1051,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 13755 strings out of 468168
- 363391 string characters out of 5432815
- 763309 words of memory out of 5000000
- 42227 multiletter control sequences out of 15000+600000
+ 13835 strings out of 468168
+ 368531 string characters out of 5432815
+ 763329 words of memory out of 5000000
+ 42306 multiletter control sequences out of 15000+600000
  634791 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,114p,1186b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 毕业论文.pdf (47 pages).
+Output written on 毕业论文.pdf (48 pages).
