@@ -40,9 +40,7 @@ class BGEEmbedding:
         if cache_key not in self._MODEL_CACHE:
             model_kwargs = {
                 "device": device,
-                # BGE 模型通常不需要 trust_remote_code，但为了兼容性可保留
                 "trust_remote_code": True,
-                # 4070 使用 float16 推理速度最快
                 "model_kwargs": {"torch_dtype": torch.float16 if device == "cuda" else torch.float32}
             }
             encode_kwargs = {

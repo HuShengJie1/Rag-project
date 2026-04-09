@@ -73,7 +73,7 @@ class ChatRequest(BaseModel):
 async def chat_with_rag(request: ChatRequest):
     current_user = "admin"
     
-    # --- 1. 构造更严谨的过滤条件 ---
+    # --- 1. 构造过滤条件 ---
     permission_filter = {
         "$or": [
             {"user_id": {"$eq": current_user}},
@@ -148,7 +148,6 @@ async def chat_with_rag(request: ChatRequest):
 
     messages = []
     
-    # 🟢 修改点 2：重写 System Prompt，加入强硬的引文规则
     system_prompt = """你是一个专业的知识库助手。请基于提供的【参考资料】回答用户问题。
 要求：
 1. 必须且只能使用提供的参考资料回答。如果资料中没有提到，请根据上下文推断，或者诚实地回答“资料中未提及”，绝对不能捏造。

@@ -1,0 +1,174 @@
+\subsubsection{文档解析与语义切块模块实现}
+
+在系统实现层面，文档解析与语义切块模块的输入为用户上传的 PDF、DOCX、Markdown 或纯文本文件，输出为可供后续向量化处理的语义文本块集合。每个文本块除正文内容外，还附带文件标识、标题层级、页码标记及完整 Markdown 路径等辅助信息，以支撑后续检索过滤、证据引用与原文回溯。
+
+具体流程上，后端首先在上传接口中根据文件后缀判断解析方式；对于 PDF 与 DOCX 文件，系统调用 MinerU2.5 本地解析程序生成 Markdown 结果，并将完整解析文本持久化保存。随后，系统以 Markdown 标题作为一级语义边界，对正文进行结构化切块；当单个逻辑块长度超过设定阈值时，再触发递归字符切分，以兼顾结构完整性与检索粒度。完成切块后，系统进一步为每个块写入 \texttt{file\_id}、\texttt{user\_id}、\texttt{headers}、\texttt{page\_labels} 等元数据，从而形成可直接进入向量化模块的标准化数据对象。
+
+该实现的重点在于将“复杂结构保真”与“后续证据可溯源”统一纳入同一条离线数据链路。一方面，MinerU2.5 提供了适合工程教育专业认证复杂文档场景的 Markdown 上游输入，降低了矩阵表格、标题条款与混排页面在后续处理中被破坏的风险；另一方面，切块阶段同步绑定元数据，使系统在后续回答阶段不仅能够给出答案，还能够进一步指出答案对应的来源文档与证据位置，体现出较强的工程闭环意义。
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/parse_chunk_impl_flow.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/parse_chunk_impl_flow.png}
+    }{
+        \fbox{\parbox[c][5cm][c]{0.88\textwidth}{\centering 流程图占位：\texttt{figures/chapter4/parse\_chunk\_impl\_flow.png}}}
+    }
+    \caption{文档解析与语义切块模块实现流程图}
+    \label{fig:parse_chunk_impl_flow}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/parse_call_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/parse_call_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/parse\_call\_code.png}}}
+    }
+    \caption{MinerU2.5 解析调用与 Markdown 读取代码截图}
+    \label{fig:parse_call_code}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/chunk_meta_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/chunk_meta_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/chunk\_meta\_code.png}}}
+    }
+    \caption{语义切块与元数据绑定代码截图}
+    \label{fig:chunk_meta_code}
+\end{figure}
+
+\subsubsection{领域知识向量化模块实现}
+
+在系统实现中，领域知识向量化模块的输入为上一阶段生成的语义文本块及其元数据，输出为写入向量数据库后的高维向量索引。该模块不仅负责将文本块转换为统一向量表示，而且承担了检索阶段所需索引结构与元数据字段的组织任务。
+
+从实现流程看，系统首先加载本地部署的 \texttt{bge-m3} 模型，并根据运行设备自动选择 CPU 或 GPU 进行推理。随后，模块对文本块执行批量编码，生成对应的稠密向量表示，并同步整理 \texttt{chunk\_id}、\texttt{source}、\texttt{page\_labels}、\texttt{headers} 等元数据字段。完成向量编码后，系统通过 LangChain 对 Chroma 的封装接口将文本、元数据与标识一并写入本地向量库，为后续在线检索提供可复用的离线索引。
+
+该模块的实现重点体现在两个方面：其一，\texttt{bge-m3} 的批量编码能力保证了知识库构建阶段的效率与稳定性；其二，向量入库时保留源文档与页码相关元数据，使得向量检索结果不再只是“相似文本”，而是可进一步参与证据链展示与引用定位的结构化知识单元。因此，该模块在系统中既承担语义表示的基础作用，也承担检索可解释性的数据准备作用。
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/embedding_impl_flow.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/embedding_impl_flow.png}
+    }{
+        \fbox{\parbox[c][5cm][c]{0.88\textwidth}{\centering 流程图占位：\texttt{figures/chapter4/embedding\_impl\_flow.png}}}
+    }
+    \caption{领域知识向量化与向量存储模块实现流程图}
+    \label{fig:embedding_impl_flow}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/embedding_model_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/embedding_model_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/embedding\_model\_code.png}}}
+    }
+    \caption{\texttt{bge-m3} 模型加载与批量编码代码截图}
+    \label{fig:embedding_model_code}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/vector_store_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/vector_store_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/vector\_store\_code.png}}}
+    }
+    \caption{向量数据库写入与元数据构造代码截图}
+    \label{fig:vector_store_code}
+\end{figure}
+
+\subsubsection{双阶段检索与重排序模块实现}
+
+双阶段检索与重排序模块的输入为用户自然语言问题及当前知识源过滤条件，输出为经过重排序后的高相关证据集合。输出结果除文本内容外，还保留来源文件、页码、完整文档内容与相关性分数等信息，用于后续生成阶段的上下文拼装与前端证据展示。
+
+在具体实现中，系统首先根据当前用户与知识源选择情况构造过滤条件，并在 Chroma 向量库中执行相似度检索，得到初始候选集合。随后，系统将用户问题与每个候选文本块配对，送入 \texttt{bge-reranker-v2-m3} 计算细粒度相关性分数，再按分数从高到低重排并截取最终 Top-K 结果。重排完成后，系统进一步整理候选证据的编号、来源、页码、文本内容与得分，形成统一的证据包，供生成模块直接调用。
+
+该模块的工程意义在于，将初筛阶段的高召回能力与精排阶段的高判别能力有机结合起来。通过先召回、后精排的处理方式，系统能够在保证检索效率的前提下有效压制主题相近但不可作答的噪声片段，并将真正满足查询约束条件的证据提升到前列。这不仅改善了答案生成前的上下文质量，也为后续引用编号与证据链联动提供了稳定的数据基础。
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/retrieval_impl_flow.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/retrieval_impl_flow.png}
+    }{
+        \fbox{\parbox[c][5cm][c]{0.88\textwidth}{\centering 流程图占位：\texttt{figures/chapter4/retrieval\_impl\_flow.png}}}
+    }
+    \caption{双阶段检索与重排序模块实现流程图}
+    \label{fig:retrieval_impl_flow}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/retrieval_initial_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/retrieval_initial_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/retrieval\_initial\_code.png}}}
+    }
+    \caption{初筛检索与候选召回代码截图}
+    \label{fig:retrieval_initial_code}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/rerank_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/rerank_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/rerank\_code.png}}}
+    }
+    \caption{重排序与最终证据筛选代码截图}
+    \label{fig:rerank_code}
+\end{figure}
+
+\subsubsection{受约束生成与证据引用联动模块实现}
+
+受约束生成与证据引用联动模块的输入为用户问题、重排序后的证据集合以及对应元数据，输出为带引用标记的流式回答结果和可供前端联动展示的证据列表。该模块同时承担生成控制与证据映射两项任务，是系统形成“回答可解释、结论可回查”闭环的关键环节。
+
+在实现流程上，后端首先构造系统级 Prompt，明确要求大模型只能依据检索到的参考资料作答，并在每个关键结论后附加对应编号。随后，系统将检索证据按 \texttt{[1]}、\texttt{[2]} 等形式重新编号，并将来源文件、页码与正文内容一起拼接为上下文输入，通过 LangChain 接口调用 Kimi API 进行流式生成。生成完成后，前端对回答文本中的引用编号进行解析，并依据后端同步返回的 \texttt{evidence\_list} 将编号映射回具体证据对象；当用户点击引用标记时，系统进一步展示原始文本并执行高亮定位，从而形成从回答到原文的联动路径。
+
+该模块的实现重点在于把“生成约束”与“证据联动”放入同一工程链路中统一设计。前者通过系统 Prompt 与上下文编号限制模型的输出边界，降低无依据生成的风险；后者通过前后端共同维护的证据编号实现可视化回溯，使最终回答不仅具有可读性，而且具备可验证性与可审查性。这种设计与工程教育专业认证场景下对结论依据、来源定位和证据闭环的要求高度一致。
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/generation_impl_flow.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/generation_impl_flow.png}
+    }{
+        \fbox{\parbox[c][5cm][c]{0.88\textwidth}{\centering 流程图占位：\texttt{figures/chapter4/generation\_impl\_flow.png}}}
+    }
+    \caption{受约束生成与证据引用联动模块实现流程图}
+    \label{fig:generation_impl_flow}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/prompt_build_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/prompt_build_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/prompt\_build\_code.png}}}
+    }
+    \caption{系统级 Prompt 构造与上下文拼接代码截图}
+    \label{fig:prompt_build_code}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/citation_parse_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/citation_parse_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/citation\_parse\_code.png}}}
+    }
+    \caption{引用标记解析逻辑代码截图}
+    \label{fig:citation_parse_code}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \IfFileExists{figures/chapter4/citation_mapping_code.png}{
+        \includegraphics[width=0.92\textwidth]{figures/chapter4/citation_mapping_code.png}
+    }{
+        \fbox{\parbox[c][4.8cm][c]{0.88\textwidth}{\centering 代码截图占位：\texttt{figures/chapter4/citation\_mapping\_code.png}}}
+    }
+    \caption{引用到证据元数据映射逻辑代码截图}
+    \label{fig:citation_mapping_code}
+\end{figure}

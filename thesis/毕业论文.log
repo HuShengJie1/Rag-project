@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  6 APR 2026 23:37
+This is XeTeX, Version 3.141592653-2.6-0.999998 (TeX Live 2026) (preloaded format=xelatex 2026.3.28)  9 APR 2026 13:21
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -926,117 +926,145 @@ Underfull \hbox (badness 10000) in paragraph at lines 481--481
 []|\TU/lmr/m/n/10.53937 MinerU
  []
 
-[14] [15] [16] [17]
-Overfull \hbox (4.24149pt too wide) in paragraph at lines 594--595
+[14] [15] [16]
+File: figures/chapter4/parse_call_code.png Graphic file (type bmp)
+<figures/chapter4/parse_call_code.png>
+ [17]
+File: figures/chapter4/chunk_meta_code.png Graphic file (type bmp)
+<figures/chapter4/chunk_meta_code.png>
+ [18] [19] [20]
+Overfull \hbox (4.24149pt too wide) in paragraph at lines 635--636
 \TU/STSong(0)/m/n/12.045 最 佳，|  说 明 其 在 排 序 能 力 与 首 条 命 中 准 确 率 方 面 具 有 一 定 优 势；|  而 \TU/lmtt/m/n/12.045 MiniCPM-Embedding
  []
 
 LaTeX Font Info:    Font shape `TU/lmtt/bx/n' in size <12.045> not available
-(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 598.
-[18] [19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 649--650
+(Font)              Font shape `TU/lmtt/b/n' tried instead on input line 639.
+[21]
+File: figures/chapter4/embedding_model_code.png Graphic file (type bmp)
+<figures/chapter4/embedding_model_code.png>
+ [22]
+Overfull \vbox (6.80048pt too high) has occurred while \output is active []
+
+ [23]
+File: figures/chapter4/vector_store_code.png Graphic file (type bmp)
+<figures/chapter4/vector_store_code.png>
+ [24] [25]
+Underfull \hbox (badness 10000) in paragraph at lines 731--732
 []|\TU/STSong(0)/m/n/10.53937 跨 块\TU/lmr/m/n/10.53937 /\TU/STSong(0)/m/n/10.53937 跨 页 证
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 650--651
+Underfull \hbox (badness 3668) in paragraph at lines 732--733
 []|\TU/STSong(0)/m/n/10.53937 毕 业 要 求 和 课 程 体 系
  []
 
 
-Overfull \hbox (5.89989pt too wide) in paragraph at lines 672--673
+Overfull \hbox (5.89989pt too wide) in paragraph at lines 754--755
 []\TU/STSong(0)/m/n/12.045 针 对 单 阶 段 稠 密 检 索 在 工 程 教 育 专 业 认 证 场 景 中 存 在 的  |“语 义 相 关 但 证 据 不 足” “跨
  []
 
-[21]
+[26]
 File: figures/two_stage_retrieval.png Graphic file (type bmp)
 <figures/two_stage_retrieval.png>
- [22]
-Underfull \hbox (badness 7151) in paragraph at lines 714--714
+ [27]
+Underfull \hbox (badness 7151) in paragraph at lines 796--796
 []|\TU/STSong(0)/m/n/10.53937 是 否 为 有
  []
 
 
-Underfull \hbox (badness 7151) in paragraph at lines 714--714
+Underfull \hbox (badness 7151) in paragraph at lines 796--796
 []|\TU/STSong(0)/m/n/10.53937 是 否 为 有
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 718--719
+Underfull \hbox (badness 1783) in paragraph at lines 800--801
 \TU/STSong(0)/m/n/10.53937 中 重 复 题 目 不 得 超 过
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 720--721
+Underfull \hbox (badness 1184) in paragraph at lines 802--803
 []|\TU/STSong(0)/m/n/10.53937 命 中  |“试 题 与 前 两 届 试
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 728--729
+Underfull \hbox (badness 1184) in paragraph at lines 810--811
 []|\TU/STSong(0)/m/n/10.53937 命 中  |“直 接 可 以 在 教 材
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 728--729
+Underfull \hbox (badness 3668) in paragraph at lines 810--811
 \TU/STSong(0)/m/n/10.53937 中 找 到 答 案 的 题 目 分
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 728--729
+Underfull \hbox (badness 3668) in paragraph at lines 810--811
 \TU/STSong(0)/m/n/10.53937 值 不 应 超 过 总 分 值 的
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 730--731
+Underfull \hbox (badness 10000) in paragraph at lines 812--813
 []|\TU/STSong(0)/m/n/10.53937 精 排 显 著 抑 制 了  |“教
  []
 
 
-Underfull \hbox (badness 3668) in paragraph at lines 733--734
+Underfull \hbox (badness 3668) in paragraph at lines 815--816
 []|\TU/STSong(0)/m/n/10.53937 毕 业 要 求 和 课 程 体 系
  []
 
 
-Underfull \hbox (badness 1783) in paragraph at lines 734--735
+Underfull \hbox (badness 1783) in paragraph at lines 816--817
 \TU/STSong(0)/m/n/10.53937 业 时 完 成 毕 业 要 求 达
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 736--737
+Underfull \hbox (badness 1184) in paragraph at lines 818--819
 []|\TU/STSong(0)/m/n/10.53937 命 中  |“毕 业 要 求 至 少 每
  []
 
-[23]
+[28] [29]
+File: figures/chapter4/retrieval_initial_code.png Graphic file (type bmp)
+<figures/chapter4/retrieval_initial_code.png>
+File: figures/chapter4/rerank_code.png Graphic file (type bmp)
+<figures/chapter4/rerank_code.png>
+ [30]
 File: figures/generation_constraint_framework.png Graphic file (type bmp)
 <figures/generation_constraint_framework.png>
- [24] [25] [26]
+ [31] [32] [33]
+File: figures/chapter4/prompt_build_code.png Graphic file (type bmp)
+<figures/chapter4/prompt_build_code.png>
+ [34]
+File: figures/chapter4/citation_parse_code.png Graphic file (type bmp)
+<figures/chapter4/citation_parse_code.png>
+File: figures/chapter4/citation_mapping_code.png Graphic file (type bmp)
+<figures/chapter4/citation_mapping_code.png>
+ [35] [36]
 File: figures/deployment_architecture.png Graphic file (type bmp)
 <figures/deployment_architecture.png>
- [27] [28] [29]
+ [37] [38]
 File: figures/system_ui_left.png Graphic file (type bmp)
 <figures/system_ui_left.png>
 File: figures/system_ui_center.png Graphic file (type bmp)
 <figures/system_ui_center.png>
 File: figures/system_ui_right.png Graphic file (type bmp)
 <figures/system_ui_right.png>
- [30] [31]
+ [39] [40]
 File: figures/term_answer_demo.png Graphic file (type bmp)
 <figures/term_answer_demo.png>
 File: figures/term_trace_demo.png Graphic file (type bmp)
 <figures/term_trace_demo.png>
- [32] [33]
+ [41] [42]
 File: figures/calc_answer_demo.png Graphic file (type bmp)
 <figures/calc_answer_demo.png>
 File: figures/calc_trace_demo.png Graphic file (type bmp)
 <figures/calc_trace_demo.png>
- [34]
+ [43]
 File: figures/policy_trace_demo.png Graphic file (type bmp)
 <figures/policy_trace_demo.png>
- [35] [36] [37] [38] [39] [40] [41
+ [44] [45] [46] [47] [48] [49] [50
 
-] (./毕业论文.bbl [42
+] (./毕业论文.bbl [51
 
-] [43]) [44] (./毕业论文.aux)
+] [52]) [53] (./毕业论文.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/07/14>
@@ -1051,12 +1079,12 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 13835 strings out of 468168
- 368531 string characters out of 5432815
- 763329 words of memory out of 5000000
- 42306 multiletter control sequences out of 15000+600000
+ 13938 strings out of 468168
+ 372629 string characters out of 5432815
+ 763663 words of memory out of 5000000
+ 42399 multiletter control sequences out of 15000+600000
  634791 words of font info for 113 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,12n,114p,1186b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 毕业论文.pdf (48 pages).
+Output written on 毕业论文.pdf (57 pages).
