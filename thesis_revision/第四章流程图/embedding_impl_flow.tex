@@ -1,0 +1,21 @@
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[node distance=0.90cm]
+        \node[io] (input) {输入数据\\Chunk 列表与元数据};
+        \node[process, below=of input] (model) {加载 \texttt{bge-m3} 嵌入模型\\初始化 LangChain 嵌入接口};
+        \node[process, below=of model] (store) {初始化 Chroma 向量库\\配置集合与持久化目录};
+        \node[process, below=of store] (prepare) {整理写入对象\\构造 \texttt{texts} 与 \texttt{metadatas}};
+        \node[process, below=of prepare] (add) {调用 Chroma \texttt{add\_texts}\\执行批量向量化写入};
+        \node[datastore, below=of add] (vector) {中间数据：向量与元数据\\\texttt{chunk\_id}、\texttt{source}、\texttt{page\_labels}、\texttt{headers}};
+        \node[datastore, below=of vector] (output) {输出结果：可检索向量索引\\供在线检索模块调用};
+
+        \path[line] (input) -- (model);
+        \path[line] (model) -- (store);
+        \path[line] (store) -- (prepare);
+        \path[line] (prepare) -- (add);
+        \path[line] (add) -- (vector);
+        \path[line] (vector) -- (output);
+    \end{tikzpicture}
+    \caption{领域知识向量化与向量存储模块实现流程图}
+    \label{fig:embedding_impl_flow}
+\end{figure}

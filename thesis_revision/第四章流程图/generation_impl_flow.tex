@@ -1,0 +1,23 @@
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[node distance=0.90cm]
+        \node[io] (input) {输入数据\\问题、历史记录、证据列表};
+        \node[process, below=of input] (recover) {读取完整 Markdown 内容\\补齐 \texttt{full\_content} 缓存};
+        \node[process, below=of recover] (prompt) {构造系统 Prompt\\限制仅依据参考资料作答};
+        \node[process, below=of prompt] (context) {拼接编号上下文\\\texttt{[n]}、来源、页码、证据正文};
+        \node[process, below=of context] (kimi) {LangChain 调用 Kimi API\\执行流式受约束生成};
+        \node[datastore, below=of kimi] (stream) {中间数据：流式返回结果\\先返回 \texttt{evidence}，再返回回答文本};
+        \node[process, below=of stream] (parse) {Vue 解析引用标记并点击映射\\按编号回查 \texttt{source}、\texttt{pages}、\texttt{full\_content}};
+        \node[datastore, below=of parse] (output) {输出结果：带引用回答与原文高亮联动\\支撑证据回溯展示};
+
+        \path[line] (input) -- (recover);
+        \path[line] (recover) -- (prompt);
+        \path[line] (prompt) -- (context);
+        \path[line] (context) -- (kimi);
+        \path[line] (kimi) -- (stream);
+        \path[line] (stream) -- (parse);
+        \path[line] (parse) -- (output);
+    \end{tikzpicture}
+    \caption{受约束生成与证据引用联动模块实现流程图}
+    \label{fig:generation_impl_flow}
+\end{figure}

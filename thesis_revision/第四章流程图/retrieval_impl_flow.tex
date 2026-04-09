@@ -1,0 +1,23 @@
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[node distance=0.90cm]
+        \node[io] (input) {输入问题\\\texttt{prompt + source\_filter}};
+        \node[process, below=of input] (filter) {构造过滤条件\\按 \texttt{user\_id} 与 \texttt{file\_id} 限定范围};
+        \node[process, below=of filter] (dense) {Chroma 相似度初筛检索\\返回 Top-30 候选文本块};
+        \node[datastore, below=of dense] (cand) {中间数据：候选集合\\\texttt{page\_content + metadata}};
+        \node[process, below=of cand] (pair) {构造 Query--Chunk 对\\送入重排序模型};
+        \node[process, below=of pair] (rerank) {调用 \texttt{bge-reranker-v2-m3}\\计算相关性分数并重排};
+        \node[datastore, below=of rerank] (evidence) {中间数据：\texttt{evidence\_list}\\\texttt{index}、\texttt{source}、\texttt{pages}\\\texttt{full\_content}、\texttt{score}};
+        \node[datastore, below=of evidence] (output) {输出结果：最终 Top-K 证据\\传递给生成模块};
+
+        \path[line] (input) -- (filter);
+        \path[line] (filter) -- (dense);
+        \path[line] (dense) -- (cand);
+        \path[line] (cand) -- (pair);
+        \path[line] (pair) -- (rerank);
+        \path[line] (rerank) -- (evidence);
+        \path[line] (evidence) -- (output);
+    \end{tikzpicture}
+    \caption{双阶段检索与重排序模块实现流程图}
+    \label{fig:retrieval_impl_flow}
+\end{figure}

@@ -1,0 +1,42 @@
+% 第4章流程图 TikZ 导言区建议
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
+
+% 统一流程图样式
+\tikzset{
+    line/.style = {-{Latex[length=2.4mm]}, thick},
+    process/.style = {
+        rectangle,
+        rounded corners=2pt,
+        draw=black,
+        thick,
+        align=center,
+        text width=7.0cm,
+        minimum height=9mm,
+        inner sep=4pt,
+        font=\small
+    },
+    datastore/.style = {
+        rectangle,
+        draw=black,
+        dashed,
+        thick,
+        align=center,
+        text width=7.0cm,
+        minimum height=9mm,
+        inner sep=4pt,
+        font=\small
+    },
+    io/.style = {
+        trapezium,
+        trapezium left angle=75,
+        trapezium right angle=105,
+        draw=black,
+        thick,
+        align=center,
+        text width=7.0cm,
+        minimum height=9mm,
+        inner sep=4pt,
+        font=\small
+    }
+}

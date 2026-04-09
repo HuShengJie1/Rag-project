@@ -1,0 +1,21 @@
+\begin{figure}[htbp]
+    \centering
+    \begin{tikzpicture}[node distance=0.90cm]
+        \node[io] (input) {输入文件\\PDF、DOCX、MD、TXT};
+        \node[process, below=of input] (route) {按文件后缀选择解析路径\\PDF/DOCX 调用 MinerU2.5\\MD/TXT 直接读取文本};
+        \node[datastore, below=of route] (markdown) {中间数据：完整 Markdown 文本\\同时持久化到 \texttt{parsed/md}};
+        \node[process, below=of markdown] (split1) {按标题层级进行一级语义切块\\保留章节结构边界};
+        \node[process, below=of split1] (split2) {对超长文本块执行递归切分\\控制后续检索粒度};
+        \node[process, below=of split2] (meta) {绑定关键元数据\\\texttt{file\_id}、\texttt{user\_id}、\texttt{headers}\\\texttt{page\_labels}、\texttt{source}、\texttt{full\_md\_path}};
+        \node[datastore, below=of meta] (output) {输出数据：Chunk 列表\\\texttt{text + metadata}};
+
+        \path[line] (input) -- (route);
+        \path[line] (route) -- (markdown);
+        \path[line] (markdown) -- (split1);
+        \path[line] (split1) -- (split2);
+        \path[line] (split2) -- (meta);
+        \path[line] (meta) -- (output);
+    \end{tikzpicture}
+    \caption{文档解析与语义切块模块实现流程图}
+    \label{fig:parse_chunk_impl_flow}
+\end{figure}
